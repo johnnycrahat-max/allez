@@ -23,14 +23,13 @@
    "name": "Hilliard Art Museum",
    "ok": true,
    "notes": [],
-   "events": 4
+   "events": 6
   },
   {
    "name": "Lafayette Travel",
-   "ok": false,
+   "ok": true,
    "notes": [
-    "https://www.lafayettetravel.com/blog/stories/post/november-events-spotlight/: HTTP 403",
-    "https://www.lafayettetravel.com/blog/stories/post/december-events-spotlight/: HTTP 403"
+    "https://www.lafayettetravel.com/blog/stories/post/december-events-spotlight/: HTTP 404"
    ],
    "events": 1
   },
@@ -38,7 +37,7 @@
    "name": "Eventbrite",
    "ok": true,
    "notes": [],
-   "events": 15
+   "events": 18
   },
   {
    "name": "Cajun Road Runners",
@@ -54,30 +53,52 @@
   }
  ],
  "dropped": {
-  "no matching category": 28,
-  "long-running exhibition": 3,
+  "no matching category": 36,
+  "long-running exhibition": 10,
   "outside the Lafayette area": 2
  },
  "added": [
   {
-   "title": "Speedwork at the Track",
-   "start": "2026-12-15T17:00",
-   "venue": "UL Lafayette Track",
+   "title": "Seth Spell & Cajun Strong Live at American Legion Post 77",
+   "start": "2026-11-21",
+   "venue": "American Legion Post 77",
    "cats": [
-    "health"
+    "music"
    ],
-   "url": "https://cajunroadrunners.com/group-runs/",
+   "url": "https://www.eventbrite.com/e/seth-spell-cajun-strong-live-at-american-legion-post-77-tickets-1999298636040",
    "verify": null,
-   "source": "Cajun Road Runners"
+   "source": "Eventbrite"
+  },
+  {
+   "title": "Dance This Holiday",
+   "start": "2026-12-10",
+   "venue": "Wonderland Center for Performing Arts",
+   "cats": [
+    "music"
+   ],
+   "url": "https://www.eventbrite.com/e/dance-this-holiday-tickets-2004102131424",
+   "verify": null,
+   "source": "Eventbrite"
+  },
+  {
+   "title": "Body Talk Girls, December 12",
+   "start": "2026-12-12",
+   "venue": "126 Heymann Blvd",
+   "cats": [
+    "music"
+   ],
+   "url": "https://www.eventbrite.com/e/body-talk-girls-december-12-tickets-2003678978763",
+   "verify": null,
+   "source": "Eventbrite"
   }
  ],
  "gone": [],
  "moved": [
   {
    "title": "Twenty Years of Valcour Records",
-   "was": "2026-11-19T19:30 · Acadiana Center for the Arts",
-   "now": "2026-11-19T19:30 · Acadiana Center for the Arts - James Devin Moncus Theater",
-   "url": "https://acadianacenterforthearts.org/events/twenty-years-of-valcour-records/?occurrence=2026-11-19"
+   "was": "2026-11-19T19:30 · Acadiana Center for the Arts - James Devin Moncus Theater",
+   "now": "2026-11-19T19:30 · Acadiana Center for the Arts",
+   "url": "https://www.lafayettetravel.com/event/twenty-years-of-valcour-records/47291/"
   }
  ],
  "needs_check": [

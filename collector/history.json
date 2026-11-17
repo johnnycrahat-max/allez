@@ -2,21 +2,21 @@
  {
   "date": "2026-11-17",
   "mode": "free",
-  "total": 72,
+  "total": 75,
   "ongoing": 8,
   "by_category": {
-   "music": 27,
+   "music": 30,
    "food": 11,
    "volunteer": 4,
    "health": 34
   },
-  "sources_ok": 7,
+  "sources_ok": 8,
   "sources_total": 8,
-  "with_time_pct": 78,
+  "with_time_pct": 75,
   "check_details": 6,
-  "added": 1,
+  "added": 3,
   "gone": 0,
   "moved": 1,
-  "merged": 4
+  "merged": 6
  }
 ]

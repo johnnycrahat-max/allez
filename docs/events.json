@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T01:38-06:00",
+ "updated": "2026-11-17T05:42-06:00",
  "today": "2026-11-17",
  "showThrough": "2026-12-15",
  "mode": "free",
@@ -26,14 +26,13 @@
    "name": "Hilliard Art Museum",
    "ok": true,
    "notes": [],
-   "events": 4
+   "events": 6
   },
   {
    "name": "Lafayette Travel",
-   "ok": false,
+   "ok": true,
    "notes": [
-    "https://www.lafayettetravel.com/blog/stories/post/november-events-spotlight/: HTTP 403",
-    "https://www.lafayettetravel.com/blog/stories/post/december-events-spotlight/: HTTP 403"
+    "https://www.lafayettetravel.com/blog/stories/post/december-events-spotlight/: HTTP 404"
    ],
    "events": 1
   },
@@ -41,7 +40,7 @@
    "name": "Eventbrite",
    "ok": true,
    "notes": [],
-   "events": 15
+   "events": 18
   },
   {
    "name": "Cajun Road Runners",
@@ -293,19 +292,18 @@
    "url": "https://cajunroadrunners.com/group-runs/"
   },
   {
-   "id": "f5297db9463",
+   "id": "f9f2813c929",
    "cats": [
     "music"
    ],
    "title": "Twenty Years of Valcour Records",
+   "venue": "Acadiana Center for the Arts",
+   "map": "Acadiana Center for the Arts Lafayette LA",
+   "desc": "For two decades, Valcour Records has stood at the heart of Louisiana’s roots renaissance — preserving the traditions of Cajun, Creole, zydeco, and...",
+   "source": "Lafayette Travel",
+   "url": "https://www.lafayettetravel.com/event/twenty-years-of-valcour-records/47291/",
    "start": "2026-11-19T19:30",
-   "venue": "Acadiana Center for the Arts - James Devin Moncus Theater",
-   "map": "101 W. Vermilion Street Lafayette LA",
-   "desc": "[et_pb_section fb_built=\"1\" _builder_version=\"4.16\" global_colors_info=\"{}\"][et_pb_row _builder_version=\"4.16\" background_size=\"initial\" background_position=\"top_left\" background_repeat=\"repeat\" custom_margin=\"|auto|5px|auto||\"…",
-   "source": "Acadiana Center for the Arts",
-   "url": "https://acadianacenterforthearts.org/events/twenty-years-of-valcour-records/?occurrence=2026-11-19",
-   "end": "2026-11-19T21:30",
-   "price": "$40"
+   "end": "2026-11-19T21:30"
   },
   {
    "id": "fda22d7f90a",
@@ -380,6 +378,21 @@
    "desc": "Head on over to the Prairie Acadian Cultural Center for a free recipe exchange!",
    "source": "Eventbrite",
    "url": "https://www.eventbrite.com/e/recipe-exchange-tickets-2004032678689",
+   "allDay": true,
+   "seen": "2026-11-17"
+  },
+  {
+   "id": "f3f9e13d08e",
+   "cats": [
+    "music"
+   ],
+   "title": "Seth Spell & Cajun Strong Live at American Legion Post 77",
+   "start": "2026-11-21",
+   "venue": "American Legion Post 77",
+   "map": "213 American Legion Drive Rayne LA",
+   "desc": "Dance to Seth Spell & Cajun Strong live at American Legion Post 77 in Rayne for an evening of traditional Cajun music and dancing!",
+   "source": "Eventbrite",
+   "url": "https://www.eventbrite.com/e/seth-spell-cajun-strong-live-at-american-legion-post-77-tickets-1999298636040",
    "allDay": true,
    "seen": "2026-11-17"
   },
@@ -971,6 +984,21 @@
    "allDay": true
   },
   {
+   "id": "f0d8e434288",
+   "cats": [
+    "music"
+   ],
+   "title": "Dance This Holiday",
+   "start": "2026-12-10",
+   "venue": "Wonderland Center for Performing Arts",
+   "map": "2807 Johnston Street Lafayette LA",
+   "desc": "Get into the holiday spirit, hit the dance floor, and celebrate the season together in person!",
+   "source": "Eventbrite",
+   "url": "https://www.eventbrite.com/e/dance-this-holiday-tickets-2004102131424",
+   "allDay": true,
+   "seen": "2026-11-17"
+  },
+  {
    "id": "f578f0c9fee",
    "cats": [
     "health"
@@ -995,6 +1023,21 @@
    "desc": "Listed by My Mind is Racing.",
    "source": "My Mind is Racing",
    "url": "https://www.finishers.com/en/course/cajun-country-run"
+  },
+  {
+   "id": "f1f1bf24124",
+   "cats": [
+    "music"
+   ],
+   "title": "Body Talk Girls, December 12",
+   "start": "2026-12-12",
+   "venue": "126 Heymann Blvd",
+   "map": "126 Heymann Boulevard Lafayette LA",
+   "desc": "Body Talk Girls: Saturday, December 12, 2026, 10AM-12PM",
+   "source": "Eventbrite",
+   "url": "https://www.eventbrite.com/e/body-talk-girls-december-12-tickets-2003678978763",
+   "allDay": true,
+   "seen": "2026-11-17"
   },
   {
    "id": "fc6a55caacb",

@@ -884,6 +884,20 @@
     "end": "2026-11-19T13:00"
    },
    {
+    "id": "f47f80d485a",
+    "cats": [
+     "music"
+    ],
+    "title": "Artist Tour with Curtis Patterson + Melissa Messina",
+    "start": "2026-11-19T12:00",
+    "venue": "Hilliard Art Museum",
+    "map": "710 E St Mary Blvd Lafayette LA",
+    "desc": "Artist Curtis Patterson and Curator of Exhibition Melissa Messina will lead a tour of the exhibition. Experience Persistent Vision through the perspectives of artist Curtis Patterson and curator Melissa Messina.",
+    "source": "Hilliard Art Museum",
+    "url": "https://hilliardartmuseum.org/event/artist-tour-with-curtis-patterson-melissa-messina/",
+    "end": "2026-11-19T13:00"
+   },
+   {
     "id": "ffaa8284920",
     "cats": [
      "music"
@@ -892,7 +906,7 @@
     "start": "2026-11-14T10:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
-    "desc": "A monthly hands-on creative activity for kids ages 4 and up! \\n",
+    "desc": "A monthly hands-on creative activity for kids ages 4 and up!",
     "source": "Hilliard Art Museum",
     "url": "https://hilliardartmuseum.org/event/create-play-cafe-2-7/2026-11-14/"
    },
@@ -908,6 +922,20 @@
     "desc": "A monthly hands-on creative activity for kids ages 4 and up! \\n",
     "source": "Hilliard Art Museum",
     "url": "https://hilliardartmuseum.org/event/create-play-cafe-2-7/2026-12-12/"
+   },
+   {
+    "id": "f9e7cfd360a",
+    "cats": [
+     "music"
+    ],
+    "title": "Cross Currents: Improvised Truths — Curtis Patterson and the Jazz of Form",
+    "start": "2026-11-18T17:00",
+    "venue": "Hilliard Art Museum",
+    "map": "710 E St Mary Blvd Lafayette LA",
+    "desc": "Join us for Improvised Truths: Curtis Patterson and the Jazz of Form, the latest iteration of Cross Currents, a series using visual art as a catalyst for interdisciplinary dialogue, as we explore how Patterson’s bronze and steel sculptures channel the…",
+    "source": "Hilliard Art Museum",
+    "url": "https://hilliardartmuseum.org/event/cross-currents-improvised-truths-curtis-patterson-and-the-jazz-of-form/",
+    "end": "2026-11-18T19:00"
    },
    {
     "id": "f9e7cfd360a",
@@ -1017,7 +1045,7 @@
     "end": "2026-11-19T21:30"
    }
   ],
-  "read_on": "2026-11-16"
+  "read_on": "2026-11-17"
  },
  "free:eventbrite": {
   "events": [
@@ -1033,6 +1061,21 @@
     "desc": "Body Talk Boys: Tuesday, November 17, 2026, 6PM-8PM",
     "source": "Eventbrite",
     "url": "https://www.eventbrite.com/e/body-talk-boys-november-17-tickets-2003629767571",
+    "allDay": true,
+    "seen": "2026-11-17"
+   },
+   {
+    "id": "f1f1bf24124",
+    "cats": [
+     "music"
+    ],
+    "title": "Body Talk Girls, December 12",
+    "start": "2026-12-12",
+    "venue": "126 Heymann Blvd",
+    "map": "126 Heymann Boulevard Lafayette LA",
+    "desc": "Body Talk Girls: Saturday, December 12, 2026, 10AM-12PM",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/body-talk-girls-december-12-tickets-2003678978763",
     "allDay": true,
     "seen": "2026-11-17"
    },
@@ -1065,6 +1108,21 @@
     "url": "https://www.eventbrite.com/e/downsouth-thursdays-talk-turkey-to-me-w-lil-nate-dj-pugg-dj-vos-tickets-2003965680295",
     "allDay": true,
     "verify": "The start time wasn't listed. Check the event page.",
+    "seen": "2026-11-17"
+   },
+   {
+    "id": "f0d8e434288",
+    "cats": [
+     "music"
+    ],
+    "title": "Dance This Holiday",
+    "start": "2026-12-10",
+    "venue": "Wonderland Center for Performing Arts",
+    "map": "2807 Johnston Street Lafayette LA",
+    "desc": "Get into the holiday spirit, hit the dance floor, and celebrate the season together in person!",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/dance-this-holiday-tickets-2004102131424",
+    "allDay": true,
     "seen": "2026-11-17"
    },
    {
@@ -1158,6 +1216,21 @@
     "desc": "Bold, flavorful, and full of heart! Roux Fest is Lafayette’s tastiest showdown, blending gumbo, community, and the energy industry.",
     "source": "Eventbrite",
     "url": "https://www.eventbrite.com/e/roux-fest-gumbo-cookoff-powered-by-lagcoe-tickets-2001232393962",
+    "allDay": true,
+    "seen": "2026-11-17"
+   },
+   {
+    "id": "f3f9e13d08e",
+    "cats": [
+     "music"
+    ],
+    "title": "Seth Spell & Cajun Strong Live at American Legion Post 77",
+    "start": "2026-11-21",
+    "venue": "American Legion Post 77",
+    "map": "213 American Legion Drive Rayne LA",
+    "desc": "Dance to Seth Spell & Cajun Strong live at American Legion Post 77 in Rayne for an evening of traditional Cajun music and dancing!",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/seth-spell-cajun-strong-live-at-american-legion-post-77-tickets-1999298636040",
     "allDay": true,
     "seen": "2026-11-17"
    },
