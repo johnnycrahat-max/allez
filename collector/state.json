@@ -514,7 +514,7 @@
     "free": true
    }
   ],
-  "read_on": "2026-11-16"
+  "read_on": "2026-11-17"
  },
  "free:downtown": {
   "events": [
@@ -693,7 +693,7 @@
     "endDate": "2027-05-02"
    }
   ],
-  "read_on": "2026-11-16"
+  "read_on": "2026-11-17"
  },
  "free:aca": {
   "events": [
@@ -818,17 +818,17 @@
     "price": "$125"
    },
    {
-    "id": "fb1d0fe6f52",
+    "id": "ffa453b6643",
     "cats": [
      "music"
     ],
     "title": "Philip Gould: A Selection of Works",
-    "start": "2026-11-16T09:00",
+    "start": "2026-11-17T09:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
     "desc": "Listed by Acadiana Center for the Arts.",
     "source": "Acadiana Center for the Arts",
-    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-16",
+    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-17",
     "endDate": "2026-11-28",
     "free": true
    },
@@ -865,7 +865,7 @@
     "price": "$40"
    }
   ],
-  "read_on": "2026-11-16"
+  "read_on": "2026-11-17"
  },
  "free:hilliard": {
   "events": [
@@ -938,7 +938,7 @@
     "allDay": true
    }
   ],
-  "read_on": "2026-11-16"
+  "read_on": "2026-11-17"
  },
  "free:lafayette_travel": {
   "events": [
@@ -1033,7 +1033,8 @@
     "desc": "Body Talk Boys: Tuesday, November 17, 2026, 6PM-8PM",
     "source": "Eventbrite",
     "url": "https://www.eventbrite.com/e/body-talk-boys-november-17-tickets-2003629767571",
-    "allDay": true
+    "allDay": true,
+    "seen": "2026-11-17"
    },
    {
     "id": "f7a60be659c",
@@ -1047,7 +1048,8 @@
     "desc": "Come hang out with former tennis star Chanda Rubin-Hollier and illustrator Aileen Bennett and get a signed copy of her new children's book!",
     "source": "Eventbrite",
     "url": "https://www.eventbrite.com/e/chanda-rubins-book-launch-celebration-registration-2003802993695",
-    "allDay": true
+    "allDay": true,
+    "seen": "2026-11-17"
    },
    {
     "id": "f61d4441f97",
@@ -1062,7 +1064,8 @@
     "source": "Eventbrite",
     "url": "https://www.eventbrite.com/e/downsouth-thursdays-talk-turkey-to-me-w-lil-nate-dj-pugg-dj-vos-tickets-2003965680295",
     "allDay": true,
-    "verify": "The start time wasn't listed. Check the event page."
+    "verify": "The start time wasn't listed. Check the event page.",
+    "seen": "2026-11-17"
    },
    {
     "id": "f43a689375c",
@@ -1077,7 +1080,8 @@
     "desc": "Join us for cozy dinners with locals to share experiences, make new connections, and support local businesses while giving back!",
     "source": "Eventbrite",
     "url": "https://www.eventbrite.com/e/foodies-new-friends-lafayette-dinner-meet-giving-back-edition-tickets-1989270632010",
-    "allDay": true
+    "allDay": true,
+    "seen": "2026-11-17"
    },
    {
     "id": "f940cd7e5c4",
@@ -1091,7 +1095,8 @@
     "desc": "Ascension Episcopal School 8th-12th graders present It's a Wonderful Life: A Live Radio Play",
     "source": "Eventbrite",
     "url": "https://www.eventbrite.com/e/its-a-wonderful-life-a-live-radio-play-tickets-2003932304467",
-    "allDay": true
+    "allDay": true,
+    "seen": "2026-11-17"
    },
    {
     "id": "fff7419d85b",
@@ -1105,7 +1110,8 @@
     "desc": "Learn how to make a Turkish mosaic lamp in this Lafayette workshop! Book Now on Eventbrite!",
     "source": "Eventbrite",
     "url": "https://www.eventbrite.com/e/mosaic-art-classes-lafayette-turkish-lamp-workshop-tickets-2004809508207",
-    "allDay": true
+    "allDay": true,
+    "seen": "2026-11-17"
    },
    {
     "id": "fbb58447401",
@@ -1120,7 +1126,8 @@
     "desc": "Give back, spread kindness, and discover hidden gems of Lafayette with a remote interactive host.",
     "source": "Eventbrite",
     "url": "https://www.eventbrite.com/e/random-acts-of-kindness-spree-in-lafayette-tickets-1991109000620",
-    "allDay": true
+    "allDay": true,
+    "seen": "2026-11-17"
    },
    {
     "id": "f2cf13d9410",
@@ -1135,7 +1142,8 @@
     "desc": "Head on over to the Prairie Acadian Cultural Center for a free recipe exchange!",
     "source": "Eventbrite",
     "url": "https://www.eventbrite.com/e/recipe-exchange-tickets-2004032678689",
-    "allDay": true
+    "allDay": true,
+    "seen": "2026-11-17"
    },
    {
     "id": "f8c3360cceb",
@@ -1150,7 +1158,8 @@
     "desc": "Bold, flavorful, and full of heart! Roux Fest is Lafayette’s tastiest showdown, blending gumbo, community, and the energy industry.",
     "source": "Eventbrite",
     "url": "https://www.eventbrite.com/e/roux-fest-gumbo-cookoff-powered-by-lagcoe-tickets-2001232393962",
-    "allDay": true
+    "allDay": true,
+    "seen": "2026-11-17"
    },
    {
     "id": "fda22d7f90a",
@@ -1164,7 +1173,8 @@
     "desc": "Faculty and Guest Artist Dance Concert from the UL Lafayette Dance Program",
     "source": "Eventbrite",
     "url": "https://www.eventbrite.com/e/state-of-la-danse-friday-november-20th-tickets-2004032465050",
-    "allDay": true
+    "allDay": true,
+    "seen": "2026-11-17"
    },
    {
     "id": "f5969d23897",
@@ -1178,7 +1188,8 @@
     "desc": "Faculty and Guest Artist Dance Concert from the UL Lafayette Dance Program",
     "source": "Eventbrite",
     "url": "https://www.eventbrite.com/e/state-of-la-danse-saturday-november-21-2pm-tickets-2004032552311",
-    "allDay": true
+    "allDay": true,
+    "seen": "2026-11-17"
    },
    {
     "id": "f681ba0b94d",
@@ -1192,7 +1203,8 @@
     "desc": "Faculty and Guest Artist Dance Concert from the UL Lafayette Dance Program",
     "source": "Eventbrite",
     "url": "https://www.eventbrite.com/e/state-of-la-danse-saturday-november-21-7pm-tickets-2004032570365",
-    "allDay": true
+    "allDay": true,
+    "seen": "2026-11-17"
    },
    {
     "id": "f87de8ecede",
@@ -1206,7 +1218,8 @@
     "desc": "Faculty and Guest Artist Dance Concert from the UL Lafayette Dance Program",
     "source": "Eventbrite",
     "url": "https://www.eventbrite.com/e/state-of-la-danse-thursday-november-19-tickets-2004029555347",
-    "allDay": true
+    "allDay": true,
+    "seen": "2026-11-17"
    },
    {
     "id": "f825bb919f7",
@@ -1221,7 +1234,8 @@
     "source": "Eventbrite",
     "url": "https://www.eventbrite.com/e/the-fall-finale-future-of-zydeco-live-w-mike-broussard-dj-vos-tickets-2003977927928",
     "allDay": true,
-    "verify": "The start time wasn't listed. Check the event page."
+    "verify": "The start time wasn't listed. Check the event page.",
+    "seen": "2026-11-17"
    },
    {
     "id": "f80ba0cd02f",
@@ -1236,7 +1250,8 @@
     "source": "Eventbrite",
     "url": "https://www.eventbrite.com/e/whop-bezzy-live-in-concert-tickets-2003309672157",
     "allDay": true,
-    "verify": "The start time wasn't listed. Check the event page."
+    "verify": "The start time wasn't listed. Check the event page.",
+    "seen": "2026-11-17"
    },
    {
     "id": "f5a3613db9b",
@@ -1250,7 +1265,8 @@
     "desc": "Pierre's Seafood & Bar - Lafayette - Live Trivia - Wednesday - 7:00 PM",
     "source": "Eventbrite",
     "url": "https://www.eventbrite.com/e/weekly-live-trivia-at-pierres-seafood-bar-lafayette-tickets-2002136578402",
-    "allDay": true
+    "allDay": true,
+    "seen": "2026-11-17"
    },
    {
     "id": "f6b18b918ca",
@@ -1264,7 +1280,8 @@
     "desc": "Weekly SINGO Music Bingo Nights at New Orleans Original Daiquiris - Lafayette",
     "source": "Eventbrite",
     "url": "https://www.eventbrite.com/e/weekly-singo-music-bingo-nights-at-new-orleans-original-daiquiris-lafayette-tickets-1977411712663",
-    "allDay": true
+    "allDay": true,
+    "seen": "2026-11-17"
    },
    {
     "id": "f2b9185346f",
@@ -1279,7 +1296,8 @@
     "source": "Eventbrite",
     "url": "https://www.eventbrite.com/e/z-ro-live-in-concert-christmas-night-at-grant-street-tickets-2002982078315",
     "allDay": true,
-    "verify": "The start time wasn't listed. Check the event page."
+    "verify": "The start time wasn't listed. Check the event page.",
+    "seen": "2026-11-17"
    },
    {
     "id": "f2b9185346f",
@@ -1294,26 +1312,14 @@
     "source": "Eventbrite",
     "url": "https://www.eventbrite.com/e/z-ro-live-in-concert-christmas-night-at-grant-street-tickets-2002982078315",
     "allDay": true,
-    "verify": "The start time wasn't listed. Check the event page."
+    "verify": "The start time wasn't listed. Check the event page.",
+    "seen": "2026-11-17"
    }
   ],
-  "read_on": "2026-11-16"
+  "read_on": "2026-11-17"
  },
  "free:crrc": {
   "events": [
-   {
-    "id": "f34f56261f6",
-    "cats": [
-     "health"
-    ],
-    "title": "Smoothie Monday Run",
-    "start": "2026-11-16T18:30",
-    "venue": "Smoothie King, 3012 E Milton Ave",
-    "map": "Smoothie King 3012 E Milton Ave Youngsville LA",
-    "desc": "A 3.1-mile group run from Smoothie King in Youngsville. Every Monday.",
-    "source": "Cajun Road Runners",
-    "url": "https://cajunroadrunners.com/group-runs/"
-   },
    {
     "id": "f9021adb58d",
     "cats": [
@@ -1415,6 +1421,20 @@
     ],
     "title": "Speedwork at the Track",
     "start": "2026-12-08T17:00",
+    "venue": "UL Lafayette Track",
+    "map": "University of Louisiana at Lafayette track",
+    "desc": "The Cajun Road Runners Club's weekly track workout. Run any distance. Join the club through its RunSignup page.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/",
+    "price": "Members only"
+   },
+   {
+    "id": "fbaba995164",
+    "cats": [
+     "health"
+    ],
+    "title": "Speedwork at the Track",
+    "start": "2026-12-15T17:00",
     "venue": "UL Lafayette Track",
     "map": "University of Louisiana at Lafayette track",
     "desc": "The Cajun Road Runners Club's weekly track workout. Run any distance. Join the club through its RunSignup page.",
@@ -1631,7 +1651,7 @@
     "url": "https://cajunroadrunners.com/group-runs/"
    }
   ],
-  "read_on": "2026-11-16"
+  "read_on": "2026-11-17"
  },
  "free:races": {
   "events": [
@@ -1904,6 +1924,6 @@
     "url": "https://runsignup.com/Race/LA/Lafayette/TheHubLafayetteRunwell5KWalkRun"
    }
   ],
-  "read_on": "2026-11-16"
+  "read_on": "2026-11-17"
  }
 }

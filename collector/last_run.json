@@ -1,0 +1,152 @@
+{
+ "date": "2026-11-17",
+ "sources": [
+  {
+   "name": "Moncus Park",
+   "ok": true,
+   "notes": [],
+   "events": 12
+  },
+  {
+   "name": "Downtown Lafayette",
+   "ok": true,
+   "notes": [],
+   "events": 8
+  },
+  {
+   "name": "Acadiana Center for the Arts",
+   "ok": true,
+   "notes": [],
+   "events": 7
+  },
+  {
+   "name": "Hilliard Art Museum",
+   "ok": true,
+   "notes": [],
+   "events": 4
+  },
+  {
+   "name": "Lafayette Travel",
+   "ok": false,
+   "notes": [
+    "https://www.lafayettetravel.com/blog/stories/post/november-events-spotlight/: HTTP 403",
+    "https://www.lafayettetravel.com/blog/stories/post/december-events-spotlight/: HTTP 403"
+   ],
+   "events": 1
+  },
+  {
+   "name": "Eventbrite",
+   "ok": true,
+   "notes": [],
+   "events": 15
+  },
+  {
+   "name": "Cajun Road Runners",
+   "ok": true,
+   "notes": [],
+   "events": 25
+  },
+  {
+   "name": "My Mind is Racing",
+   "ok": true,
+   "notes": [],
+   "events": 4
+  }
+ ],
+ "dropped": {
+  "no matching category": 28,
+  "long-running exhibition": 3,
+  "outside the Lafayette area": 2
+ },
+ "added": [
+  {
+   "title": "Speedwork at the Track",
+   "start": "2026-12-15T17:00",
+   "venue": "UL Lafayette Track",
+   "cats": [
+    "health"
+   ],
+   "url": "https://cajunroadrunners.com/group-runs/",
+   "verify": null,
+   "source": "Cajun Road Runners"
+  }
+ ],
+ "gone": [],
+ "moved": [
+  {
+   "title": "Twenty Years of Valcour Records",
+   "was": "2026-11-19T19:30 · Acadiana Center for the Arts",
+   "now": "2026-11-19T19:30 · Acadiana Center for the Arts - James Devin Moncus Theater",
+   "url": "https://acadianacenterforthearts.org/events/twenty-years-of-valcour-records/?occurrence=2026-11-19"
+  }
+ ],
+ "needs_check": [
+  {
+   "title": "The Fall Finale - Future of Zydeco Live w/ Mike Broussard & Dj Vos",
+   "start": "2026-11-21",
+   "venue": "Xclusive 36",
+   "cats": [
+    "music"
+   ],
+   "url": "https://www.eventbrite.com/e/the-fall-finale-future-of-zydeco-live-w-mike-broussard-dj-vos-tickets-2003977927928",
+   "verify": "The start time wasn't listed. Check the event page.",
+   "source": "Eventbrite"
+  },
+  {
+   "title": "Miracle on Jefferson St",
+   "start": "2026-11-21T16:30",
+   "venue": "Pamplona Tapas Bar & Restaurant",
+   "cats": [
+    "food"
+   ],
+   "url": "https://www.downtownlafayette.org/events",
+   "verify": "The listing's end date is unclear. Check with the venue.",
+   "source": "Downtown Lafayette"
+  },
+  {
+   "title": "Thanksgiving Meal Service at St. Joseph Diner",
+   "start": "2026-11-26",
+   "venue": "St. Joseph Diner, 613 W. Simcoe St",
+   "cats": [
+    "volunteer",
+    "food"
+   ],
+   "url": "https://www.katc.com/lafayette-parish/a-great-place-to-feel-welcomed-volunteers-serve-on-thanksgiving-at-st-joseph-diner",
+   "verify": "Holiday shifts have filled early in past years. Sign up soon.",
+   "source": "KATC"
+  },
+  {
+   "title": "DOWNSOUTH THURSDAYS- TALK TURKEY TO ME w/ LIL' NATE, DJ PUGG, & DJ VOS",
+   "start": "2026-11-26",
+   "venue": "Grant Street Dancehall",
+   "cats": [
+    "music"
+   ],
+   "url": "https://www.eventbrite.com/e/downsouth-thursdays-talk-turkey-to-me-w-lil-nate-dj-pugg-dj-vos-tickets-2003965680295",
+   "verify": "The start time wasn't listed. Check the event page.",
+   "source": "Eventbrite"
+  },
+  {
+   "title": "Red Kettle Bell Ringing",
+   "start": "2026-11-27T10:00",
+   "venue": "Acadiana Mall, Rouses #45 & Little Veron's",
+   "cats": [
+    "volunteer"
+   ],
+   "url": "https://www.idealist.org/en/volunteer-in-lafayette-la",
+   "verify": "Listed on a volunteer aggregator. Confirm with the Salvation Army Lafayette Corps.",
+   "source": "Idealist"
+  },
+  {
+   "title": "WHOP BEZZY LIVE IN CONCERT!!!",
+   "start": "2026-12-05",
+   "venue": "GRANT ST DANCE HALL",
+   "cats": [
+    "music"
+   ],
+   "url": "https://www.eventbrite.com/e/whop-bezzy-live-in-concert-tickets-2003309672157",
+   "verify": "The start time wasn't listed. Check the event page.",
+   "source": "Eventbrite"
+  }
+ ]
+}
