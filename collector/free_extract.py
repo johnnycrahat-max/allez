@@ -16,12 +16,16 @@ import hashlib
 import html
 import json
 import re
+from collections import Counter
 from zoneinfo import ZoneInfo
 
 from bs4 import BeautifulSoup
 
 TZ = ZoneInfo("America/Chicago")
 CATS = ["music", "food", "volunteer", "health"]
+
+# Why listings were left out during this run (shown in the daily report).
+DROPPED: Counter = Counter()
 
 # ---------- category rules ----------
 # Matched as whole words against the title, venue and description (lowercased).
@@ -249,8 +253,10 @@ def read_jsonld(source: dict, pages: list[tuple[str, str]]) -> list[dict]:
             for item in _walk(doc):
                 status = str(item.get("eventStatus", ""))
                 if "Cancelled" in status or "Postponed" in status:
+                    DROPPED["cancelled or postponed"] += 1
                     continue
                 if "Online" in str(item.get("eventAttendanceMode", "")):
+                    DROPPED["online only"] += 1
                     continue
                 title = clean(item.get("name"))
                 utc_clock = source.get("offset_applied_twice", False)
@@ -265,13 +271,16 @@ def read_jsonld(source: dict, pages: list[tuple[str, str]]) -> list[dict]:
                     span = (end.date() if isinstance(end, dt.datetime) else end) - \
                            (start.date() if isinstance(start, dt.datetime) else start)
                     if span.days > 14:
+                        DROPPED["long-running exhibition"] += 1
                         continue  # a months-long exhibition, not a dated event (see manual_events.json)
                 venue, street, town, region = _place(item.get("location"))
                 if not in_area(venue, street, town, region, source.get("local", False)):
+                    DROPPED["outside the Lafayette area"] += 1
                     continue
                 desc = clean(item.get("description"), limit=260)
                 cats = categorize(title, venue, desc, source.get("default"))
                 if not cats:
+                    DROPPED["no matching category"] += 1
                     continue
                 price, free = _price(item.get("offers"))
                 free = free or item.get("isAccessibleForFree") in (True, "true", "True")
@@ -357,6 +366,8 @@ def read_downtown(source: dict, pages: list[tuple[str, str]], today: dt.date, pa
                             except ValueError:
                                 verify = "The listing's end date is unclear. Check with the venue."
                         cats = categorize(title, f"{venue} {tag}", "", source.get("default"))
+                        if not cats:
+                            DROPPED["no matching category"] += 1
                         if cats:
                             start = dt.datetime.combine(start_day, t1)
                             end = dt.datetime.combine(start_day, t2) if t2 else None

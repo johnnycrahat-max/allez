@@ -48,6 +48,8 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT_FILE = ROOT / "docs" / "events.json"
 STATE_FILE = ROOT / "collector" / "state.json"
 MANUAL_FILE = ROOT / "collector" / "manual_events.json"
+HISTORY_FILE = ROOT / "collector" / "history.json"     # one summary per day, for the report chart
+LAST_RUN_FILE = ROOT / "collector" / "last_run.json"   # details of the latest run, for the report
 
 TZ = ZoneInfo("America/Chicago")
 SHOW_DAYS = 28          # the app's longest date filter is "Next 4 Weeks"
@@ -374,6 +376,23 @@ def choose_mode() -> str:
     return "claude" if os.environ.get("ANTHROPIC_API_KEY") else "free"
 
 
+def keep_recently_seen(source: dict, events: list[dict], previous: list[dict], today: dt.date) -> list[dict]:
+    """For sources that show a different selection each day (search pages), keep events
+    seen in the last `sticky_days` days that are still upcoming."""
+    days = source.get("sticky_days", 0)
+    if not days:
+        return events
+    for e in events:
+        e["seen"] = today.isoformat()
+    ids = {e["id"] for e in events}
+    for e in previous:
+        seen = e.get("seen")
+        if e["id"] not in ids and seen and (today - dt.date.fromisoformat(seen)).days <= days \
+                and e.get("start", "")[:10] >= today.isoformat():
+            events.append(e)
+    return events
+
+
 def check_sources() -> int:
     """--check: show what each source yields in free mode, without saving anything."""
     today = dt.datetime.now(TZ).date()
@@ -425,6 +444,7 @@ def main() -> int:
         elif mode == "free":
             try:
                 events = read_free(source, pages, today)
+                events = keep_recently_seen(source, events, cached.get("events", []), today)
                 cached = {"events": events, "read_on": today.isoformat()}
                 state[key] = cached
                 log(f"    {len(events)} events")
@@ -468,8 +488,11 @@ def main() -> int:
     # Exhibitions are listed once as "ongoing"; drop daily copies some sites publish.
     collected = [e for e in collected if not any(same_event(e["title"], m["title"]) for m in ongoing)]
     # Hand-maintained entries go first so their wording wins when a source lists the same event.
-    events = merge_duplicates(dated_manual + sorted(collected, key=lambda e: e["start"])) + ongoing
+    before_merge = dated_manual + sorted(collected, key=lambda e: e["start"])
+    events = merge_duplicates(before_merge) + ongoing
+    merged_count = len(before_merge) + len(ongoing) - len(events)
     events.sort(key=lambda e: (bool(e.get("ongoing")), e.get("start", "")))
+    previous = json.loads(OUT_FILE.read_text())["events"] if OUT_FILE.exists() else []
 
     output = {
         "updated": now.isoformat(timespec="minutes"),
@@ -481,8 +504,58 @@ def main() -> int:
     }
     OUT_FILE.write_text(json.dumps(output, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     STATE_FILE.write_text(json.dumps(state, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    record_run(today, mode, report, events, previous, merged_count)
     log(f"Wrote {len(events)} events ({len(manual)} hand-maintained) to docs/events.json")
     return 0
+
+
+def _key(e: dict) -> str:
+    return f"{e['title'].lower()}|{e.get('start', e.get('ongoing', ''))[:10]}"
+
+
+def record_run(today: dt.date, mode: str, report: list[dict], events: list[dict],
+               previous: list[dict], merged: int) -> None:
+    """Save today's numbers (history.json) and the details behind them (last_run.json)."""
+    dated = [e for e in events if not e.get("ongoing")]
+    old = {_key(e): e for e in previous if not e.get("ongoing")}
+    new = {_key(e): e for e in dated}
+    added = [e for k, e in new.items() if k not in old]
+    # Gone before its date: may have been cancelled, renamed or moved.
+    gone = [e for k, e in old.items() if k not in new and e.get("start", "")[:10] >= today.isoformat()]
+    moved = []
+    for k, e in new.items():
+        before = old.get(k)
+        if before and (before.get("start") != e.get("start") or before.get("venue") != e.get("venue")):
+            moved.append({"title": e["title"], "was": f"{before.get('start')} · {before.get('venue')}",
+                          "now": f"{e.get('start')} · {e.get('venue')}", "url": e.get("url")})
+    timed = [e for e in dated if not e.get("allDay")]
+    entry = {
+        "date": today.isoformat(),
+        "mode": mode,
+        "total": len(dated),
+        "ongoing": len(events) - len(dated),
+        "by_category": {c: sum(1 for e in dated if c in e["cats"]) for c in CATS},
+        "sources_ok": sum(1 for r in report if r["ok"]),
+        "sources_total": len(report),
+        "with_time_pct": round(100 * len(timed) / len(dated)) if dated else 0,
+        "check_details": sum(1 for e in dated if e.get("verify")),
+        "added": len(added), "gone": len(gone), "moved": len(moved), "merged": merged,
+    }
+    history = json.loads(HISTORY_FILE.read_text()) if HISTORY_FILE.exists() else []
+    history = [h for h in history if h["date"] != entry["date"]] + [entry]
+    HISTORY_FILE.write_text(json.dumps(history[-400:], indent=1) + "\n", encoding="utf-8")
+
+    slim = lambda e: {k: e.get(k) for k in ("title", "start", "venue", "cats", "url", "verify", "source")}
+    details = {
+        "date": today.isoformat(),
+        "sources": report,
+        "dropped": dict(free_extract.DROPPED),
+        "added": [slim(e) for e in added],
+        "gone": [slim(e) for e in gone],
+        "moved": moved,
+        "needs_check": [slim(e) for e in dated if e.get("verify")],
+    }
+    LAST_RUN_FILE.write_text(json.dumps(details, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":

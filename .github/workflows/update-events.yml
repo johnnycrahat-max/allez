@@ -1,15 +1,15 @@
 name: Update events
 
-# Runs every morning and refreshes docs/events.json, which the Allez app loads.
-# GitHub's schedule uses UTC: 11:00 UTC is 5 AM in Lafayette in winter (6 AM in summer).
-# Runs can start a few minutes late when GitHub is busy.
+# Runs every morning: refreshes docs/events.json (which the Allez app loads), then emails
+# the daily report. GitHub's schedule uses UTC: 11:00 UTC is 5 AM in Lafayette in winter
+# (6 AM in summer). Runs can start a few minutes late when GitHub is busy.
 on:
   schedule:
     - cron: "0 11 * * *"
   workflow_dispatch: {}   # adds a "Run workflow" button on the Actions tab
 
 permissions:
-  contents: write   # commit the new events file
+  contents: write   # commit the new events file and history
   pages: write      # ask GitHub Pages to republish
 
 concurrency:
@@ -33,6 +33,8 @@ jobs:
         run: pip install -r collector/requirements.txt
 
       - name: Collect events
+        id: collect
+        continue-on-error: true   # still send the report (as a failure alert) if this fails
         env:
           # Optional. Without this secret the collector runs in free mode (no AI, no key).
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -40,10 +42,11 @@ jobs:
 
       - name: Save changes
         id: save
+        if: steps.collect.outcome == 'success'
         run: |
           git config user.name "allez-events-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/events.json collector/state.json
+          git add docs/events.json collector/state.json collector/history.json collector/last_run.json
           if git diff --cached --quiet; then
             echo "No changes to events."
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -58,3 +61,26 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "GitHub Pages will pick up the change on its own."
+
+      - name: Email the daily report
+        if: always()
+        env:
+          COLLECT_OUTCOME: ${{ steps.collect.outcome }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          REPORT_TO: ${{ secrets.REPORT_TO }}
+        run: python collector/report.py
+
+      - name: Keep a copy of the report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-report
+          path: report_out/
+          retention-days: 14
+
+      - name: Mark the run failed if collecting failed
+        if: steps.collect.outcome == 'failure'
+        run: |
+          echo "Collecting events failed. The app keeps showing the last good list."
+          exit 1
