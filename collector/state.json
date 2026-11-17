@@ -1,0 +1,1909 @@
+{
+ "free:moncus": {
+  "events": [
+   {
+    "id": "fcbb5073e0a",
+    "cats": [
+     "health"
+    ],
+    "title": "Acadiana Heart Walk",
+    "start": "2026-11-14T15:00",
+    "venue": "Moncus Park",
+    "map": "2913 Johnston Street, Lafayette, LA 70503 Lafayette LA",
+    "desc": "*This is an externally produced event by American Heart Association.* Join us for the Acadiana Heart Walk in Lafayette on Saturday, November 14 Registration is now OPEN!- Learn more: ACADIANA HEART WALK 3:00 p.m. - Event opens 4:15 p.m.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/girls-on-the-run-2026-221/",
+    "end": "2026-11-14T19:00",
+    "free": true
+   },
+   {
+    "id": "ff6ce0fabf9",
+    "cats": [
+     "health"
+    ],
+    "title": "Bird Walk and Survey at Moncus Park",
+    "start": "2026-11-17T17:30",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "Bird Walk & Survey Join Acadiana Master Naturalists for a guided evening walk through Moncus Park as we observe and survey local bird species in their natural habitat.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/bird-walk-and-survey-at-moncus-park-2/",
+    "end": "2026-11-17T18:30",
+    "free": true
+   },
+   {
+    "id": "f129944abf3",
+    "cats": [
+     "food"
+    ],
+    "title": "Christmas Market",
+    "start": "2026-12-03T16:00",
+    "venue": "Moncus Park",
+    "map": "2913 Johnston Street, Lafayette, LA 70503 Lafayette LA",
+    "desc": "Christmas Market 🎄 Thursday, Dec. 3 | 4 to 8 PM | Moncus Park Deck the halls (and your shopping bags)! The Lafayette Farmers & Artisans Market’s annual Christmas Market is back, and it’s the merriest night of the market year.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/christmas-market-2026/",
+    "end": "2026-12-03T20:00",
+    "free": true,
+    "featured": true
+   },
+   {
+    "id": "fc754255838",
+    "cats": [
+     "volunteer"
+    ],
+    "title": "Conservation Club",
+    "start": "2026-11-03T17:30",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "Conservation Club Get your hands dirty and make a real impact at Conservation Club, a hands-on volunteer program focused on caring for and restoring Moncus Park's natural spaces.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/conservation-club-fall-2026/",
+    "end": "2026-11-03T19:00",
+    "free": true
+   },
+   {
+    "id": "ff57cf8879f",
+    "cats": [
+     "food"
+    ],
+    "title": "Food Truck Friday : Fall Edition",
+    "start": "2026-11-06T11:00",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "Food Truck Friday: Fall Edition Food Truck Friday is back at Moncus Park for a limited run this October and November! Every Friday, grab lunch from your favorite local food trucks, then stay awhile.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/food-truck-friday-fall-edition/",
+    "end": "2026-11-06T14:00",
+    "free": true
+   },
+   {
+    "id": "f23696aedfc",
+    "cats": [
+     "food"
+    ],
+    "title": "Food Truck Friday : Fall Edition",
+    "start": "2026-11-13T11:00",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "Food Truck Friday: Fall Edition Food Truck Friday is back at Moncus Park for a limited run this October and November! Every Friday, grab lunch from your favorite local food trucks, then stay awhile.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/food-truck-friday-fall-edition/",
+    "end": "2026-11-13T14:00",
+    "free": true
+   },
+   {
+    "id": "f9184bc21ed",
+    "cats": [
+     "food"
+    ],
+    "title": "Food Truck Friday : Fall Edition",
+    "start": "2026-11-20T11:00",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "Food Truck Friday: Fall Edition Food Truck Friday is back at Moncus Park for a limited run this October and November! Every Friday, grab lunch from your favorite local food trucks, then stay awhile.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/food-truck-friday-fall-edition/",
+    "end": "2026-11-20T14:00",
+    "free": true
+   },
+   {
+    "id": "f441ca12cc3",
+    "cats": [
+     "health"
+    ],
+    "title": "Girls on the Run 5K",
+    "start": "2026-11-15T12:45",
+    "venue": "Moncus Park",
+    "map": "2913 Johnston Street, Lafayette, LA 70503 Lafayette LA",
+    "desc": "*This is an externally produced event by Girls on the Run.* Join us for the Girls on the Run 5K in Lafayette on Sunday, November 15 Registration is now OPEN!- Learn more: GIRLS ON THE RUN 5K *Men, women, boys, and girls of all ages are invited to join us.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/girls-on-the-run-2026/",
+    "end": "2026-11-15T17:00",
+    "free": true
+   },
+   {
+    "id": "fdae8fffa3c",
+    "cats": [
+     "health"
+    ],
+    "title": "JPJ Memorial Turkey Trot",
+    "start": "2026-11-26T09:00",
+    "venue": "Moncus Park",
+    "map": "2913 Johnston Street, Lafayette, LA 70503 Lafayette LA",
+    "desc": "*This is an externally hosted event produced by JPJ Memorial.* Join us for the 5th Annual JPJ Memorial 1-mile Turkey Trot! The event will be held at 9am on Thanksgiving morning at Moncus Park in memory of Jean Paul Judice.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/jpj-memorial-turkey-trot-2026/",
+    "end": "2026-11-26T11:00",
+    "free": true,
+    "featured": true
+   },
+   {
+    "id": "fe9d3140bab",
+    "cats": [
+     "health"
+    ],
+    "title": "Kids Fitness with KidStrong",
+    "start": "2026-11-09T09:30",
+    "venue": "Moncus Park",
+    "map": "2913 Johnston Street, Lafayette, LA 70503 Lafayette LA",
+    "desc": "Kids Fitness with KidStrong at Moncus Park is a fun, high-energy pop-up designed to help kids build strength, confidence, and important life skills through movement and play.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/kids-fitness-with-kidstrong-fall-2026/",
+    "end": "2026-11-09T10:30",
+    "free": true
+   },
+   {
+    "id": "fec02046c70",
+    "cats": [
+     "food"
+    ],
+    "title": "Lafayette Farmers & Artisans Market",
+    "start": "2026-10-31T08:00",
+    "venue": "Moncus Park",
+    "map": "2913 Johnston Street, Lafayette, LA 70503 Lafayette LA",
+    "desc": "Lafayette Farmers & Artisans Market Every Saturday | 8:00 AM to 12:00 PM | Moncus Park | Rain or Shine There is no better way to start a Saturday in Acadiana.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/farmersmarket/",
+    "end": "2026-10-31T12:00",
+    "free": true
+   },
+   {
+    "id": "fd31e82972c",
+    "cats": [
+     "food"
+    ],
+    "title": "Lafayette Farmers & Artisans Market",
+    "start": "2026-11-07T08:00",
+    "venue": "Moncus Park",
+    "map": "2913 Johnston Street, Lafayette, LA 70503 Lafayette LA",
+    "desc": "Lafayette Farmers & Artisans Market Every Saturday | 8:00 AM to 12:00 PM | Moncus Park | Rain or Shine There is no better way to start a Saturday in Acadiana.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/farmersmarket/",
+    "end": "2026-11-07T12:00",
+    "free": true
+   },
+   {
+    "id": "fd64e8940fc",
+    "cats": [
+     "food"
+    ],
+    "title": "Lafayette Farmers & Artisans Market",
+    "start": "2026-11-14T08:00",
+    "venue": "Moncus Park",
+    "map": "2913 Johnston Street, Lafayette, LA 70503 Lafayette LA",
+    "desc": "Lafayette Farmers & Artisans Market Every Saturday | 8:00 AM to 12:00 PM | Moncus Park | Rain or Shine There is no better way to start a Saturday in Acadiana.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/farmersmarket/",
+    "end": "2026-11-14T12:00",
+    "free": true
+   },
+   {
+    "id": "fd394af8fbe",
+    "cats": [
+     "food"
+    ],
+    "title": "Lafayette Farmers & Artisans Market",
+    "start": "2026-11-21T08:00",
+    "venue": "Moncus Park",
+    "map": "2913 Johnston Street, Lafayette, LA 70503 Lafayette LA",
+    "desc": "Lafayette Farmers & Artisans Market Every Saturday | 8:00 AM to 12:00 PM | Moncus Park | Rain or Shine There is no better way to start a Saturday in Acadiana.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/farmersmarket/",
+    "end": "2026-11-21T12:00",
+    "free": true
+   },
+   {
+    "id": "f6e924b6155",
+    "cats": [
+     "food"
+    ],
+    "title": "Lafayette Farmers & Artisans Market",
+    "start": "2026-11-28T08:00",
+    "venue": "Moncus Park",
+    "map": "2913 Johnston Street, Lafayette, LA 70503 Lafayette LA",
+    "desc": "Lafayette Farmers & Artisans Market Every Saturday | 8:00 AM to 12:00 PM | Moncus Park | Rain or Shine There is no better way to start a Saturday in Acadiana.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/farmersmarket/",
+    "end": "2026-11-28T12:00",
+    "free": true
+   },
+   {
+    "id": "fc1f51cae5f",
+    "cats": [
+     "food"
+    ],
+    "title": "Lafayette Farmers & Artisans Market",
+    "start": "2026-12-05T08:00",
+    "venue": "Moncus Park",
+    "map": "2913 Johnston Street, Lafayette, LA 70503 Lafayette LA",
+    "desc": "Lafayette Farmers & Artisans Market Every Saturday | 8:00 AM to 12:00 PM | Moncus Park | Rain or Shine There is no better way to start a Saturday in Acadiana.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/farmersmarket/",
+    "end": "2026-12-05T12:00",
+    "free": true
+   },
+   {
+    "id": "fe32da476e6",
+    "cats": [
+     "music"
+    ],
+    "title": "Language Café",
+    "start": "2026-11-19T18:00",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "Step into something global right here in Lafayette! Language Café is a dynamic monthly gathering where language, culture, and community come together in an energetic, welcoming atmosphere.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/language-cafe/",
+    "end": "2026-11-19T19:00",
+    "free": true
+   },
+   {
+    "id": "f15f67a86d5",
+    "cats": [
+     "music"
+    ],
+    "title": "Louisiana Grass Roots Screening",
+    "start": "2026-11-10T17:30",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "Join us for a screening of Louisiana Grass Roots, a short documentary telling the story of Louisiana's forgotten prairie lands.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/louisiana-grass-roots-screening-fall2026/",
+    "end": "2026-11-10T18:30",
+    "free": true
+   },
+   {
+    "id": "fe9d4b423ae",
+    "cats": [
+     "health"
+    ],
+    "title": "Mom Walks",
+    "start": "2026-10-28T09:30",
+    "venue": "Moncus Park",
+    "map": "2913 Johnston Street, Lafayette, LA 70503 Lafayette LA",
+    "desc": "Join us for Mom Walks, a weekly gathering that brings moms together to enjoy movement, conversation, and fresh air in the heart of Moncus Park, presented by Lafayette Pediatric Dentistry.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/momwalks2026/",
+    "end": "2026-10-28T10:30",
+    "free": true
+   },
+   {
+    "id": "f2ab8ffa2e0",
+    "cats": [
+     "health"
+    ],
+    "title": "Mom Walks",
+    "start": "2026-11-04T09:30",
+    "venue": "Moncus Park",
+    "map": "2913 Johnston Street, Lafayette, LA 70503 Lafayette LA",
+    "desc": "Join us for Mom Walks, a weekly gathering that brings moms together to enjoy movement, conversation, and fresh air in the heart of Moncus Park, presented by Lafayette Pediatric Dentistry.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/momwalks2026/",
+    "end": "2026-11-04T10:30",
+    "free": true
+   },
+   {
+    "id": "fee452b5b2b",
+    "cats": [
+     "health"
+    ],
+    "title": "Mom Walks",
+    "start": "2026-11-11T09:30",
+    "venue": "Moncus Park",
+    "map": "2913 Johnston Street, Lafayette, LA 70503 Lafayette LA",
+    "desc": "Join us for Mom Walks, a weekly gathering that brings moms together to enjoy movement, conversation, and fresh air in the heart of Moncus Park, presented by Lafayette Pediatric Dentistry.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/momwalks2026/",
+    "end": "2026-11-11T10:30",
+    "free": true
+   },
+   {
+    "id": "f2157b91006",
+    "cats": [
+     "health"
+    ],
+    "title": "Mom Walks",
+    "start": "2026-11-18T09:30",
+    "venue": "Moncus Park",
+    "map": "2913 Johnston Street, Lafayette, LA 70503 Lafayette LA",
+    "desc": "Join us for Mom Walks, a weekly gathering that brings moms together to enjoy movement, conversation, and fresh air in the heart of Moncus Park, presented by Lafayette Pediatric Dentistry.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/momwalks2026/",
+    "end": "2026-11-18T10:30",
+    "free": true
+   },
+   {
+    "id": "faca0718c48",
+    "cats": [
+     "health"
+    ],
+    "title": "Night Hike",
+    "start": "2026-11-24T17:30",
+    "venue": "Moncus Park",
+    "map": "2913 Johnston Street, Lafayette, LA 70503 Lafayette LA",
+    "desc": "Night Hike is a guided evening walk through Moncus Park after dark, led by our Conservation Team. As the Park transforms after sunset, guides point out the nocturnal wildlife and sounds that come alive once the sun goes down.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/night-hike-fall-2026/",
+    "end": "2026-11-24T18:30",
+    "free": true
+   },
+   {
+    "id": "f34db6f4ec1",
+    "cats": [
+     "health"
+    ],
+    "title": "Pack Walks at Moncus Park",
+    "start": "2026-11-09T18:00",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "Pack Walks at Moncus Park Grab the leash and bring your best friend out for Pack Walks, a free themed evening walk series where dogs and their humans get to connect, move, and be part of the pack.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/pack-walks-summer-2026/",
+    "end": "2026-11-09T19:00",
+    "free": true
+   },
+   {
+    "id": "f1ced8329b0",
+    "cats": [
+     "health"
+    ],
+    "title": "Pilates at the Park with Club Pilates",
+    "start": "2026-10-26T18:00",
+    "venue": "Moncus Park",
+    "map": "2913 Johnston Street, Lafayette, LA 70503 Lafayette LA",
+    "desc": "Roll out your mat and join us for a free outdoor Pilates class at Moncus Park, led by the team at Club Pilates! Whether you are a seasoned pro or trying it for the very first time, this is a welcoming and fun experience for all ages and all fitness levels.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/pilates-at-the-park-fall-2026/",
+    "end": "2026-10-26T19:00",
+    "free": true
+   },
+   {
+    "id": "fc415e71c9b",
+    "cats": [
+     "health"
+    ],
+    "title": "Sound Bath",
+    "start": "2026-11-16T18:00",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "Step into deep relaxation with an immersive Sound Bath at the Kergan Meditation Garden. This restorative session uses soothing sound frequencies, gentle vibrations, and mindful stillness to help quiet the mind, release stress, and restore balance to the body.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/sound-bath/",
+    "end": "2026-11-16T19:00",
+    "free": true
+   },
+   {
+    "id": "f8859cd7453",
+    "cats": [
+     "health"
+    ],
+    "title": "Trail Trek",
+    "start": "2026-10-27T17:30",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "Trail Trek is a guided walk through Moncus Park's woodland trails, led by our Conservation Team. Along the way, guides point out native trees, wildlife, and seasonal change while sharing why these wooded trails matter to the Park's ecosystem.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/trail-trek-fall-2026/",
+    "end": "2026-10-27T18:30",
+    "free": true
+   },
+   {
+    "id": "ffb3be1bc9a",
+    "cats": [
+     "health"
+    ],
+    "title": "Tunnels to Towers 5K",
+    "start": "2026-11-08T08:00",
+    "venue": "Moncus Park",
+    "map": "2913 Johnston Street, Lafayette, LA 70503 Lafayette LA",
+    "desc": "This is an externally hosted event. What is a Tunnel To Towers Run & Walk?",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/tunnels-to-towers-5k-2026/",
+    "end": "2026-11-08T11:00",
+    "free": true
+   },
+   {
+    "id": "fd211384952",
+    "cats": [
+     "health"
+    ],
+    "title": "Yoga in the Park",
+    "start": "2026-10-28T18:00",
+    "venue": "Location Name",
+    "map": "Location Name Lafayette LA",
+    "desc": "Join us for Yoga in the Park, part of the \"Fit For All\" series presented by Louisiana Orthopaedic Specialists & Orthopedic Urgent Care. Every Wednesday at 6:00 PM, unroll your mat and unwind with a free community yoga session at Moncus Park.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/yoga2026/",
+    "end": "2026-10-28T19:00",
+    "free": true
+   },
+   {
+    "id": "f15f98d7d72",
+    "cats": [
+     "health"
+    ],
+    "title": "Yoga in the Park",
+    "start": "2026-11-04T18:00",
+    "venue": "Location Name",
+    "map": "Location Name Lafayette LA",
+    "desc": "Join us for Yoga in the Park, part of the \"Fit For All\" series presented by Louisiana Orthopaedic Specialists & Orthopedic Urgent Care. Every Wednesday at 6:00 PM, unroll your mat and unwind with a free community yoga session at Moncus Park.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/yoga2026/",
+    "end": "2026-11-04T19:00",
+    "free": true
+   },
+   {
+    "id": "fc96ecfcdc4",
+    "cats": [
+     "health"
+    ],
+    "title": "Yoga in the Park",
+    "start": "2026-11-11T18:00",
+    "venue": "Location Name",
+    "map": "Location Name Lafayette LA",
+    "desc": "Join us for Yoga in the Park, part of the \"Fit For All\" series presented by Louisiana Orthopaedic Specialists & Orthopedic Urgent Care. Every Wednesday at 6:00 PM, unroll your mat and unwind with a free community yoga session at Moncus Park.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/yoga2026/",
+    "end": "2026-11-11T19:00",
+    "free": true
+   },
+   {
+    "id": "ff31e98b2e8",
+    "cats": [
+     "health"
+    ],
+    "title": "Yoga in the Park",
+    "start": "2026-11-18T18:00",
+    "venue": "Location Name",
+    "map": "Location Name Lafayette LA",
+    "desc": "Join us for Yoga in the Park, part of the \"Fit For All\" series presented by Louisiana Orthopaedic Specialists & Orthopedic Urgent Care. Every Wednesday at 6:00 PM, unroll your mat and unwind with a free community yoga session at Moncus Park.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/yoga2026/",
+    "end": "2026-11-18T19:00",
+    "free": true
+   },
+   {
+    "id": "f997d486674",
+    "cats": [
+     "health"
+    ],
+    "title": "Yoga in the Park",
+    "start": "2026-11-25T18:00",
+    "venue": "Location Name",
+    "map": "Location Name Lafayette LA",
+    "desc": "Join us for Yoga in the Park, part of the \"Fit For All\" series presented by Louisiana Orthopaedic Specialists & Orthopedic Urgent Care. Every Wednesday at 6:00 PM, unroll your mat and unwind with a free community yoga session at Moncus Park.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/yoga2026/",
+    "end": "2026-11-25T19:00",
+    "free": true
+   },
+   {
+    "id": "f29fedc43f9",
+    "cats": [
+     "health"
+    ],
+    "title": "Zumba in the Park",
+    "start": "2026-11-13T18:00",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "Zumba is a high-energy dance fitness class led by Erin Richard of Zumba Fitness, built around Latin and international rhythms. Move and shake to the beat while working in cardio, coordination, balance, and full-body movement, no dance experience required.",
+    "source": "Moncus Park",
+    "url": "https://moncuspark.org/calendar-events/zumba-in-the-park/",
+    "end": "2026-11-13T19:00",
+    "free": true
+   }
+  ],
+  "read_on": "2026-11-16"
+ },
+ "free:downtown": {
+  "events": [
+   {
+    "id": "f442b722933",
+    "cats": [
+     "music"
+    ],
+    "title": "Horror Book Club",
+    "start": "2026-11-18T18:15",
+    "venue": "Cavalier House Books - Lafayette",
+    "map": "Cavalier House Books - Lafayette Lafayette LA",
+    "desc": "Event in Downtown Lafayette.",
+    "source": "Downtown Lafayette",
+    "url": "https://www.downtownlafayette.org/events",
+    "end": "2026-11-18T19:30"
+   },
+   {
+    "id": "f359b51e152",
+    "cats": [
+     "music"
+    ],
+    "title": "Southern Screen Festival",
+    "start": "2026-11-19T17:00",
+    "venue": "Acadiana Center for the Arts",
+    "map": "Acadiana Center for the Arts Lafayette LA",
+    "desc": "Arts event in Downtown Lafayette.",
+    "source": "Downtown Lafayette",
+    "url": "https://www.downtownlafayette.org/events",
+    "end": "2026-11-19T22:00",
+    "featured": true,
+    "endDate": "2026-11-22"
+   },
+   {
+    "id": "ffb9b4dae51",
+    "cats": [
+     "music"
+    ],
+    "title": "An Afternoon with Carrie Simon",
+    "start": "2026-11-21T15:00",
+    "venue": "Cavalier House Books - Lafayette",
+    "map": "Cavalier House Books - Lafayette Lafayette LA",
+    "desc": "Event in Downtown Lafayette.",
+    "source": "Downtown Lafayette",
+    "url": "https://www.downtownlafayette.org/events",
+    "end": "2026-11-21T17:00"
+   },
+   {
+    "id": "f7159ceee00",
+    "cats": [
+     "food"
+    ],
+    "title": "Miracle on Jefferson St",
+    "start": "2026-11-21T16:30",
+    "venue": "Pamplona Tapas Bar & Restaurant",
+    "map": "Pamplona Tapas Bar & Restaurant Lafayette LA",
+    "desc": "Event in Downtown Lafayette.",
+    "source": "Downtown Lafayette",
+    "url": "https://www.downtownlafayette.org/events",
+    "end": "2026-11-21T23:00",
+    "verify": "The listing's end date is unclear. Check with the venue."
+   },
+   {
+    "id": "f804a23a1b4",
+    "cats": [
+     "music"
+    ],
+    "title": "November Book du Mois",
+    "start": "2026-11-24T18:15",
+    "venue": "Cavalier House Books - Lafayette",
+    "map": "Cavalier House Books - Lafayette Lafayette LA",
+    "desc": "Event in Downtown Lafayette.",
+    "source": "Downtown Lafayette",
+    "url": "https://www.downtownlafayette.org/events",
+    "end": "2026-11-24T19:30"
+   },
+   {
+    "id": "f0226df0aef",
+    "cats": [
+     "music"
+    ],
+    "title": "Twinkle Light Night",
+    "start": "2026-12-04T18:00",
+    "venue": "Children's Museum of Acadiana",
+    "map": "Children's Museum of Acadiana Lafayette LA",
+    "desc": "Kids & Family event in Downtown Lafayette.",
+    "source": "Downtown Lafayette",
+    "url": "https://www.downtownlafayette.org/events",
+    "end": "2026-12-04T20:00"
+   },
+   {
+    "id": "fba76855180",
+    "cats": [
+     "music"
+    ],
+    "title": "Home for the Holidays with the Dopsie Family: Christmas Tree Concert",
+    "start": "2026-12-05T18:00",
+    "venue": "Parc Sans Souci",
+    "map": "Parc Sans Souci Lafayette LA",
+    "desc": "Merry & Bright event in Downtown Lafayette.",
+    "source": "Downtown Lafayette",
+    "url": "https://www.downtownlafayette.org/events",
+    "end": "2026-12-05T21:00"
+   },
+   {
+    "id": "fc67220d8b2",
+    "cats": [
+     "music"
+    ],
+    "title": "December ArtWalk",
+    "start": "2026-12-12T17:00",
+    "venue": "Downtown Lafayette",
+    "map": "Downtown Lafayette Lafayette LA",
+    "desc": "Artwalk event in Downtown Lafayette.",
+    "source": "Downtown Lafayette",
+    "url": "https://www.downtownlafayette.org/events",
+    "end": "2026-12-12T21:00"
+   },
+   {
+    "id": "f12c7910334",
+    "cats": [
+     "music"
+    ],
+    "title": "January ArtWalk",
+    "start": "2027-01-09T17:00",
+    "venue": "Downtown Lafayette",
+    "map": "Downtown Lafayette Lafayette LA",
+    "desc": "Artwalk event in Downtown Lafayette.",
+    "source": "Downtown Lafayette",
+    "url": "https://www.downtownlafayette.org/events",
+    "end": "2027-01-09T21:00"
+   },
+   {
+    "id": "fd198b46acd",
+    "cats": [
+     "music"
+    ],
+    "title": "Krewe de Canailles: Roadside Attractions",
+    "start": "2027-01-29T19:00",
+    "venue": "Downtown Lafayette",
+    "map": "Downtown Lafayette Lafayette LA",
+    "desc": "Arts event in Downtown Lafayette.",
+    "source": "Downtown Lafayette",
+    "url": "https://www.downtownlafayette.org/events",
+    "end": "2027-01-29T21:00"
+   },
+   {
+    "id": "f1df0315d1c",
+    "cats": [
+     "music"
+    ],
+    "title": "Big Towns",
+    "start": "2027-04-21T08:30",
+    "venue": "Acadiana Center for the Arts",
+    "map": "Acadiana Center for the Arts Lafayette LA",
+    "desc": "Event in Downtown Lafayette.",
+    "source": "Downtown Lafayette",
+    "url": "https://www.downtownlafayette.org/events?9568029a_page=2",
+    "end": "2027-04-21T16:00",
+    "endDate": "2027-04-22"
+   },
+   {
+    "id": "f1288a182ff",
+    "cats": [
+     "music"
+    ],
+    "title": "Festival International",
+    "start": "2027-04-28T08:00",
+    "venue": "Various Locations",
+    "map": "Various Locations Lafayette LA",
+    "desc": "Festival event in Downtown Lafayette.",
+    "source": "Downtown Lafayette",
+    "url": "https://www.downtownlafayette.org/events?9568029a_page=2",
+    "end": "2027-04-28T20:00",
+    "featured": true,
+    "endDate": "2027-05-02"
+   }
+  ],
+  "read_on": "2026-11-16"
+ },
+ "free:aca": {
+  "events": [
+   {
+    "id": "fa457a1efa6",
+    "cats": [
+     "music"
+    ],
+    "title": "Artist Round Up: Abbeville Art Swap",
+    "start": "2026-11-03T18:00",
+    "venue": "Abbeville Cultural & Historic Center",
+    "map": "200 N Magdalen Square #4645, Abbeville, Louisiana Lafayette LA",
+    "desc": "[et_pb_section fb_built=\"1\" admin_label=\"section\" _builder_version=\"4.16\" global_colors_info=\"{}\"][et_pb_row admin_label=\"row\" _builder_version=\"4.16\" background_size=\"initial\" background_position=\"top_left\" background_repeat=\"repeat\"…",
+    "source": "Acadiana Center for the Arts",
+    "url": "https://acadianacenterforthearts.org/events/abbeville-artist-round-up/?occurrence=2026-11-03",
+    "end": "2026-11-03T20:00",
+    "free": true
+   },
+   {
+    "id": "f629377d1ef",
+    "cats": [
+     "music"
+    ],
+    "title": "Artist Round Up: Collaging, Flyer Making, and the Community Zine",
+    "start": "2026-11-18T18:00",
+    "venue": "Acadiana Center for the Arts",
+    "map": "101 W Vermilion St, Lafayette, LA Lafayette LA",
+    "desc": "[et_pb_section fb_built=\"1\" admin_label=\"section\" _builder_version=\"4.16\" global_colors_info=\"{}\"][et_pb_row admin_label=\"row\" _builder_version=\"4.16\" background_size=\"initial\" background_position=\"top_left\" background_repeat=\"repeat\"…",
+    "source": "Acadiana Center for the Arts",
+    "url": "https://acadianacenterforthearts.org/events/community-zine/?occurrence=2026-11-18",
+    "end": "2026-11-18T20:00",
+    "free": true
+   },
+   {
+    "id": "fc9e5798af5",
+    "cats": [
+     "music"
+    ],
+    "title": "Artist Talk: Kate Gordon",
+    "start": "2026-12-05T13:00",
+    "venue": "Acadiana Center for the Arts",
+    "map": "101 W Vermilion St, Lafayette, LA Lafayette LA",
+    "desc": "[et_pb_section fb_built=\"1\" admin_label=\"section\" _builder_version=\"4.16\" global_colors_info=\"{}\"][et_pb_row admin_label=\"row\" _builder_version=\"4.16\" background_size=\"initial\" background_position=\"top_left\" background_repeat=\"repeat\"…",
+    "source": "Acadiana Center for the Arts",
+    "url": "https://acadianacenterforthearts.org/events/community-zine-2/?occurrence=2026-12-05",
+    "end": "2026-12-05T15:00",
+    "free": true
+   },
+   {
+    "id": "f2780b1398a",
+    "cats": [
+     "music"
+    ],
+    "title": "Christmas by Candlelight: Glorious Season | Grantee Event",
+    "start": "2026-12-04T19:00",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "Chorale Acadienne presents Christmas by Candlelight: Glorious Season, a joyous holiday celebration featuring an original holiday composition by director Rusty Roden as well as selections from Handel’s Messiah.",
+    "source": "Acadiana Center for the Arts",
+    "url": "https://choraleacadienne.com/season?occurrence=2026-12-04",
+    "end": "2026-12-04T20:30",
+    "free": true
+   },
+   {
+    "id": "f586d011e44",
+    "cats": [
+     "music"
+    ],
+    "title": "Creative Acadiana: Demystifying Augmented Reality with Francis Pavy",
+    "start": "2026-11-11T17:30",
+    "venue": "Acadiana Center for the Arts",
+    "map": "101 W Vermilion St, Lafayette, LA Lafayette LA",
+    "desc": "[et_pb_section fb_built=\"1\" admin_label=\"section\" _builder_version=\"4.16\" global_colors_info=\"{}\"][et_pb_row admin_label=\"row\" _builder_version=\"4.16\" background_size=\"initial\" background_position=\"top_left\" background_repeat=\"repeat\"…",
+    "source": "Acadiana Center for the Arts",
+    "url": "https://acadianacenterforthearts.org/events/demystifying-augmented-reality/?occurrence=2026-11-11",
+    "end": "2026-11-11T19:30",
+    "free": true
+   },
+   {
+    "id": "f19cbc7ba4d",
+    "cats": [
+     "music"
+    ],
+    "title": "Kate Gordon: Tender Terrain",
+    "start": "2026-11-17T09:00",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "Listed by Acadiana Center for the Arts.",
+    "source": "Acadiana Center for the Arts",
+    "url": "https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-17",
+    "end": "2026-11-17T17:00",
+    "free": true
+   },
+   {
+    "id": "fde2b10fb24",
+    "cats": [
+     "music"
+    ],
+    "title": "Paul Thorn Band",
+    "start": "2026-11-12T19:30",
+    "venue": "Acadiana Center for the Arts - James Devin Moncus Theater",
+    "map": "101 W. Vermilion Street Lafayette LA",
+    "desc": "[et_pb_section fb_built=\"1\" _builder_version=\"4.16\" global_colors_info=\"{}\"][et_pb_row _builder_version=\"4.16\" background_size=\"initial\" background_position=\"top_left\" background_repeat=\"repeat\" global_colors_info=\"{}\"][et_pb_column type=\"4_4\"…",
+    "source": "Acadiana Center for the Arts",
+    "url": "https://acadianacenterforthearts.org/events/paul-thorn-band-2/?occurrence=2026-11-12",
+    "end": "2026-11-12T21:45",
+    "free": true
+   },
+   {
+    "id": "fee5c52d878",
+    "cats": [
+     "music"
+    ],
+    "title": "Pelican Ball 2026",
+    "start": "2026-11-06T18:30",
+    "venue": "Acadiana Center for the Arts",
+    "map": "101 W Vermilion St, Lafayette, LA Lafayette LA",
+    "desc": "[et_pb_section fb_built=\"1\" admin_label=\"section\" _builder_version=\"4.27.4\" global_colors_info=\"{}\"][et_pb_row _builder_version=\"4.27.6\" _module_preset=\"default\" global_colors_info=\"{}\"][et_pb_column type=\"4_4\" _builder_version=\"4.27.6\"…",
+    "source": "Acadiana Center for the Arts",
+    "url": "https://acadianacenterforthearts.org/whats-happening/special-events/pelican-ball/?occurrence=2026-11-06",
+    "end": "2026-11-06T22:00",
+    "price": "$125"
+   },
+   {
+    "id": "fb1d0fe6f52",
+    "cats": [
+     "music"
+    ],
+    "title": "Philip Gould: A Selection of Works",
+    "start": "2026-11-16T09:00",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "Listed by Acadiana Center for the Arts.",
+    "source": "Acadiana Center for the Arts",
+    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-16",
+    "endDate": "2026-11-28",
+    "free": true
+   },
+   {
+    "id": "fe04ba4800b",
+    "cats": [
+     "music"
+    ],
+    "title": "Southern Screen Festival | 16th Annual",
+    "venue": "Acadiana Center for the Arts",
+    "map": "101 W Vermilion St, Lafayette, LA Lafayette LA",
+    "desc": "[et_pb_section fb_built=\"1\" admin_label=\"section\" _builder_version=\"4.16\" global_colors_info=\"{}\"][et_pb_row admin_label=\"row\" _builder_version=\"4.16\" background_size=\"initial\" background_position=\"top_left\" background_repeat=\"repeat\"…",
+    "source": "Acadiana Center for the Arts",
+    "url": "https://www.southernscreen.org/attend?occurrence=2026-11-19",
+    "free": true,
+    "featured": true,
+    "endDate": "2026-11-22",
+    "start": "2026-11-19T17:00",
+    "end": "2026-11-19T22:00"
+   },
+   {
+    "id": "f5297db9463",
+    "cats": [
+     "music"
+    ],
+    "title": "Twenty Years of Valcour Records",
+    "start": "2026-11-19T19:30",
+    "venue": "Acadiana Center for the Arts - James Devin Moncus Theater",
+    "map": "101 W. Vermilion Street Lafayette LA",
+    "desc": "[et_pb_section fb_built=\"1\" _builder_version=\"4.16\" global_colors_info=\"{}\"][et_pb_row _builder_version=\"4.16\" background_size=\"initial\" background_position=\"top_left\" background_repeat=\"repeat\" custom_margin=\"|auto|5px|auto||\"…",
+    "source": "Acadiana Center for the Arts",
+    "url": "https://acadianacenterforthearts.org/events/twenty-years-of-valcour-records/?occurrence=2026-11-19",
+    "end": "2026-11-19T21:30",
+    "price": "$40"
+   }
+  ],
+  "read_on": "2026-11-16"
+ },
+ "free:hilliard": {
+  "events": [
+   {
+    "id": "f47f80d485a",
+    "cats": [
+     "music"
+    ],
+    "title": "Artist Tour with Curtis Patterson + Melissa Messina",
+    "start": "2026-11-19T12:00",
+    "venue": "Hilliard Art Museum",
+    "map": "710 E St Mary Blvd Lafayette LA",
+    "desc": "Artist Curtis Patterson and Curator of Exhibition Melissa Messina will lead a tour of the exhibition. Experience Persistent Vision through the perspectives of artist Curtis Patterson and curator Melissa Messina.",
+    "source": "Hilliard Art Museum",
+    "url": "https://hilliardartmuseum.org/event/artist-tour-with-curtis-patterson-melissa-messina/",
+    "end": "2026-11-19T13:00"
+   },
+   {
+    "id": "ffaa8284920",
+    "cats": [
+     "music"
+    ],
+    "title": "Create & Play Café",
+    "start": "2026-11-14T10:00",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "A monthly hands-on creative activity for kids ages 4 and up! \\n",
+    "source": "Hilliard Art Museum",
+    "url": "https://hilliardartmuseum.org/event/create-play-cafe-2-7/2026-11-14/"
+   },
+   {
+    "id": "f3a1886f884",
+    "cats": [
+     "music"
+    ],
+    "title": "Create & Play Café",
+    "start": "2026-12-12T10:00",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "A monthly hands-on creative activity for kids ages 4 and up! \\n",
+    "source": "Hilliard Art Museum",
+    "url": "https://hilliardartmuseum.org/event/create-play-cafe-2-7/2026-12-12/"
+   },
+   {
+    "id": "f9e7cfd360a",
+    "cats": [
+     "music"
+    ],
+    "title": "Cross Currents: Improvised Truths — Curtis Patterson and the Jazz of Form",
+    "start": "2026-11-18T17:00",
+    "venue": "Hilliard Art Museum",
+    "map": "710 E St Mary Blvd Lafayette LA",
+    "desc": "Join us for Improvised Truths: Curtis Patterson and the Jazz of Form, the latest iteration of Cross Currents, a series using visual art as a catalyst for interdisciplinary dialogue, as we explore how Patterson’s bronze and steel sculptures channel the…",
+    "source": "Hilliard Art Museum",
+    "url": "https://hilliardartmuseum.org/event/cross-currents-improvised-truths-curtis-patterson-and-the-jazz-of-form/",
+    "end": "2026-11-18T19:00"
+   },
+   {
+    "id": "fce89e9c4e7",
+    "cats": [
+     "music"
+    ],
+    "title": "Hilliard Society Holiday Party",
+    "start": "2026-12-10",
+    "venue": "Hilliard Art Museum",
+    "map": "710 E St Mary Blvd Lafayette LA",
+    "desc": "Become a Hilliard Society Member and receive an invitation to this exclusive annual holiday experience. Visit the Membership page to join and explore all membership benefits. \\n",
+    "source": "Hilliard Art Museum",
+    "url": "https://hilliardartmuseum.org/event/hilliard-society-holiday-party-2/",
+    "allDay": true
+   }
+  ],
+  "read_on": "2026-11-16"
+ },
+ "free:lafayette_travel": {
+  "events": [
+   {
+    "id": "f0ee975695a",
+    "cats": [
+     "music"
+    ],
+    "title": "Indigenous Heritage Table",
+    "start": "2024-02-03",
+    "venue": "NUNU Arts and Culture Collective",
+    "map": "NUNU Arts and Culture Collective Arnaudville LA",
+    "desc": "Connecting tribes one table at a time. Together we share and learn about indigenous heritage. Hosted by Clovis \"Joe\" Billiot, Debra Cooper Billiot,...",
+    "source": "Lafayette Travel",
+    "url": "https://www.lafayettetravel.com/event/indigenous-heritage-table/35694/",
+    "allDay": true,
+    "verify": "The start time wasn't listed. Check the event page."
+   },
+   {
+    "id": "f68f42472cf",
+    "cats": [
+     "music"
+    ],
+    "title": "La Tab Kreyol-Zoom Meeting",
+    "start": "2025-01-11",
+    "venue": "NUNU Arts and Culture Collective",
+    "map": "NUNU Arts and Culture Collective Arnaudville LA",
+    "desc": "Herbert Wiltz and NUNU invite you to join the monthly La Tab Kreyol. Join Zoom Meeting https://us02web.zoom.us/j/88093528333... Meeting ID: 880 9352...",
+    "source": "Lafayette Travel",
+    "url": "https://www.lafayettetravel.com/event/la-tab-kreyol-zoom-meeting/40570/",
+    "allDay": true,
+    "verify": "The start time wasn't listed. Check the event page."
+   },
+   {
+    "id": "fd9d642ae4c",
+    "cats": [
+     "music"
+    ],
+    "title": "Native American Culture Day",
+    "start": "2025-11-15",
+    "venue": "Vermilionville Living History Museum & Folklife Park",
+    "map": "Vermilionville Living History Museum & Folklife Park Lafayette LA",
+    "desc": "Native American Culture Day is a FREE festival with family-friendly events, demonstrations, cultural exhibits and much more. Tribal groups who will...",
+    "source": "Lafayette Travel",
+    "url": "https://www.lafayettetravel.com/event/native-american-culture-day/39911/",
+    "allDay": true,
+    "verify": "The start time wasn't listed. Check the event page."
+   },
+   {
+    "id": "f46e6d9ebb3",
+    "cats": [
+     "music"
+    ],
+    "title": "Second Saturday ArtWalk",
+    "start": "2021-06-12",
+    "venue": "Downtown Development Authority/Downtown Lafayette Unlimited",
+    "map": "Downtown Development Authority/Downtown Lafayette Unlimited Lafayette LA",
+    "desc": "ArtWalk Lafayette occurs every second Saturday in Downtown Lafayette. The monthly event features exhibits, live music, theatrical performances, and...",
+    "source": "Lafayette Travel",
+    "url": "https://www.lafayettetravel.com/event/second-saturday-artwalk/29297/",
+    "allDay": true,
+    "verify": "The start time wasn't listed. Check the event page."
+   },
+   {
+    "id": "f9f2813c929",
+    "cats": [
+     "music"
+    ],
+    "title": "Twenty Years of Valcour Records",
+    "venue": "Acadiana Center for the Arts",
+    "map": "Acadiana Center for the Arts Lafayette LA",
+    "desc": "For two decades, Valcour Records has stood at the heart of Louisiana’s roots renaissance — preserving the traditions of Cajun, Creole, zydeco, and...",
+    "source": "Lafayette Travel",
+    "url": "https://www.lafayettetravel.com/event/twenty-years-of-valcour-records/47291/",
+    "start": "2026-11-19T19:30",
+    "end": "2026-11-19T21:30"
+   }
+  ],
+  "read_on": "2026-11-16"
+ },
+ "free:eventbrite": {
+  "events": [
+   {
+    "id": "f0a148a0c19",
+    "cats": [
+     "music"
+    ],
+    "title": "Body Talk Boys, November 17",
+    "start": "2026-11-17",
+    "venue": "126 Heymann Blvd",
+    "map": "126 Heymann Boulevard Lafayette LA",
+    "desc": "Body Talk Boys: Tuesday, November 17, 2026, 6PM-8PM",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/body-talk-boys-november-17-tickets-2003629767571",
+    "allDay": true
+   },
+   {
+    "id": "f7a60be659c",
+    "cats": [
+     "music"
+    ],
+    "title": "Chanda Rubin's Book Launch Celebration",
+    "start": "2026-11-21",
+    "venue": "Red Lerille's Health & Racquet Club",
+    "map": "301 Doucet Road Lafayette LA",
+    "desc": "Come hang out with former tennis star Chanda Rubin-Hollier and illustrator Aileen Bennett and get a signed copy of her new children's book!",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/chanda-rubins-book-launch-celebration-registration-2003802993695",
+    "allDay": true
+   },
+   {
+    "id": "f61d4441f97",
+    "cats": [
+     "music"
+    ],
+    "title": "DOWNSOUTH THURSDAYS- TALK TURKEY TO ME w/ LIL' NATE, DJ PUGG, & DJ VOS",
+    "start": "2026-11-26",
+    "venue": "Grant Street Dancehall",
+    "map": "113 West Grant Street Lafayette LA",
+    "desc": "Listed by Eventbrite.",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/downsouth-thursdays-talk-turkey-to-me-w-lil-nate-dj-pugg-dj-vos-tickets-2003965680295",
+    "allDay": true,
+    "verify": "The start time wasn't listed. Check the event page."
+   },
+   {
+    "id": "f43a689375c",
+    "cats": [
+     "food",
+     "volunteer"
+    ],
+    "title": "Foodies + New Friends: Lafayette Dinner Meet | Giving Back Edition",
+    "start": "2026-11-23",
+    "venue": "Park Bistro",
+    "map": "407 Brook Avenue Lafayette LA",
+    "desc": "Join us for cozy dinners with locals to share experiences, make new connections, and support local businesses while giving back!",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/foodies-new-friends-lafayette-dinner-meet-giving-back-edition-tickets-1989270632010",
+    "allDay": true
+   },
+   {
+    "id": "f940cd7e5c4",
+    "cats": [
+     "music"
+    ],
+    "title": "It's a Wonderful Life: A Live Radio Play",
+    "start": "2026-12-03",
+    "venue": "Cité des Arts",
+    "map": "109 Vine Street Lafayette LA",
+    "desc": "Ascension Episcopal School 8th-12th graders present It's a Wonderful Life: A Live Radio Play",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/its-a-wonderful-life-a-live-radio-play-tickets-2003932304467",
+    "allDay": true
+   },
+   {
+    "id": "fff7419d85b",
+    "cats": [
+     "music"
+    ],
+    "title": "Mosaic Art Classes Lafayette: Turkish Lamp Workshop",
+    "start": "2027-01-23",
+    "venue": "Holiday Inn & Suites Lafayette North by IHG",
+    "map": "2219 Northwest Evangeline Thruway Lafayette LA",
+    "desc": "Learn how to make a Turkish mosaic lamp in this Lafayette workshop! Book Now on Eventbrite!",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/mosaic-art-classes-lafayette-turkish-lamp-workshop-tickets-2004809508207",
+    "allDay": true
+   },
+   {
+    "id": "fbb58447401",
+    "cats": [
+     "food",
+     "volunteer"
+    ],
+    "title": "Random Acts of Kindness Spree in Lafayette",
+    "start": "2026-11-17",
+    "venue": "Carpe Diem Cafe & Wine Bar",
+    "map": "812 Jefferson Street Lafayette LA",
+    "desc": "Give back, spread kindness, and discover hidden gems of Lafayette with a remote interactive host.",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/random-acts-of-kindness-spree-in-lafayette-tickets-1991109000620",
+    "allDay": true
+   },
+   {
+    "id": "f2cf13d9410",
+    "cats": [
+     "music",
+     "food"
+    ],
+    "title": "Recipe Exchange",
+    "start": "2026-11-21",
+    "venue": "Prairie Acadian Cultural Center",
+    "map": "250 Park Avenue Eunice LA",
+    "desc": "Head on over to the Prairie Acadian Cultural Center for a free recipe exchange!",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/recipe-exchange-tickets-2004032678689",
+    "allDay": true
+   },
+   {
+    "id": "f8c3360cceb",
+    "cats": [
+     "music",
+     "food"
+    ],
+    "title": "Roux Fest Gumbo Cookoff powered by Lagcoe",
+    "start": "2027-02-04",
+    "venue": "Blackham Coliseum",
+    "map": "2330 Johnston Street Lafayette LA",
+    "desc": "Bold, flavorful, and full of heart! Roux Fest is Lafayette’s tastiest showdown, blending gumbo, community, and the energy industry.",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/roux-fest-gumbo-cookoff-powered-by-lagcoe-tickets-2001232393962",
+    "allDay": true
+   },
+   {
+    "id": "fda22d7f90a",
+    "cats": [
+     "music"
+    ],
+    "title": "State of LA Danse, Friday November 20th",
+    "start": "2026-11-20",
+    "venue": "Ducrest-Gilfry Auditorium in Angelle Hall",
+    "map": "601 East Saint Mary Boulevard Lafayette LA",
+    "desc": "Faculty and Guest Artist Dance Concert from the UL Lafayette Dance Program",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/state-of-la-danse-friday-november-20th-tickets-2004032465050",
+    "allDay": true
+   },
+   {
+    "id": "f5969d23897",
+    "cats": [
+     "music"
+    ],
+    "title": "State of LA Danse, Saturday November 21 2PM",
+    "start": "2026-11-21",
+    "venue": "Ducrest-Gilfry Auditorium in Angelle Hall",
+    "map": "601 East Saint Mary Boulevard Lafayette LA",
+    "desc": "Faculty and Guest Artist Dance Concert from the UL Lafayette Dance Program",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/state-of-la-danse-saturday-november-21-2pm-tickets-2004032552311",
+    "allDay": true
+   },
+   {
+    "id": "f681ba0b94d",
+    "cats": [
+     "music"
+    ],
+    "title": "State of LA Danse, Saturday November 21 7PM",
+    "start": "2026-11-21",
+    "venue": "Ducrest-Gilfry Auditorium in Angelle Hall",
+    "map": "601 East Saint Mary Boulevard Lafayette LA",
+    "desc": "Faculty and Guest Artist Dance Concert from the UL Lafayette Dance Program",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/state-of-la-danse-saturday-november-21-7pm-tickets-2004032570365",
+    "allDay": true
+   },
+   {
+    "id": "f87de8ecede",
+    "cats": [
+     "music"
+    ],
+    "title": "State of LA Danse, Thursday November 19",
+    "start": "2026-11-19",
+    "venue": "Ducrest-Gilfry Auditorium in Angelle Hall",
+    "map": "601 East Saint Mary Boulevard Lafayette LA",
+    "desc": "Faculty and Guest Artist Dance Concert from the UL Lafayette Dance Program",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/state-of-la-danse-thursday-november-19-tickets-2004029555347",
+    "allDay": true
+   },
+   {
+    "id": "f825bb919f7",
+    "cats": [
+     "music"
+    ],
+    "title": "The Fall Finale - Future of Zydeco Live w/ Mike Broussard & Dj Vos",
+    "start": "2026-11-21",
+    "venue": "Xclusive 36",
+    "map": "5620 Interstate 49 Frontage Road Opelousas LA",
+    "desc": "Zydeco’s Biggest Night of the Fall!",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/the-fall-finale-future-of-zydeco-live-w-mike-broussard-dj-vos-tickets-2003977927928",
+    "allDay": true,
+    "verify": "The start time wasn't listed. Check the event page."
+   },
+   {
+    "id": "f80ba0cd02f",
+    "cats": [
+     "music"
+    ],
+    "title": "WHOP BEZZY LIVE IN CONCERT!!!",
+    "start": "2026-12-05",
+    "venue": "GRANT ST DANCE HALL",
+    "map": "113 W GRANT ST LAFAYETTE LA",
+    "desc": "**One BIG AZZ SAGITTARIUS PARTY** WHOP BEZZY LIVE IN CONCERT!!",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/whop-bezzy-live-in-concert-tickets-2003309672157",
+    "allDay": true,
+    "verify": "The start time wasn't listed. Check the event page."
+   },
+   {
+    "id": "f5a3613db9b",
+    "cats": [
+     "food"
+    ],
+    "title": "Weekly Live Trivia at Pierre's Seafood & Bar - Lafayette",
+    "start": "2026-11-18",
+    "venue": "Pierre's Seafood and Bar",
+    "map": "5801 Johnston Street Lafayette LA",
+    "desc": "Pierre's Seafood & Bar - Lafayette - Live Trivia - Wednesday - 7:00 PM",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/weekly-live-trivia-at-pierres-seafood-bar-lafayette-tickets-2002136578402",
+    "allDay": true
+   },
+   {
+    "id": "f6b18b918ca",
+    "cats": [
+     "music"
+    ],
+    "title": "Weekly SINGO Music Bingo Nights at New Orleans Original Daiquiris Lafayette",
+    "start": "2026-11-20",
+    "venue": "New Orleans Original Daiquiris",
+    "map": "1812 West Pinhook Road Lafayette LA",
+    "desc": "Weekly SINGO Music Bingo Nights at New Orleans Original Daiquiris - Lafayette",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/weekly-singo-music-bingo-nights-at-new-orleans-original-daiquiris-lafayette-tickets-1977411712663",
+    "allDay": true
+   },
+   {
+    "id": "f2b9185346f",
+    "cats": [
+     "music"
+    ],
+    "title": "Z-ro live in concert Christmas Night at Grant Street",
+    "start": "2026-12-25",
+    "venue": "Grant Street Dance Hall",
+    "map": "113 w grant st. Lafayette LA",
+    "desc": "Z-ro live in concert Christmas Night at Grant Street",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/z-ro-live-in-concert-christmas-night-at-grant-street-tickets-2002982078315",
+    "allDay": true,
+    "verify": "The start time wasn't listed. Check the event page."
+   },
+   {
+    "id": "f2b9185346f",
+    "cats": [
+     "music"
+    ],
+    "title": "Z-ro live in concert Christmas Night at Grant Street",
+    "start": "2026-12-25",
+    "venue": "Grant Street Dance Hall",
+    "map": "113 w grant st. Lafayette LA",
+    "desc": "Z-ro live in concert Christmas Night at Grant Street",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/z-ro-live-in-concert-christmas-night-at-grant-street-tickets-2002982078315",
+    "allDay": true,
+    "verify": "The start time wasn't listed. Check the event page."
+   }
+  ],
+  "read_on": "2026-11-16"
+ },
+ "free:crrc": {
+  "events": [
+   {
+    "id": "f34f56261f6",
+    "cats": [
+     "health"
+    ],
+    "title": "Smoothie Monday Run",
+    "start": "2026-11-16T18:30",
+    "venue": "Smoothie King, 3012 E Milton Ave",
+    "map": "Smoothie King 3012 E Milton Ave Youngsville LA",
+    "desc": "A 3.1-mile group run from Smoothie King in Youngsville. Every Monday.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "f9021adb58d",
+    "cats": [
+     "health"
+    ],
+    "title": "Smoothie Monday Run",
+    "start": "2026-11-23T18:30",
+    "venue": "Smoothie King, 3012 E Milton Ave",
+    "map": "Smoothie King 3012 E Milton Ave Youngsville LA",
+    "desc": "A 3.1-mile group run from Smoothie King in Youngsville. Every Monday.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "f3d54e646bd",
+    "cats": [
+     "health"
+    ],
+    "title": "Smoothie Monday Run",
+    "start": "2026-11-30T18:30",
+    "venue": "Smoothie King, 3012 E Milton Ave",
+    "map": "Smoothie King 3012 E Milton Ave Youngsville LA",
+    "desc": "A 3.1-mile group run from Smoothie King in Youngsville. Every Monday.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "f1dc5479fb1",
+    "cats": [
+     "health"
+    ],
+    "title": "Smoothie Monday Run",
+    "start": "2026-12-07T18:30",
+    "venue": "Smoothie King, 3012 E Milton Ave",
+    "map": "Smoothie King 3012 E Milton Ave Youngsville LA",
+    "desc": "A 3.1-mile group run from Smoothie King in Youngsville. Every Monday.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "f3766bfcfd2",
+    "cats": [
+     "health"
+    ],
+    "title": "Smoothie Monday Run",
+    "start": "2026-12-14T18:30",
+    "venue": "Smoothie King, 3012 E Milton Ave",
+    "map": "Smoothie King 3012 E Milton Ave Youngsville LA",
+    "desc": "A 3.1-mile group run from Smoothie King in Youngsville. Every Monday.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "f0f4eaf3e31",
+    "cats": [
+     "health"
+    ],
+    "title": "Speedwork at the Track",
+    "start": "2026-11-17T17:00",
+    "venue": "UL Lafayette Track",
+    "map": "University of Louisiana at Lafayette track",
+    "desc": "The Cajun Road Runners Club's weekly track workout. Run any distance. Join the club through its RunSignup page.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/",
+    "price": "Members only"
+   },
+   {
+    "id": "f9512c561c1",
+    "cats": [
+     "health"
+    ],
+    "title": "Speedwork at the Track",
+    "start": "2026-11-24T17:00",
+    "venue": "UL Lafayette Track",
+    "map": "University of Louisiana at Lafayette track",
+    "desc": "The Cajun Road Runners Club's weekly track workout. Run any distance. Join the club through its RunSignup page.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/",
+    "price": "Members only"
+   },
+   {
+    "id": "f34bb6456cb",
+    "cats": [
+     "health"
+    ],
+    "title": "Speedwork at the Track",
+    "start": "2026-12-01T17:00",
+    "venue": "UL Lafayette Track",
+    "map": "University of Louisiana at Lafayette track",
+    "desc": "The Cajun Road Runners Club's weekly track workout. Run any distance. Join the club through its RunSignup page.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/",
+    "price": "Members only"
+   },
+   {
+    "id": "f56552521a4",
+    "cats": [
+     "health"
+    ],
+    "title": "Speedwork at the Track",
+    "start": "2026-12-08T17:00",
+    "venue": "UL Lafayette Track",
+    "map": "University of Louisiana at Lafayette track",
+    "desc": "The Cajun Road Runners Club's weekly track workout. Run any distance. Join the club through its RunSignup page.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/",
+    "price": "Members only"
+   },
+   {
+    "id": "f065928fd6c",
+    "cats": [
+     "health"
+    ],
+    "title": "Tap Room Wednesday Run",
+    "start": "2026-11-18T18:00",
+    "venue": "The Tap Room, River Ranch",
+    "map": "The Tap Room River Ranch Lafayette LA",
+    "desc": "A social 3.3-mile group run from The Tap Room. Every Wednesday.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "f5288bb327c",
+    "cats": [
+     "health"
+    ],
+    "title": "Tap Room Wednesday Run",
+    "start": "2026-11-25T18:00",
+    "venue": "The Tap Room, River Ranch",
+    "map": "The Tap Room River Ranch Lafayette LA",
+    "desc": "A social 3.3-mile group run from The Tap Room. Every Wednesday.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "fbb6055eeb7",
+    "cats": [
+     "health"
+    ],
+    "title": "Tap Room Wednesday Run",
+    "start": "2026-12-02T18:00",
+    "venue": "The Tap Room, River Ranch",
+    "map": "The Tap Room River Ranch Lafayette LA",
+    "desc": "A social 3.3-mile group run from The Tap Room. Every Wednesday.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "f63d617d3bc",
+    "cats": [
+     "health"
+    ],
+    "title": "Tap Room Wednesday Run",
+    "start": "2026-12-09T18:00",
+    "venue": "The Tap Room, River Ranch",
+    "map": "The Tap Room River Ranch Lafayette LA",
+    "desc": "A social 3.3-mile group run from The Tap Room. Every Wednesday.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "ff893187069",
+    "cats": [
+     "health"
+    ],
+    "title": "Thursday at the Dog",
+    "start": "2026-11-19T18:00",
+    "venue": "Adopted Dog Brewing, 329 Dulles Dr",
+    "map": "Adopted Dog Brewing Lafayette LA",
+    "desc": "A 3.1-mile group run, then $1 off every beer. Every Thursday.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "f51802daf53",
+    "cats": [
+     "health"
+    ],
+    "title": "Thursday at the Dog",
+    "start": "2026-11-26T18:00",
+    "venue": "Adopted Dog Brewing, 329 Dulles Dr",
+    "map": "Adopted Dog Brewing Lafayette LA",
+    "desc": "A 3.1-mile group run, then $1 off every beer. Every Thursday.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "ff67deff474",
+    "cats": [
+     "health"
+    ],
+    "title": "Thursday at the Dog",
+    "start": "2026-12-03T18:00",
+    "venue": "Adopted Dog Brewing, 329 Dulles Dr",
+    "map": "Adopted Dog Brewing Lafayette LA",
+    "desc": "A 3.1-mile group run, then $1 off every beer. Every Thursday.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "f578f0c9fee",
+    "cats": [
+     "health"
+    ],
+    "title": "Thursday at the Dog",
+    "start": "2026-12-10T18:00",
+    "venue": "Adopted Dog Brewing, 329 Dulles Dr",
+    "map": "Adopted Dog Brewing Lafayette LA",
+    "desc": "A 3.1-mile group run, then $1 off every beer. Every Thursday.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "f5dce71e1f9",
+    "cats": [
+     "health"
+    ],
+    "title": "Saturday Long Run",
+    "start": "2026-11-21T06:00",
+    "venue": "Red Lerille's back lot, by Moncus Park",
+    "map": "Red Lerille's Health and Racquet Club Lafayette LA",
+    "desc": "The Cajun Road Runners' weekly long run, starting at 6 AM sharp. Several distances, up to 10+ miles, with water stops along the way.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "f984cd7c931",
+    "cats": [
+     "health"
+    ],
+    "title": "Saturday Long Run",
+    "start": "2026-11-28T06:00",
+    "venue": "Red Lerille's back lot, by Moncus Park",
+    "map": "Red Lerille's Health and Racquet Club Lafayette LA",
+    "desc": "The Cajun Road Runners' weekly long run, starting at 6 AM sharp. Several distances, up to 10+ miles, with water stops along the way.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "f3f7e3df3f1",
+    "cats": [
+     "health"
+    ],
+    "title": "Saturday Long Run",
+    "start": "2026-12-05T06:00",
+    "venue": "Red Lerille's back lot, by Moncus Park",
+    "map": "Red Lerille's Health and Racquet Club Lafayette LA",
+    "desc": "The Cajun Road Runners' weekly long run, starting at 6 AM sharp. Several distances, up to 10+ miles, with water stops along the way.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "fc6a55caacb",
+    "cats": [
+     "health"
+    ],
+    "title": "Saturday Long Run",
+    "start": "2026-12-12T06:00",
+    "venue": "Red Lerille's back lot, by Moncus Park",
+    "map": "Red Lerille's Health and Racquet Club Lafayette LA",
+    "desc": "The Cajun Road Runners' weekly long run, starting at 6 AM sharp. Several distances, up to 10+ miles, with water stops along the way.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "fded30d4d39",
+    "cats": [
+     "health"
+    ],
+    "title": "Sunday Run Day",
+    "start": "2026-11-22T17:00",
+    "venue": "Corner Bar, Johnston St",
+    "map": "Corner Bar Johnston Street Lafayette LA",
+    "desc": "A social 3.5-mile run, and your first beer is free. Every Sunday (6 PM in summer).",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "f66f74bcdd2",
+    "cats": [
+     "health"
+    ],
+    "title": "Sunday Run Day",
+    "start": "2026-11-29T17:00",
+    "venue": "Corner Bar, Johnston St",
+    "map": "Corner Bar Johnston Street Lafayette LA",
+    "desc": "A social 3.5-mile run, and your first beer is free. Every Sunday (6 PM in summer).",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "fd0fb4ab651",
+    "cats": [
+     "health"
+    ],
+    "title": "Sunday Run Day",
+    "start": "2026-12-06T17:00",
+    "venue": "Corner Bar, Johnston St",
+    "map": "Corner Bar Johnston Street Lafayette LA",
+    "desc": "A social 3.5-mile run, and your first beer is free. Every Sunday (6 PM in summer).",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "f4068846f13",
+    "cats": [
+     "health"
+    ],
+    "title": "Sunday Run Day",
+    "start": "2026-12-13T17:00",
+    "venue": "Corner Bar, Johnston St",
+    "map": "Corner Bar Johnston Street Lafayette LA",
+    "desc": "A social 3.5-mile run, and your first beer is free. Every Sunday (6 PM in summer).",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   }
+  ],
+  "read_on": "2026-11-16"
+ },
+ "free:races": {
+  "events": [
+   {
+    "id": "f1ca28198a1",
+    "cats": [
+     "health"
+    ],
+    "title": "1st Annual Lafayette, LA Ostomy 5K",
+    "start": "2026-10-04T08:00",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "The 1st Annual Lafayette, LA Run for Resilience Ostomy 5k will be held on Sunday, October 5, 2025 at the beautiful Moncus Park in celebration of World Ostomy Day.",
+    "source": "My Mind is Racing",
+    "url": "http://www.ostomy.org/5k"
+   },
+   {
+    "id": "f0cc031259a",
+    "cats": [
+     "music",
+     "health"
+    ],
+    "title": "2026 Courir du Festival 5K, Presented By b1BANK",
+    "start": "2026-04-25T08:00",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "Your favorite 5K, presented by b1BANK is back, and we will kick off on Saturday, April 25th by Scène Ochsner Lafayette General Fais Do Do!",
+    "source": "My Mind is Racing",
+    "url": "https://runsignup.com/Race/LA/Lafayette/2017CourirduFestival5KpresentedbyStuller",
+    "featured": true
+   },
+   {
+    "id": "ff65c85d650",
+    "cats": [
+     "health"
+    ],
+    "title": "2026 JPJ Memorial 1-mile Turkey Trot",
+    "start": "2026-11-26T09:00",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "Join us for the 5th Annual JPJ Memorial 1-mile Turkey Trot! The JPJ Memorial Turkey Trot is a timed 1-mile run/walk Thanksgiving morning through Moncus Park in memory of JeanPaul Judice.",
+    "source": "My Mind is Racing",
+    "url": "https://www.jpjturkeytrot.com",
+    "featured": true
+   },
+   {
+    "id": "f6d2677a694",
+    "cats": [
+     "music",
+     "health"
+    ],
+    "title": "2027 Zydeco Marathon - 26.2 Full | 13.1 Half | Team Relay | 5k | 1 Mile",
+    "start": "2027-03-06T07:30",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "-GENERAL INFORMATION- FULL MARATHON: All Participants receive Race Bib, Race Bag, Sunday's Race Shirt, Finisher's Medal (upon completion of the race) & Food, Drinks & Music at the Finish Line Festival on Sunday, March 7, 2027 Must be 15 years or older on Race…",
+    "source": "My Mind is Racing",
+    "url": "https://runsignup.com/Race/LA/Lafayette/ZydecoMarathon",
+    "featured": true
+   },
+   {
+    "id": "fb64f5c04a8",
+    "cats": [
+     "music",
+     "health"
+    ],
+    "title": "2027 Zydeco Marathon | Half Marathon | 5K | 1 Mile Kiosk Race",
+    "start": "2027-03-06T07:30",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "-GENERAL INFORMATION- FULL MARATHON: All Participants receive Race Bib, Race Bag, Sunday's Race Shirt, Finisher's Medal (upon completion of the race) & Food, Drinks & Music at the Finish Line Festival on Sunday, March 7, 2027 Must be 15 years or older on Race…",
+    "source": "My Mind is Racing",
+    "url": "https://runsignup.com/Race/LA/Lafayette/ZydecoMarathonHalfMarathon5K1MileKioskRace",
+    "featured": true
+   },
+   {
+    "id": "f494db5619b",
+    "cats": [
+     "health"
+    ],
+    "title": "Cajun Country Run",
+    "start": "2026-12-11T18:00",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "Listed by My Mind is Racing.",
+    "source": "My Mind is Racing",
+    "url": "https://www.finishers.com/en/course/cajun-country-run"
+   },
+   {
+    "id": "fc388ea69c5",
+    "cats": [
+     "health"
+    ],
+    "title": "Cajun Country Run (1/2 Marathon, 10k, 5k & Fun Run)",
+    "start": "2026-12-19T07:30",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "**PLEASE REGISTER ON OUR WEBSITE @ www.CajunCountry.RUN ** with fees!! Don't worry we will transfer your information to RunSignUP after.",
+    "source": "My Mind is Racing",
+    "url": "http://www.cajuncountry.run",
+    "featured": true
+   },
+   {
+    "id": "fdafcb5c723",
+    "cats": [
+     "health"
+    ],
+    "title": "Cajun Cup 10K & 1 Mile",
+    "start": "2026-11-14T06:00",
+    "venue": "Lafayette",
+    "map": "201 E. Vermilion St. Lafayette LA",
+    "desc": "Cajun Cup 10K & Farrel’s Mile Saturday, November 14, 2026 | 8:05 AM (10K) & 7:30 AM (1 Mile) | Parc Sans Souci, Lafayette, LA The Cajun Cup 10K and Farrel’s Mile is a fundraiser supporting the Louisiana Ragin’ Cajuns Cross Country and Track teams.",
+    "source": "My Mind is Racing",
+    "url": "http://cajunroadrunners.com"
+   },
+   {
+    "id": "f1b032a6b93",
+    "cats": [
+     "health"
+    ],
+    "title": "Cajun Road Runners Downtown 8K",
+    "start": "2026-10-10T08:00",
+    "venue": "Lafayette",
+    "map": "201 E Vermillion St Lafayette LA",
+    "desc": "The Cajun Road Runners Downtown 8K Classic will start and finish at Parc Sans Souci. The course runs through the heart of Downtown Lafayette, the University of Louisiana Lafayette's beautiful oak tree-lined campus and the Oil Center.",
+    "source": "My Mind is Racing",
+    "url": "https://runsignup.com/Race/LA/Lafayette/CajunRoadRunnersBigPetes8K"
+   },
+   {
+    "id": "f879b6b3828",
+    "cats": [
+     "health"
+    ],
+    "title": "Cajun Road Runners Triple Crown Challenge",
+    "start": "2026-10-10T08:00",
+    "venue": "Lafayette",
+    "map": "500 Girard Park Dr Lafayette LA",
+    "desc": "Cajun Road Runners Club Triple Crown Challenge One registration. Three races. One epic medal. The Cajun Road Runners Club Triple Crown Challenge is three times the racing fun! One registration gains you entry into all three CRRC races.",
+    "source": "My Mind is Racing",
+    "url": "https://runsignup.com/Race/LA/Lafayette/CajunRoadRunnersTripleCrown"
+   },
+   {
+    "id": "f685c1b9f9c",
+    "cats": [
+     "health"
+    ],
+    "title": "CajunMan Triathlon, Duathlon, Aquabike, Aquathlon & 5k Run",
+    "start": "2027-09-12T07:00",
+    "venue": "Lafayette",
+    "map": "200 PERIMETER RD Lafayette LA",
+    "desc": "CajunMan Tri, Du, AquaBike, Aquathon & 5k run/walk Sunday, September 12, 2027 @ 7:00 am This race is a tradition, for all endurance fiends!",
+    "source": "My Mind is Racing",
+    "url": "http://www.latrail.org/cajunman"
+   },
+   {
+    "id": "f769933dc7f",
+    "cats": [
+     "health"
+    ],
+    "title": "Camellia Crossing: Acadiana's Gleaux Run",
+    "start": "2026-11-25T18:05",
+    "venue": "Lafayette",
+    "map": "1100 Camellia Blvd. Lafayette LA",
+    "desc": "Ready. Set. Gleaux! Join us on Thanksgiving Eve as we light up Camellia Boulevard for the 24th annual Camellia Crossing!",
+    "source": "My Mind is Racing",
+    "url": "https://runsignup.com/Race/LA/Lafayette/CamelliaCrossing"
+   },
+   {
+    "id": "f039a2d57da",
+    "cats": [
+     "health"
+    ],
+    "title": "Champion’s Course 5k",
+    "start": "2026-12-13T10:00",
+    "venue": "Lafayette",
+    "map": "2913 Johnston St. Lafayette LA",
+    "desc": "Champion’s Course 5k December 13, 2026 at 10am Moncus Park 2913 Johnston St. Lafayette LA 70503 Run Where the Champions Ran! The day before, athletes qualifying for the Junior Olympics raced this very course. On Sunday, December 13, 2026, it’s your turn!",
+    "source": "My Mind is Racing",
+    "url": "https://runsignup.com/Race/LA/Lafayette/ChampionSCourse5k"
+   },
+   {
+    "id": "fab3a868c43",
+    "cats": [
+     "health"
+    ],
+    "title": "Healthy Kids Running Series Spring 2026 - Lafayette, LA",
+    "start": "2026-04-11T09:00",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "Who We Are: Healthy Kids Running Series is a five (5) week running program in the spring and fall for kids Pre-K through 8th grade.",
+    "source": "My Mind is Racing",
+    "url": "https://www.healthykidsrunningseries.org/race-locations/lafayette/"
+   },
+   {
+    "id": "f21568a24c8",
+    "cats": [
+     "health"
+    ],
+    "title": "Hit the Road with Hospice of Acadiana 5K Memorial Run & 1 Mile Walk",
+    "start": "2026-03-28T08:00",
+    "venue": "Lafayette",
+    "map": "2600 Johnston Street Lafayette LA",
+    "desc": "Hit The Road With Hospice Of Acadiana Saturday, March 29, 2025 Race starts at 8:00 AM 2600 Johnston Street Lafayette, LA 70503 Join Hospice of Acadiana for the 7th Annual “Hit the Road with Hospice of Acadiana 5K Memorial Run/1 Mile Walk” on March 29, 2025 at…",
+    "source": "My Mind is Racing",
+    "url": "https://runsignup.com/Race/LA/Lafayette/HittheRoadwithHospiceofAcadiana5KMemorialRun1MileWalk"
+   },
+   {
+    "id": "f90f8f0b22e",
+    "cats": [
+     "health"
+    ],
+    "title": "Lifeline Duathlon benefiting 232-HELP",
+    "start": "2026-04-11T07:00",
+    "venue": "Lafayette",
+    "map": "201 E. Vermilion St. Lafayette LA",
+    "desc": "Lifeline Duathlon benefiting 232-HELP Saturday, April 11, 2026 Lifeline Duathlon benefiting 232-Help/Louisiana 211 Run 2 miles - Bike 10 - Run 2 Solo as well as 2- and 3-person relay teams are offered, family friendly race.",
+    "source": "My Mind is Racing",
+    "url": "https://www.232-help.org/race-information"
+   },
+   {
+    "id": "ff57f6bdae6",
+    "cats": [
+     "health"
+    ],
+    "title": "Miles Perret Cancer Services Triathlon",
+    "start": "2026-08-15T07:00",
+    "venue": "Lafayette",
+    "map": "225 Cajundome Blvd. Lafayette LA",
+    "desc": "Miles Perret thanks all the many athletes and sponsors of the MPCS Triathlon over the last two decades. But in 2026, in lieu of hosting a triathlon, we will direct our efforts to making Camellia Crossing – Acadiana’s largest run – more spectacular than ever.",
+    "source": "My Mind is Racing",
+    "url": "https://runsignup.com/Race/LA/Lafayette/MPCSTriathlon"
+   },
+   {
+    "id": "f942449f689",
+    "cats": [
+     "health"
+    ],
+    "title": "Seize the Day Warrior Walk - Acadiana",
+    "start": "2026-09-20T09:00",
+    "venue": "Lafayette",
+    "map": "2913 Johnston St. Lafayette LA",
+    "desc": "Welcome to the Seize the Day Warrior Walk - Acadiana! NEW LOCATION We are Epilepsy Alliance Louisiana (EAL), the oldest epilepsy organization in the state, dedicated to supporting people living with epilepsy through direct services, education, and advocacy.",
+    "source": "My Mind is Racing",
+    "url": "https://epilepsylouisiana.org/seizetheday/"
+   },
+   {
+    "id": "f755584e5a6",
+    "cats": [
+     "health"
+    ],
+    "title": "The Big Run by Geaux Run by Fleet Feet and Brooks",
+    "start": "2026-06-03T17:30",
+    "venue": "Lafayette",
+    "map": "906 Harding Street Lafayette LA",
+    "desc": "Walk/Run Girard Park and the ULL Campus for fun. Activities will include Vendor Demos to try, door prizes from the Vendors, Food, Drink and Music.",
+    "source": "My Mind is Racing",
+    "url": "https://runsignup.com/Race/LA/Lafayette/TheBigRunByGeauxRunByFleetFeetAndBrooks"
+   },
+   {
+    "id": "fa1cff443ff",
+    "cats": [
+     "health"
+    ],
+    "title": "The Hub Lafayette Runwell 5K Walk/Run",
+    "start": "2027-02-13T08:00",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "The Hub Lafayette Runwell 5K Walk/Run 906 Harding Street Lafayette, La. 70506 February 13, 2027 1-mile Fun Run starts at 8:00 am, and the 5k at 8:30 am There will be fun for the whole family.",
+    "source": "My Mind is Racing",
+    "url": "https://runsignup.com/Race/LA/Lafayette/TheHubLafayetteRunwell5KWalkRun"
+   }
+  ],
+  "read_on": "2026-11-16"
+ }
+}

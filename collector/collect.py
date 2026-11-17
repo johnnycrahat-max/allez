@@ -1,15 +1,22 @@
 #!/usr/bin/env python3
 """Daily event collector for Allez.
 
-Reads each source in sources.py, asks Claude to pull out upcoming Lafayette-area events
-and tag them Music & Culture / Food / Volunteer / Health & Wellness, merges duplicates,
-adds the hand-maintained listings in manual_events.json, and writes docs/events.json,
-which the app loads.
+Reads each source in sources.py, pulls out upcoming Lafayette-area events, tags them
+Music & Culture / Food / Volunteer / Health & Wellness, merges duplicates, adds the
+hand-maintained listings in manual_events.json, and writes docs/events.json, which the
+app loads. If a source fails, its last good events are kept.
 
-Pages that haven't changed since the last run reuse the events extracted last time, so
-Claude only reads what's new. If a source fails, its last good events are kept.
+Two modes:
+- free (default, no API key): reads the event data sites publish for search engines,
+  plus a couple of simple page layouts, and sorts events with keyword rules.
+  See free_extract.py.
+- claude (when ANTHROPIC_API_KEY is set): Claude reads each page and tags events.
+  Pages that haven't changed reuse earlier results, so Claude only reads what's new.
 
-Usage:  ANTHROPIC_API_KEY=... python3 collector/collect.py
+Usage:
+  python3 collector/collect.py              # free mode, or claude mode if a key is set
+  python3 collector/collect.py --mode free  # force free mode
+  python3 collector/collect.py --check      # show what each source yields, change nothing
 """
 from __future__ import annotations
 
@@ -25,12 +32,17 @@ from urllib import robotparser
 from urllib.parse import urljoin, urlparse
 from zoneinfo import ZoneInfo
 
-import anthropic
 import requests
 from bs4 import BeautifulSoup
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import free_extract  # noqa: E402
 from sources import SOURCES  # noqa: E402
+
+try:  # only needed in claude mode
+    import anthropic
+except ImportError:  # pragma: no cover
+    anthropic = None
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT_FILE = ROOT / "docs" / "events.json"
@@ -184,9 +196,9 @@ def fill(url: str, today: dt.date) -> str:
     )
 
 
-def fetch_source(source: dict, today: dt.date) -> tuple[str, list[str]]:
-    """Return (combined page text, problems). Text is empty if nothing could be read."""
-    parts, problems = [], []
+def fetch_source(source: dict, today: dt.date) -> tuple[list[tuple[str, str]], list[str]]:
+    """Return ([(url, html), ...], problems). The list is empty if nothing could be read."""
+    pages, problems = [], []
     for raw in source["pages"]:
         url = fill(raw, today)
         if not robots_allows(url):
@@ -200,13 +212,33 @@ def fetch_source(source: dict, today: dt.date) -> tuple[str, list[str]]:
         if r.status_code != 200:
             problems.append(f"{url}: HTTP {r.status_code}")
             continue
-        text = page_text(r.text, url)
+        pages.append((url, r.text))
+        time.sleep(1)  # be polite to small sites
+    return pages, problems
+
+
+def pages_as_text(pages: list[tuple[str, str]], problems: list[str]) -> str:
+    """Combine pages into one text for Claude, keeping each under MAX_PAGE_CHARS."""
+    parts = []
+    for url, page_html in pages:
+        text = page_text(page_html, url)
         if len(text) > MAX_PAGE_CHARS:
             problems.append(f"{url}: page text cut from {len(text):,} to {MAX_PAGE_CHARS:,} characters")
             text = text[:MAX_PAGE_CHARS]
         parts.append(f"=== PAGE: {url} ===\n{text}")
-        time.sleep(1)  # be polite to small sites
-    return "\n\n".join(parts), problems
+    return "\n\n".join(parts)
+
+
+def read_free(source: dict, pages: list[tuple[str, str]], today: dt.date) -> list[dict]:
+    """Read a source without AI, using the method named in its `free` setting."""
+    how = source.get("free")
+    if how == "jsonld":
+        return free_extract.read_jsonld(source, pages)
+    if how == "downtown":
+        return free_extract.read_downtown(source, pages, today, page_text)
+    if how == "weekly":
+        return free_extract.read_weekly(source, today, SHOW_DAYS)
+    return []
 
 
 # ---------- extraction ----------
@@ -288,22 +320,33 @@ def to_app_event(ev: dict, source: dict, page_url: str) -> dict | None:
     return out
 
 
-def norm_title(t: str) -> str:
+STOP_WORDS = {"the", "a", "an", "at", "of", "and", "annual", "with", "in", "on", "2026", "2027"}
+
+
+def title_words(t: str) -> set[str]:
     words = re.sub(r"[^a-z0-9 ]+", " ", t.lower()).split()
-    return " ".join(w for w in words if w not in {"the", "a", "an", "at", "annual", "and"})
+    return {w for w in words if w not in STOP_WORDS and not re.fullmatch(r"\d+(st|nd|rd|th)", w)}
+
+
+def same_event(a: str, b: str) -> bool:
+    """Titles match when nearly all words of the shorter one appear in the longer one."""
+    wa, wb = title_words(a), title_words(b)
+    small = min(len(wa), len(wb))
+    return small >= 2 and len(wa & wb) / small >= 0.75 or (wa == wb and small > 0)
 
 
 def merge_duplicates(events: list[dict]) -> list[dict]:
     """Merge the same event listed by several sources (same day, matching titles)."""
     kept: list[dict] = []
     for ev in events:
-        day, title = ev["start"][:10], norm_title(ev["title"])
-        twin = next((k for k in kept if k["start"][:10] == day and (
-            norm_title(k["title"]) in title or title in norm_title(k["title"]))), None)
+        day = ev["start"][:10]
+        twin = next((k for k in kept if k["start"][:10] == day and same_event(k["title"], ev["title"])), None)
         if twin is None:
             kept.append(ev)
             continue
         twin["cats"] = [c for c in CATS if c in twin["cats"] or c in ev["cats"]]
+        if "endDate" in ev and "endDate" not in twin:
+            twin["endDate"] = ev["endDate"]
         if twin.get("allDay") and not ev.get("allDay"):  # prefer the listing that has a time
             for k in ("start", "end", "allDay"):
                 twin.pop(k, None)
@@ -325,44 +368,72 @@ def in_window(ev: dict, today: dt.date) -> bool:
 
 # ---------- main ----------
 
+def choose_mode() -> str:
+    if "--mode" in sys.argv:
+        return sys.argv[sys.argv.index("--mode") + 1]
+    return "claude" if os.environ.get("ANTHROPIC_API_KEY") else "free"
+
+
 def check_sources() -> int:
-    """--check: fetch every source and report what was read, without calling Claude."""
+    """--check: show what each source yields in free mode, without saving anything."""
     today = dt.datetime.now(TZ).date()
     for source in SOURCES:
-        text, problems = fetch_source(source, today)
-        status = f"{len(text):,} characters" if text else "NOTHING READ"
-        log(f"• {source['name']}: {status}")
+        pages, problems = ([], []) if source.get("free") == "weekly" else fetch_source(source, today)
+        if not source.get("free"):
+            log(f"• {source['name']}: read only in claude mode")
+            continue
+        events = [e for e in read_free(source, pages, today) if in_window(e, today)]
+        log(f"• {source['name']}: {len(events)} events in the next {SHOW_DAYS} days")
         for p in problems:
             log(f"    note: {p}")
+        for e in events[:40]:
+            log(f"    {e['start'][:16]:16}  {'/'.join(e['cats']):18}  {e['title'][:60]}")
     return 0
 
 
 def main() -> int:
     if "--check" in sys.argv:
         return check_sources()
-    if not os.environ.get("ANTHROPIC_API_KEY"):
-        log("ANTHROPIC_API_KEY is not set. Add it as a repository secret "
-            "(Settings → Secrets and variables → Actions). Nothing was changed.")
+    mode = choose_mode()
+    if mode not in ("free", "claude"):
+        log("--mode must be free or claude")
+        return 2
+    if mode == "claude" and (anthropic is None or not os.environ.get("ANTHROPIC_API_KEY")):
+        log("Claude mode needs the anthropic package and ANTHROPIC_API_KEY. Nothing was changed.")
         return 1
 
     now = dt.datetime.now(TZ)
     today = now.date()
-    client = anthropic.Anthropic()
+    log(f"Collecting events in {mode} mode for {today.isoformat()}")
+    client = anthropic.Anthropic() if mode == "claude" else None
     state = json.loads(STATE_FILE.read_text()) if STATE_FILE.exists() else {}
     report, collected = [], []
 
     for source in SOURCES:
+        if mode == "free" and not source.get("free"):
+            continue
         log(f"• {source['name']}")
-        cached = state.get(source["id"], {})
-        text, problems = fetch_source(source, today)
-        for p in problems:
-            log(f"    note: {p}")
+        key = f"{mode}:{source['id']}"
+        cached = state.get(key, {})
+        needs_pages = not (mode == "free" and source.get("free") == "weekly")
+        pages, problems = fetch_source(source, today) if needs_pages else ([], [])
         entry = {"name": source["name"], "ok": True, "notes": problems}
 
-        if not text:
+        if needs_pages and not pages:
             entry["ok"] = False
             log("    could not read any page; keeping last good events")
+        elif mode == "free":
+            try:
+                events = read_free(source, pages, today)
+                cached = {"events": events, "read_on": today.isoformat()}
+                state[key] = cached
+                log(f"    {len(events)} events")
+            except Exception as e:  # a layout change on one site shouldn't stop the run
+                entry["ok"] = False
+                entry["notes"].append(f"reading failed: {type(e).__name__}: {e}")
+                log(f"    reading failed ({e}); keeping last good events")
         else:
+            text = pages_as_text(pages, problems)
             digest = hashlib.sha256(text.encode()).hexdigest()
             last = cached.get("extracted_on")
             fresh = last and (today - dt.date.fromisoformat(last)).days < REEXTRACT_AFTER_DAYS
@@ -374,11 +445,13 @@ def main() -> int:
                     page_url = fill(source["pages"][0], today)
                     events = [e for e in (to_app_event(r, source, page_url) for r in raw) if e]
                     cached = {"hash": digest, "extracted_on": today.isoformat(), "events": events}
-                    state[source["id"]] = cached
+                    state[key] = cached
                 except (anthropic.APIError, RuntimeError, json.JSONDecodeError, KeyError) as e:
                     entry["ok"] = False
                     entry["notes"].append(f"extraction failed: {e}")
                     log(f"    extraction failed ({e}); keeping last good events")
+        for p in problems:
+            log(f"    note: {p}")
 
         source_events = [e for e in cached.get("events", []) if in_window(e, today)]
         entry["events"] = len(source_events)
@@ -392,6 +465,8 @@ def main() -> int:
     manual = [m for m in json.loads(MANUAL_FILE.read_text())["events"] if in_window(m, today)]
     dated_manual = [m for m in manual if not m.get("ongoing")]
     ongoing = [m for m in manual if m.get("ongoing")]
+    # Exhibitions are listed once as "ongoing"; drop daily copies some sites publish.
+    collected = [e for e in collected if not any(same_event(e["title"], m["title"]) for m in ongoing)]
     # Hand-maintained entries go first so their wording wins when a source lists the same event.
     events = merge_duplicates(dated_manual + sorted(collected, key=lambda e: e["start"])) + ongoing
     events.sort(key=lambda e: (bool(e.get("ongoing")), e.get("start", "")))
@@ -400,6 +475,7 @@ def main() -> int:
         "updated": now.isoformat(timespec="minutes"),
         "today": today.isoformat(),
         "showThrough": (today + dt.timedelta(days=SHOW_DAYS)).isoformat(),
+        "mode": mode,
         "sources": report,
         "events": events,
     }

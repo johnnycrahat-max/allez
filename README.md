@@ -39,11 +39,12 @@ about a minute after they're merged into `main`.
 
 ## Daily event updates
 
-Every morning at 5 AM Lafayette time (11:00 UTC), the **Update events** GitHub Action:
+Every morning at 5 AM Lafayette time (11:00 UTC), the **Update events** GitHub Action runs
+`collector/collect.py`, which:
 
 1. reads each source listed in `collector/sources.py`, following each site's robots.txt;
-2. asks Claude to pull out upcoming Lafayette-area events and tag them Music & Culture, Food,
-   Volunteer and/or Health & Wellness (pages that haven't changed reuse yesterday's results);
+2. pulls out upcoming Lafayette-area events and tags them Music & Culture, Food, Volunteer
+   and/or Health & Wellness;
 3. drops past, far-off and out-of-area events, merges duplicates listed by several sites, and
    adds the hand-maintained listings in `collector/manual_events.json`;
 4. writes `docs/events.json` and commits it. GitHub Pages republishes within a minute.
@@ -51,23 +52,37 @@ Every morning at 5 AM Lafayette time (11:00 UTC), the **Update events** GitHub A
 If a source can't be read, its last good events are kept. If every source fails, the events file
 is left unchanged, and GitHub emails you that the run failed.
 
-### One-time setup
+### No API key needed
 
-Add a Claude API key as a repository secret: **Settings → Secrets and variables → Actions → New
-repository secret**, name `ANTHROPIC_API_KEY`. Create the key at console.anthropic.com, where you
-can also set a monthly spending limit. The key is never visible to visitors or in the code.
+By default the collector runs **without AI and without any key** (`collector/free_extract.py`):
+
+- Most sources publish their events as schema.org data, the format search engines read.
+  The collector reads that directly.
+- Downtown Lafayette's list is read from its page layout.
+- Cajun Road Runners' weekly group runs come from the schedule written in `sources.py`.
+- Events are sorted into categories with keyword rules (for example "yoga", "5K" → Health;
+  "market", "dinner" → Food), plus each source's usual type. Edit the word lists at the top of
+  `free_extract.py` to change how events are sorted, or the `SKIP` list to leave events out.
+
+### Optional: Claude mode
+
+If you add a Claude API key as a repository secret named `ANTHROPIC_API_KEY`
+(**Settings → Secrets and variables → Actions**), the collector switches to Claude mode
+automatically: Claude reads each page, writes short descriptions and tags events, which gives
+better sorting and also covers sources without event data (such as Vitalant). Remove the secret
+to switch back.
 
 ### Running it by hand
 
 - On GitHub: **Actions → Update events → Run workflow**.
-- Locally: `pip install -r collector/requirements.txt`, then
-  `ANTHROPIC_API_KEY=... python3 collector/collect.py`.
-- To check which sources can be read without calling Claude: `python3 collector/collect.py --check`.
+- Locally: `pip install -r collector/requirements.txt`, then `python3 collector/collect.py`.
+- To see what each source yields without changing anything: `python3 collector/collect.py --check`.
+- To force a mode: `--mode free` or `--mode claude`.
 
 ### Adding a source
 
-Add an entry to `collector/sources.py` with the page URL and a one-line hint about what the page
-lists, then run the workflow by hand.
+Add an entry to `collector/sources.py` with the page URL, how to read it without AI (`free`), and
+a one-line `hint` for Claude mode. Run `--check` to see what it finds.
 
 ### Hand-maintained listings
 
