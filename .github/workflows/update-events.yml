@@ -1,0 +1,59 @@
+name: Update events
+
+# Runs every morning and refreshes docs/events.json, which the Allez app loads.
+# GitHub's schedule uses UTC: 11:00 UTC is 5 AM in Lafayette in winter (6 AM in summer).
+# Runs can start a few minutes late when GitHub is busy.
+on:
+  schedule:
+    - cron: "0 11 * * *"
+  workflow_dispatch: {}   # adds a "Run workflow" button on the Actions tab
+
+permissions:
+  contents: write   # commit the new events file
+  pages: write      # ask GitHub Pages to republish
+
+concurrency:
+  group: update-events
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: collector/requirements.txt
+
+      - name: Install collector
+        run: pip install -r collector/requirements.txt
+
+      - name: Collect events
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python collector/collect.py
+
+      - name: Save changes
+        id: save
+        run: |
+          git config user.name "allez-events-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/events.json collector/state.json
+          if git diff --cached --quiet; then
+            echo "No changes to events."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Update events for $(TZ=America/Chicago date +'%a %b %-d, %Y')"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Republish the site
+        if: steps.save.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "GitHub Pages will pick up the change on its own."
