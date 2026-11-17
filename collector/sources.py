@@ -95,6 +95,7 @@ SOURCES = [
         "free": "jsonld",
         "default": None,
         "local": False,
+        "sticky_days": 7,  # search results show a different selection each day
         "hint": "Eventbrite search results for Lafayette, Louisiana. Cards often show only a "
                 "weekday or 'Tomorrow'. Skip private parties, trainings, certifications, "
                 "business networking and adults-only novelty shows.",

@@ -88,3 +88,33 @@ a one-line `hint` for Claude mode. Run `--check` to see what it finds.
 
 `collector/manual_events.json` holds exhibitions and volunteer roles with no single date, and
 events that are only announced elsewhere. Dated entries drop off automatically once they're past.
+
+## Daily email report
+
+After each morning's update, `collector/report.py` emails a report to the addresses in the
+`REPORT_TO` secret. It has four parts:
+
+1. **Today's events:** today's events by category, highlights for the coming weekend, and
+   what's new since yesterday.
+2. **Collection health:** whether the update ran, which sources were read, events per category,
+   duplicates merged, and what was left out and why.
+3. **Day by day:** a chart and table of events collected each day, by category
+   (from `collector/history.json`, which grows by one entry a day).
+4. **Accuracy:** the share of events with a confirmed start time, events marked "check
+   details", events that changed time or place, events that disappeared before their date, and
+   five randomly picked events to spot-check against the venue's page.
+
+If the update fails, the report still goes out, with a warning at the top. A copy of each
+report is kept for 14 days under the run's **Artifacts** on the Actions tab.
+
+### Email settings (repository secrets)
+
+| Secret | What it is |
+|---|---|
+| `REPORT_TO` | Recipient addresses, separated by commas |
+| `SMTP_USERNAME` | The Gmail address that sends the report |
+| `SMTP_PASSWORD` | A Gmail **app password** for that address (not its normal password) |
+
+To make an app password: turn on 2-Step Verification for the sending Google account, then go
+to myaccount.google.com/apppasswords and create one named "Allez". Without these settings,
+the report is still built and saved under Artifacts, but not emailed.
