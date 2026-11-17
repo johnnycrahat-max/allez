@@ -1,0 +1,10 @@
+{
+  "name": "Ça Se Passe Lafayette",
+  "short_name": "Ça Se Passe",
+  "description": "Music, food, volunteering, and health & wellness events around Lafayette, LA.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#F2F5F2",
+  "theme_color": "#F2F5F2",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
