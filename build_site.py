@@ -1,8 +1,8 @@
-"""Build docs/index.html (a standalone web page) from prototype/ca-se-passe.html."""
+"""Build docs/index.html (the public GitHub Pages site) from prototype/allez.html."""
 from pathlib import Path
 
 root = Path(__file__).parent
-src = (root / "prototype" / "ca-se-passe.html").read_text(encoding="utf-8")
+src = (root / "prototype" / "allez.html").read_text(encoding="utf-8")
 head, body = src.split("</style>\n", 1)
 
 head = head.replace('<meta name="claude:viewport-fit-sides" content="cover">\n', "")
@@ -18,13 +18,17 @@ page = f"""<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="What's happening around Lafayette, LA: music and culture, food, volunteering, and health and wellness.">
-<meta name="theme-color" content="#F2F5F2">
+<meta name="description" content="Allez: what's happening around Lafayette, LA. Music and culture, food, volunteering, and health and wellness.">
+<meta name="theme-color" content="#FAF9F6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#061A31" media="(prefers-color-scheme: dark)">
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" href="icon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="icon.svg">
+<link rel="icon" href="icon-64.png" type="image/png">
+<link rel="apple-touch-icon" href="icon-180.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Ça Se Passe">
+<meta name="apple-mobile-web-app-title" content="Allez">
+<meta property="og:title" content="Allez">
+<meta property="og:description" content="What's happening around Lafayette, LA.">
+<meta property="og:image" content="icon-512.png">
 {reset}{head}</style>
 </head>
 <body>
