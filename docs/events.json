@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-17T05:42-06:00",
- "today": "2026-11-17",
- "showThrough": "2026-12-15",
+ "updated": "2026-11-18T05:52-06:00",
+ "today": "2026-11-18",
+ "showThrough": "2026-12-16",
  "mode": "free",
  "sources": [
   {
    "name": "Moncus Park",
    "ok": true,
    "notes": [],
-   "events": 12
+   "events": 11
   },
   {
    "name": "Downtown Lafayette",
@@ -26,7 +26,7 @@
    "name": "Hilliard Art Museum",
    "ok": true,
    "notes": [],
-   "events": 6
+   "events": 4
   },
   {
    "name": "Lafayette Travel",
@@ -38,9 +38,13 @@
   },
   {
    "name": "Eventbrite",
-   "ok": true,
-   "notes": [],
-   "events": 18
+   "ok": false,
+   "notes": [
+    "https://www.eventbrite.com/d/la--lafayette/all-events/: HTTP 405",
+    "https://www.eventbrite.com/d/la--lafayette/food-and-drink--events/: HTTP 405",
+    "https://www.eventbrite.com/d/la--lafayette/music--events/: HTTP 405"
+   ],
+   "events": 16
   },
   {
    "name": "Cajun Road Runners",
@@ -56,66 +60,6 @@
   }
  ],
  "events": [
-  {
-   "id": "f0a148a0c19",
-   "cats": [
-    "music"
-   ],
-   "title": "Body Talk Boys, November 17",
-   "start": "2026-11-17",
-   "venue": "126 Heymann Blvd",
-   "map": "126 Heymann Boulevard Lafayette LA",
-   "desc": "Body Talk Boys: Tuesday, November 17, 2026, 6PM-8PM",
-   "source": "Eventbrite",
-   "url": "https://www.eventbrite.com/e/body-talk-boys-november-17-tickets-2003629767571",
-   "allDay": true,
-   "seen": "2026-11-17"
-  },
-  {
-   "id": "fbb58447401",
-   "cats": [
-    "food",
-    "volunteer"
-   ],
-   "title": "Random Acts of Kindness Spree in Lafayette",
-   "start": "2026-11-17",
-   "venue": "Carpe Diem Cafe & Wine Bar",
-   "map": "812 Jefferson Street Lafayette LA",
-   "desc": "Give back, spread kindness, and discover hidden gems of Lafayette with a remote interactive host.",
-   "source": "Eventbrite",
-   "url": "https://www.eventbrite.com/e/random-acts-of-kindness-spree-in-lafayette-tickets-1991109000620",
-   "allDay": true,
-   "seen": "2026-11-17"
-  },
-  {
-   "id": "f0f4eaf3e31",
-   "cats": [
-    "health"
-   ],
-   "title": "Speedwork at the Track",
-   "start": "2026-11-17T17:00",
-   "venue": "UL Lafayette Track",
-   "map": "University of Louisiana at Lafayette track",
-   "desc": "The Cajun Road Runners Club's weekly track workout. Run any distance. Join the club through its RunSignup page.",
-   "source": "Cajun Road Runners",
-   "url": "https://cajunroadrunners.com/group-runs/",
-   "price": "Members only"
-  },
-  {
-   "id": "ff6ce0fabf9",
-   "cats": [
-    "health"
-   ],
-   "title": "Bird Walk and Survey at Moncus Park",
-   "start": "2026-11-17T17:30",
-   "venue": "Lafayette",
-   "map": "Lafayette LA",
-   "desc": "Bird Walk & Survey Join Acadiana Master Naturalists for a guided evening walk through Moncus Park as we observe and survey local bird species in their natural habitat.",
-   "source": "Moncus Park",
-   "url": "https://moncuspark.org/calendar-events/bird-walk-and-survey-at-moncus-park-2/",
-   "end": "2026-11-17T18:30",
-   "free": true
-  },
   {
    "id": "f5a3613db9b",
    "cats": [
@@ -1131,6 +1075,19 @@
    "source": "Cajun Road Runners",
    "url": "https://cajunroadrunners.com/group-runs/",
    "price": "Members only"
+  },
+  {
+   "id": "ff80b1bf142",
+   "cats": [
+    "health"
+   ],
+   "title": "Tap Room Wednesday Run",
+   "start": "2026-12-16T18:00",
+   "venue": "The Tap Room, River Ranch",
+   "map": "The Tap Room River Ranch Lafayette LA",
+   "desc": "A social 3.3-mile group run from The Tap Room. Every Wednesday.",
+   "source": "Cajun Road Runners",
+   "url": "https://cajunroadrunners.com/group-runs/"
   },
   {
    "id": "mo1",

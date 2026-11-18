@@ -1,11 +1,11 @@
 {
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "sources": [
   {
    "name": "Moncus Park",
    "ok": true,
    "notes": [],
-   "events": 12
+   "events": 11
   },
   {
    "name": "Downtown Lafayette",
@@ -23,7 +23,7 @@
    "name": "Hilliard Art Museum",
    "ok": true,
    "notes": [],
-   "events": 6
+   "events": 4
   },
   {
    "name": "Lafayette Travel",
@@ -35,9 +35,13 @@
   },
   {
    "name": "Eventbrite",
-   "ok": true,
-   "notes": [],
-   "events": 18
+   "ok": false,
+   "notes": [
+    "https://www.eventbrite.com/d/la--lafayette/all-events/: HTTP 405",
+    "https://www.eventbrite.com/d/la--lafayette/food-and-drink--events/: HTTP 405",
+    "https://www.eventbrite.com/d/la--lafayette/music--events/: HTTP 405"
+   ],
+   "events": 16
   },
   {
    "name": "Cajun Road Runners",
@@ -53,54 +57,24 @@
   }
  ],
  "dropped": {
-  "no matching category": 36,
-  "long-running exhibition": 10,
-  "outside the Lafayette area": 2
+  "no matching category": 23,
+  "long-running exhibition": 10
  },
  "added": [
   {
-   "title": "Seth Spell & Cajun Strong Live at American Legion Post 77",
-   "start": "2026-11-21",
-   "venue": "American Legion Post 77",
+   "title": "Tap Room Wednesday Run",
+   "start": "2026-12-16T18:00",
+   "venue": "The Tap Room, River Ranch",
    "cats": [
-    "music"
+    "health"
    ],
-   "url": "https://www.eventbrite.com/e/seth-spell-cajun-strong-live-at-american-legion-post-77-tickets-1999298636040",
+   "url": "https://cajunroadrunners.com/group-runs/",
    "verify": null,
-   "source": "Eventbrite"
-  },
-  {
-   "title": "Dance This Holiday",
-   "start": "2026-12-10",
-   "venue": "Wonderland Center for Performing Arts",
-   "cats": [
-    "music"
-   ],
-   "url": "https://www.eventbrite.com/e/dance-this-holiday-tickets-2004102131424",
-   "verify": null,
-   "source": "Eventbrite"
-  },
-  {
-   "title": "Body Talk Girls, December 12",
-   "start": "2026-12-12",
-   "venue": "126 Heymann Blvd",
-   "cats": [
-    "music"
-   ],
-   "url": "https://www.eventbrite.com/e/body-talk-girls-december-12-tickets-2003678978763",
-   "verify": null,
-   "source": "Eventbrite"
+   "source": "Cajun Road Runners"
   }
  ],
  "gone": [],
- "moved": [
-  {
-   "title": "Twenty Years of Valcour Records",
-   "was": "2026-11-19T19:30 · Acadiana Center for the Arts - James Devin Moncus Theater",
-   "now": "2026-11-19T19:30 · Acadiana Center for the Arts",
-   "url": "https://www.lafayettetravel.com/event/twenty-years-of-valcour-records/47291/"
-  }
- ],
+ "moved": [],
  "needs_check": [
   {
    "title": "The Fall Finale - Future of Zydeco Live w/ Mike Broussard & Dj Vos",

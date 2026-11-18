@@ -514,7 +514,7 @@
     "free": true
    }
   ],
-  "read_on": "2026-11-17"
+  "read_on": "2026-11-18"
  },
  "free:downtown": {
   "events": [
@@ -693,7 +693,7 @@
     "endDate": "2027-05-02"
    }
   ],
-  "read_on": "2026-11-17"
+  "read_on": "2026-11-18"
  },
  "free:aca": {
   "events": [
@@ -773,18 +773,18 @@
     "free": true
    },
    {
-    "id": "f19cbc7ba4d",
+    "id": "f1edf928485",
     "cats": [
      "music"
     ],
     "title": "Kate Gordon: Tender Terrain",
-    "start": "2026-11-17T09:00",
+    "start": "2026-11-18T09:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
     "desc": "Listed by Acadiana Center for the Arts.",
     "source": "Acadiana Center for the Arts",
-    "url": "https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-17",
-    "end": "2026-11-17T17:00",
+    "url": "https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-18",
+    "end": "2026-11-18T17:00",
     "free": true
    },
    {
@@ -818,17 +818,17 @@
     "price": "$125"
    },
    {
-    "id": "ffa453b6643",
+    "id": "f192a527737",
     "cats": [
      "music"
     ],
     "title": "Philip Gould: A Selection of Works",
-    "start": "2026-11-17T09:00",
+    "start": "2026-11-18T09:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
     "desc": "Listed by Acadiana Center for the Arts.",
     "source": "Acadiana Center for the Arts",
-    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-17",
+    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-18",
     "endDate": "2026-11-28",
     "free": true
    },
@@ -865,24 +865,10 @@
     "price": "$40"
    }
   ],
-  "read_on": "2026-11-17"
+  "read_on": "2026-11-18"
  },
  "free:hilliard": {
   "events": [
-   {
-    "id": "f47f80d485a",
-    "cats": [
-     "music"
-    ],
-    "title": "Artist Tour with Curtis Patterson + Melissa Messina",
-    "start": "2026-11-19T12:00",
-    "venue": "Hilliard Art Museum",
-    "map": "710 E St Mary Blvd Lafayette LA",
-    "desc": "Artist Curtis Patterson and Curator of Exhibition Melissa Messina will lead a tour of the exhibition. Experience Persistent Vision through the perspectives of artist Curtis Patterson and curator Melissa Messina.",
-    "source": "Hilliard Art Museum",
-    "url": "https://hilliardartmuseum.org/event/artist-tour-with-curtis-patterson-melissa-messina/",
-    "end": "2026-11-19T13:00"
-   },
    {
     "id": "f47f80d485a",
     "cats": [
@@ -906,7 +892,7 @@
     "start": "2026-11-14T10:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
-    "desc": "A monthly hands-on creative activity for kids ages 4 and up!",
+    "desc": "A monthly hands-on creative activity for kids ages 4 and up! \\n",
     "source": "Hilliard Art Museum",
     "url": "https://hilliardartmuseum.org/event/create-play-cafe-2-7/2026-11-14/"
    },
@@ -938,20 +924,6 @@
     "end": "2026-11-18T19:00"
    },
    {
-    "id": "f9e7cfd360a",
-    "cats": [
-     "music"
-    ],
-    "title": "Cross Currents: Improvised Truths — Curtis Patterson and the Jazz of Form",
-    "start": "2026-11-18T17:00",
-    "venue": "Hilliard Art Museum",
-    "map": "710 E St Mary Blvd Lafayette LA",
-    "desc": "Join us for Improvised Truths: Curtis Patterson and the Jazz of Form, the latest iteration of Cross Currents, a series using visual art as a catalyst for interdisciplinary dialogue, as we explore how Patterson’s bronze and steel sculptures channel the…",
-    "source": "Hilliard Art Museum",
-    "url": "https://hilliardartmuseum.org/event/cross-currents-improvised-truths-curtis-patterson-and-the-jazz-of-form/",
-    "end": "2026-11-18T19:00"
-   },
-   {
     "id": "fce89e9c4e7",
     "cats": [
      "music"
@@ -966,7 +938,7 @@
     "allDay": true
    }
   ],
-  "read_on": "2026-11-17"
+  "read_on": "2026-11-18"
  },
  "free:lafayette_travel": {
   "events": [
@@ -1045,7 +1017,7 @@
     "end": "2026-11-19T21:30"
    }
   ],
-  "read_on": "2026-11-17"
+  "read_on": "2026-11-18"
  },
  "free:eventbrite": {
   "events": [
@@ -1446,20 +1418,6 @@
     "url": "https://cajunroadrunners.com/group-runs/"
    },
    {
-    "id": "f0f4eaf3e31",
-    "cats": [
-     "health"
-    ],
-    "title": "Speedwork at the Track",
-    "start": "2026-11-17T17:00",
-    "venue": "UL Lafayette Track",
-    "map": "University of Louisiana at Lafayette track",
-    "desc": "The Cajun Road Runners Club's weekly track workout. Run any distance. Join the club through its RunSignup page.",
-    "source": "Cajun Road Runners",
-    "url": "https://cajunroadrunners.com/group-runs/",
-    "price": "Members only"
-   },
-   {
     "id": "f9512c561c1",
     "cats": [
      "health"
@@ -1561,6 +1519,19 @@
     ],
     "title": "Tap Room Wednesday Run",
     "start": "2026-12-09T18:00",
+    "venue": "The Tap Room, River Ranch",
+    "map": "The Tap Room River Ranch Lafayette LA",
+    "desc": "A social 3.3-mile group run from The Tap Room. Every Wednesday.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "ff80b1bf142",
+    "cats": [
+     "health"
+    ],
+    "title": "Tap Room Wednesday Run",
+    "start": "2026-12-16T18:00",
     "venue": "The Tap Room, River Ranch",
     "map": "The Tap Room River Ranch Lafayette LA",
     "desc": "A social 3.3-mile group run from The Tap Room. Every Wednesday.",
@@ -1724,7 +1695,7 @@
     "url": "https://cajunroadrunners.com/group-runs/"
    }
   ],
-  "read_on": "2026-11-17"
+  "read_on": "2026-11-18"
  },
  "free:races": {
   "events": [
@@ -1997,6 +1968,6 @@
     "url": "https://runsignup.com/Race/LA/Lafayette/TheHubLafayetteRunwell5KWalkRun"
    }
   ],
-  "read_on": "2026-11-17"
+  "read_on": "2026-11-18"
  }
 }
