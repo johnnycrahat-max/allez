@@ -1,17 +1,17 @@
 {
- "date": "2026-11-18",
+ "date": "2026-11-19",
  "sources": [
   {
    "name": "Moncus Park",
    "ok": true,
    "notes": [],
-   "events": 11
+   "events": 9
   },
   {
    "name": "Downtown Lafayette",
    "ok": true,
    "notes": [],
-   "events": 8
+   "events": 7
   },
   {
    "name": "Acadiana Center for the Arts",
@@ -23,7 +23,7 @@
    "name": "Hilliard Art Museum",
    "ok": true,
    "notes": [],
-   "events": 4
+   "events": 3
   },
   {
    "name": "Lafayette Travel",
@@ -41,7 +41,7 @@
     "https://www.eventbrite.com/d/la--lafayette/food-and-drink--events/: HTTP 405",
     "https://www.eventbrite.com/d/la--lafayette/music--events/: HTTP 405"
    ],
-   "events": 16
+   "events": 15
   },
   {
    "name": "Cajun Road Runners",
@@ -57,14 +57,25 @@
   }
  ],
  "dropped": {
-  "no matching category": 23,
+  "no matching category": 24,
   "long-running exhibition": 10
  },
  "added": [
   {
-   "title": "Tap Room Wednesday Run",
-   "start": "2026-12-16T18:00",
-   "venue": "The Tap Room, River Ranch",
+   "title": "Artist Round Up: Dioramas",
+   "start": "2026-12-09T18:00",
+   "venue": "Acadiana Center for the Arts",
+   "cats": [
+    "music"
+   ],
+   "url": "https://acadianacenterforthearts.org/events/artist-round-up-dioramas/?occurrence=2026-12-09",
+   "verify": null,
+   "source": "Acadiana Center for the Arts"
+  },
+  {
+   "title": "Thursday at the Dog",
+   "start": "2026-12-17T18:00",
+   "venue": "Adopted Dog Brewing, 329 Dulles Dr",
    "cats": [
     "health"
    ],

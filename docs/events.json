@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-18T05:52-06:00",
- "today": "2026-11-18",
- "showThrough": "2026-12-16",
+ "updated": "2026-11-19T05:51-06:00",
+ "today": "2026-11-19",
+ "showThrough": "2026-12-17",
  "mode": "free",
  "sources": [
   {
    "name": "Moncus Park",
    "ok": true,
    "notes": [],
-   "events": 11
+   "events": 9
   },
   {
    "name": "Downtown Lafayette",
    "ok": true,
    "notes": [],
-   "events": 8
+   "events": 7
   },
   {
    "name": "Acadiana Center for the Arts",
@@ -26,7 +26,7 @@
    "name": "Hilliard Art Museum",
    "ok": true,
    "notes": [],
-   "events": 4
+   "events": 3
   },
   {
    "name": "Lafayette Travel",
@@ -44,7 +44,7 @@
     "https://www.eventbrite.com/d/la--lafayette/food-and-drink--events/: HTTP 405",
     "https://www.eventbrite.com/d/la--lafayette/music--events/: HTTP 405"
    ],
-   "events": 16
+   "events": 15
   },
   {
    "name": "Cajun Road Runners",
@@ -60,107 +60,6 @@
   }
  ],
  "events": [
-  {
-   "id": "f5a3613db9b",
-   "cats": [
-    "food"
-   ],
-   "title": "Weekly Live Trivia at Pierre's Seafood & Bar - Lafayette",
-   "start": "2026-11-18",
-   "venue": "Pierre's Seafood and Bar",
-   "map": "5801 Johnston Street Lafayette LA",
-   "desc": "Pierre's Seafood & Bar - Lafayette - Live Trivia - Wednesday - 7:00 PM",
-   "source": "Eventbrite",
-   "url": "https://www.eventbrite.com/e/weekly-live-trivia-at-pierres-seafood-bar-lafayette-tickets-2002136578402",
-   "allDay": true,
-   "seen": "2026-11-17"
-  },
-  {
-   "id": "f2157b91006",
-   "cats": [
-    "health"
-   ],
-   "title": "Mom Walks",
-   "start": "2026-11-18T09:30",
-   "venue": "Moncus Park",
-   "map": "2913 Johnston Street, Lafayette, LA 70503 Lafayette LA",
-   "desc": "Join us for Mom Walks, a weekly gathering that brings moms together to enjoy movement, conversation, and fresh air in the heart of Moncus Park, presented by Lafayette Pediatric Dentistry.",
-   "source": "Moncus Park",
-   "url": "https://moncuspark.org/calendar-events/momwalks2026/",
-   "end": "2026-11-18T10:30",
-   "free": true
-  },
-  {
-   "id": "f9e7cfd360a",
-   "cats": [
-    "music"
-   ],
-   "title": "Cross Currents: Improvised Truths — Curtis Patterson and the Jazz of Form",
-   "start": "2026-11-18T17:00",
-   "venue": "Hilliard Art Museum",
-   "map": "710 E St Mary Blvd Lafayette LA",
-   "desc": "Join us for Improvised Truths: Curtis Patterson and the Jazz of Form, the latest iteration of Cross Currents, a series using visual art as a catalyst for interdisciplinary dialogue, as we explore how Patterson’s bronze and steel sculptures channel the…",
-   "source": "Hilliard Art Museum",
-   "url": "https://hilliardartmuseum.org/event/cross-currents-improvised-truths-curtis-patterson-and-the-jazz-of-form/",
-   "end": "2026-11-18T19:00"
-  },
-  {
-   "id": "ff31e98b2e8",
-   "cats": [
-    "health"
-   ],
-   "title": "Yoga in the Park",
-   "start": "2026-11-18T18:00",
-   "venue": "Location Name",
-   "map": "Location Name Lafayette LA",
-   "desc": "Join us for Yoga in the Park, part of the \"Fit For All\" series presented by Louisiana Orthopaedic Specialists & Orthopedic Urgent Care. Every Wednesday at 6:00 PM, unroll your mat and unwind with a free community yoga session at Moncus Park.",
-   "source": "Moncus Park",
-   "url": "https://moncuspark.org/calendar-events/yoga2026/",
-   "end": "2026-11-18T19:00",
-   "free": true
-  },
-  {
-   "id": "f629377d1ef",
-   "cats": [
-    "music"
-   ],
-   "title": "Artist Round Up: Collaging, Flyer Making, and the Community Zine",
-   "start": "2026-11-18T18:00",
-   "venue": "Acadiana Center for the Arts",
-   "map": "101 W Vermilion St, Lafayette, LA Lafayette LA",
-   "desc": "[et_pb_section fb_built=\"1\" admin_label=\"section\" _builder_version=\"4.16\" global_colors_info=\"{}\"][et_pb_row admin_label=\"row\" _builder_version=\"4.16\" background_size=\"initial\" background_position=\"top_left\" background_repeat=\"repeat\"…",
-   "source": "Acadiana Center for the Arts",
-   "url": "https://acadianacenterforthearts.org/events/community-zine/?occurrence=2026-11-18",
-   "end": "2026-11-18T20:00",
-   "free": true
-  },
-  {
-   "id": "f065928fd6c",
-   "cats": [
-    "health"
-   ],
-   "title": "Tap Room Wednesday Run",
-   "start": "2026-11-18T18:00",
-   "venue": "The Tap Room, River Ranch",
-   "map": "The Tap Room River Ranch Lafayette LA",
-   "desc": "A social 3.3-mile group run from The Tap Room. Every Wednesday.",
-   "source": "Cajun Road Runners",
-   "url": "https://cajunroadrunners.com/group-runs/"
-  },
-  {
-   "id": "f442b722933",
-   "cats": [
-    "music"
-   ],
-   "title": "Horror Book Club",
-   "start": "2026-11-18T18:15",
-   "venue": "Cavalier House Books - Lafayette",
-   "map": "Cavalier House Books - Lafayette Lafayette LA",
-   "desc": "Event in Downtown Lafayette.",
-   "source": "Downtown Lafayette",
-   "url": "https://www.downtownlafayette.org/events",
-   "end": "2026-11-18T19:30"
-  },
   {
    "id": "f87de8ecede",
    "cats": [
@@ -901,6 +800,21 @@
    "price": "Members only"
   },
   {
+   "id": "f06e2c57a34",
+   "cats": [
+    "music"
+   ],
+   "title": "Artist Round Up: Dioramas",
+   "start": "2026-12-09T18:00",
+   "venue": "Acadiana Center for the Arts",
+   "map": "101 W Vermilion St, Lafayette, LA Lafayette LA",
+   "desc": "[et_pb_section fb_built=\"1\" _builder_version=\"4.16\" global_colors_info=\"{}\"][et_pb_row _builder_version=\"4.16\" background_size=\"initial\" background_position=\"top_left\" background_repeat=\"repeat\" global_colors_info=\"{}\"][et_pb_column type=\"4_4\"…",
+   "source": "Acadiana Center for the Arts",
+   "url": "https://acadianacenterforthearts.org/events/artist-round-up-dioramas/?occurrence=2026-12-09",
+   "end": "2026-12-09T20:00",
+   "free": true
+  },
+  {
    "id": "f63d617d3bc",
    "cats": [
     "health"
@@ -1086,6 +1000,19 @@
    "venue": "The Tap Room, River Ranch",
    "map": "The Tap Room River Ranch Lafayette LA",
    "desc": "A social 3.3-mile group run from The Tap Room. Every Wednesday.",
+   "source": "Cajun Road Runners",
+   "url": "https://cajunroadrunners.com/group-runs/"
+  },
+  {
+   "id": "fd8fef678c4",
+   "cats": [
+    "health"
+   ],
+   "title": "Thursday at the Dog",
+   "start": "2026-12-17T18:00",
+   "venue": "Adopted Dog Brewing, 329 Dulles Dr",
+   "map": "Adopted Dog Brewing Lafayette LA",
+   "desc": "A 3.1-mile group run, then $1 off every beer. Every Thursday.",
    "source": "Cajun Road Runners",
    "url": "https://cajunroadrunners.com/group-runs/"
   },

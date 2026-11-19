@@ -514,24 +514,10 @@
     "free": true
    }
   ],
-  "read_on": "2026-11-18"
+  "read_on": "2026-11-19"
  },
  "free:downtown": {
   "events": [
-   {
-    "id": "f442b722933",
-    "cats": [
-     "music"
-    ],
-    "title": "Horror Book Club",
-    "start": "2026-11-18T18:15",
-    "venue": "Cavalier House Books - Lafayette",
-    "map": "Cavalier House Books - Lafayette Lafayette LA",
-    "desc": "Event in Downtown Lafayette.",
-    "source": "Downtown Lafayette",
-    "url": "https://www.downtownlafayette.org/events",
-    "end": "2026-11-18T19:30"
-   },
    {
     "id": "f359b51e152",
     "cats": [
@@ -693,7 +679,7 @@
     "endDate": "2027-05-02"
    }
   ],
-  "read_on": "2026-11-18"
+  "read_on": "2026-11-19"
  },
  "free:aca": {
   "events": [
@@ -725,6 +711,21 @@
     "source": "Acadiana Center for the Arts",
     "url": "https://acadianacenterforthearts.org/events/community-zine/?occurrence=2026-11-18",
     "end": "2026-11-18T20:00",
+    "free": true
+   },
+   {
+    "id": "f06e2c57a34",
+    "cats": [
+     "music"
+    ],
+    "title": "Artist Round Up: Dioramas",
+    "start": "2026-12-09T18:00",
+    "venue": "Acadiana Center for the Arts",
+    "map": "101 W Vermilion St, Lafayette, LA Lafayette LA",
+    "desc": "[et_pb_section fb_built=\"1\" _builder_version=\"4.16\" global_colors_info=\"{}\"][et_pb_row _builder_version=\"4.16\" background_size=\"initial\" background_position=\"top_left\" background_repeat=\"repeat\" global_colors_info=\"{}\"][et_pb_column type=\"4_4\"…",
+    "source": "Acadiana Center for the Arts",
+    "url": "https://acadianacenterforthearts.org/events/artist-round-up-dioramas/?occurrence=2026-12-09",
+    "end": "2026-12-09T20:00",
     "free": true
    },
    {
@@ -773,18 +774,18 @@
     "free": true
    },
    {
-    "id": "f1edf928485",
+    "id": "f207f154731",
     "cats": [
      "music"
     ],
     "title": "Kate Gordon: Tender Terrain",
-    "start": "2026-11-18T09:00",
+    "start": "2026-11-19T09:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
     "desc": "Listed by Acadiana Center for the Arts.",
     "source": "Acadiana Center for the Arts",
-    "url": "https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-18",
-    "end": "2026-11-18T17:00",
+    "url": "https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-19",
+    "end": "2026-11-19T17:00",
     "free": true
    },
    {
@@ -818,17 +819,17 @@
     "price": "$125"
    },
    {
-    "id": "f192a527737",
+    "id": "ff6b797a3b1",
     "cats": [
      "music"
     ],
     "title": "Philip Gould: A Selection of Works",
-    "start": "2026-11-18T09:00",
+    "start": "2026-11-19T09:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
     "desc": "Listed by Acadiana Center for the Arts.",
     "source": "Acadiana Center for the Arts",
-    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-18",
+    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-19",
     "endDate": "2026-11-28",
     "free": true
    },
@@ -865,7 +866,7 @@
     "price": "$40"
    }
   ],
-  "read_on": "2026-11-18"
+  "read_on": "2026-11-19"
  },
  "free:hilliard": {
   "events": [
@@ -938,7 +939,7 @@
     "allDay": true
    }
   ],
-  "read_on": "2026-11-18"
+  "read_on": "2026-11-19"
  },
  "free:lafayette_travel": {
   "events": [
@@ -958,6 +959,21 @@
     "verify": "The start time wasn't listed. Check the event page."
    },
    {
+    "id": "f9cb616e6ee",
+    "cats": [
+     "music"
+    ],
+    "title": "Indigenous Peoples Culture Day",
+    "start": "2025-11-15",
+    "venue": "Vermilionville Living History Museum & Folklife Park",
+    "map": "Vermilionville Living History Museum & Folklife Park Lafayette LA",
+    "desc": "Join us at Vermilionville for Indigenous Peoples' Culture Day (formerly Native American Culture Day). Bring the whole family for a day of cultural...",
+    "source": "Lafayette Travel",
+    "url": "https://www.lafayettetravel.com/event/indigenous-peoples-culture-day/39911/",
+    "allDay": true,
+    "verify": "The start time wasn't listed. Check the event page."
+   },
+   {
     "id": "f68f42472cf",
     "cats": [
      "music"
@@ -969,21 +985,6 @@
     "desc": "Herbert Wiltz and NUNU invite you to join the monthly La Tab Kreyol. Join Zoom Meeting https://us02web.zoom.us/j/88093528333... Meeting ID: 880 9352...",
     "source": "Lafayette Travel",
     "url": "https://www.lafayettetravel.com/event/la-tab-kreyol-zoom-meeting/40570/",
-    "allDay": true,
-    "verify": "The start time wasn't listed. Check the event page."
-   },
-   {
-    "id": "fd9d642ae4c",
-    "cats": [
-     "music"
-    ],
-    "title": "Native American Culture Day",
-    "start": "2025-11-15",
-    "venue": "Vermilionville Living History Museum & Folklife Park",
-    "map": "Vermilionville Living History Museum & Folklife Park Lafayette LA",
-    "desc": "Native American Culture Day is a FREE festival with family-friendly events, demonstrations, cultural exhibits and much more. Tribal groups who will...",
-    "source": "Lafayette Travel",
-    "url": "https://www.lafayettetravel.com/event/native-american-culture-day/39911/",
     "allDay": true,
     "verify": "The start time wasn't listed. Check the event page."
    },
@@ -1017,7 +1018,7 @@
     "end": "2026-11-19T21:30"
    }
   ],
-  "read_on": "2026-11-18"
+  "read_on": "2026-11-19"
  },
  "free:eventbrite": {
   "events": [
@@ -1474,19 +1475,6 @@
     "price": "Members only"
    },
    {
-    "id": "f065928fd6c",
-    "cats": [
-     "health"
-    ],
-    "title": "Tap Room Wednesday Run",
-    "start": "2026-11-18T18:00",
-    "venue": "The Tap Room, River Ranch",
-    "map": "The Tap Room River Ranch Lafayette LA",
-    "desc": "A social 3.3-mile group run from The Tap Room. Every Wednesday.",
-    "source": "Cajun Road Runners",
-    "url": "https://cajunroadrunners.com/group-runs/"
-   },
-   {
     "id": "f5288bb327c",
     "cats": [
      "health"
@@ -1584,6 +1572,19 @@
     ],
     "title": "Thursday at the Dog",
     "start": "2026-12-10T18:00",
+    "venue": "Adopted Dog Brewing, 329 Dulles Dr",
+    "map": "Adopted Dog Brewing Lafayette LA",
+    "desc": "A 3.1-mile group run, then $1 off every beer. Every Thursday.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "fd8fef678c4",
+    "cats": [
+     "health"
+    ],
+    "title": "Thursday at the Dog",
+    "start": "2026-12-17T18:00",
     "venue": "Adopted Dog Brewing, 329 Dulles Dr",
     "map": "Adopted Dog Brewing Lafayette LA",
     "desc": "A 3.1-mile group run, then $1 off every beer. Every Thursday.",
@@ -1695,7 +1696,7 @@
     "url": "https://cajunroadrunners.com/group-runs/"
    }
   ],
-  "read_on": "2026-11-18"
+  "read_on": "2026-11-19"
  },
  "free:races": {
   "events": [
@@ -1968,6 +1969,6 @@
     "url": "https://runsignup.com/Race/LA/Lafayette/TheHubLafayetteRunwell5KWalkRun"
    }
   ],
-  "read_on": "2026-11-18"
+  "read_on": "2026-11-19"
  }
 }
