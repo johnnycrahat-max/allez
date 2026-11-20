@@ -1,11 +1,11 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "sources": [
   {
    "name": "Moncus Park",
    "ok": true,
    "notes": [],
-   "events": 9
+   "events": 8
   },
   {
    "name": "Downtown Lafayette",
@@ -23,7 +23,7 @@
    "name": "Hilliard Art Museum",
    "ok": true,
    "notes": [],
-   "events": 3
+   "events": 2
   },
   {
    "name": "Lafayette Travel",
@@ -31,7 +31,7 @@
    "notes": [
     "https://www.lafayettetravel.com/blog/stories/post/december-events-spotlight/: HTTP 404"
    ],
-   "events": 1
+   "events": 0
   },
   {
    "name": "Eventbrite",
@@ -41,13 +41,13 @@
     "https://www.eventbrite.com/d/la--lafayette/food-and-drink--events/: HTTP 405",
     "https://www.eventbrite.com/d/la--lafayette/music--events/: HTTP 405"
    ],
-   "events": 15
+   "events": 14
   },
   {
    "name": "Cajun Road Runners",
    "ok": true,
    "notes": [],
-   "events": 25
+   "events": 24
   },
   {
    "name": "My Mind is Racing",
@@ -57,31 +57,20 @@
   }
  ],
  "dropped": {
-  "no matching category": 24,
+  "no matching category": 22,
   "long-running exhibition": 10
  },
  "added": [
   {
-   "title": "Artist Round Up: Dioramas",
-   "start": "2026-12-09T18:00",
+   "title": "Artist Talk: Artists’ Alliance & Tattooed Walls",
+   "start": "2026-12-12T16:30",
    "venue": "Acadiana Center for the Arts",
    "cats": [
     "music"
    ],
-   "url": "https://acadianacenterforthearts.org/events/artist-round-up-dioramas/?occurrence=2026-12-09",
+   "url": "https://acadianacenterforthearts.org/events/artists-alliance-and-tattooed-walls/?occurrence=2026-12-12",
    "verify": null,
    "source": "Acadiana Center for the Arts"
-  },
-  {
-   "title": "Thursday at the Dog",
-   "start": "2026-12-17T18:00",
-   "venue": "Adopted Dog Brewing, 329 Dulles Dr",
-   "cats": [
-    "health"
-   ],
-   "url": "https://cajunroadrunners.com/group-runs/",
-   "verify": null,
-   "source": "Cajun Road Runners"
   }
  ],
  "gone": [],

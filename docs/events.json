@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-19T05:51-06:00",
- "today": "2026-11-19",
- "showThrough": "2026-12-17",
+ "updated": "2026-11-20T05:49-06:00",
+ "today": "2026-11-20",
+ "showThrough": "2026-12-18",
  "mode": "free",
  "sources": [
   {
    "name": "Moncus Park",
    "ok": true,
    "notes": [],
-   "events": 9
+   "events": 8
   },
   {
    "name": "Downtown Lafayette",
@@ -26,7 +26,7 @@
    "name": "Hilliard Art Museum",
    "ok": true,
    "notes": [],
-   "events": 3
+   "events": 2
   },
   {
    "name": "Lafayette Travel",
@@ -34,7 +34,7 @@
    "notes": [
     "https://www.lafayettetravel.com/blog/stories/post/december-events-spotlight/: HTTP 404"
    ],
-   "events": 1
+   "events": 0
   },
   {
    "name": "Eventbrite",
@@ -44,13 +44,13 @@
     "https://www.eventbrite.com/d/la--lafayette/food-and-drink--events/: HTTP 405",
     "https://www.eventbrite.com/d/la--lafayette/music--events/: HTTP 405"
    ],
-   "events": 15
+   "events": 14
   },
   {
    "name": "Cajun Road Runners",
    "ok": true,
    "notes": [],
-   "events": 25
+   "events": 24
   },
   {
    "name": "My Mind is Racing",
@@ -60,35 +60,6 @@
   }
  ],
  "events": [
-  {
-   "id": "f87de8ecede",
-   "cats": [
-    "music"
-   ],
-   "title": "State of LA Danse, Thursday November 19",
-   "start": "2026-11-19",
-   "venue": "Ducrest-Gilfry Auditorium in Angelle Hall",
-   "map": "601 East Saint Mary Boulevard Lafayette LA",
-   "desc": "Faculty and Guest Artist Dance Concert from the UL Lafayette Dance Program",
-   "source": "Eventbrite",
-   "url": "https://www.eventbrite.com/e/state-of-la-danse-thursday-november-19-tickets-2004029555347",
-   "allDay": true,
-   "seen": "2026-11-17"
-  },
-  {
-   "id": "f47f80d485a",
-   "cats": [
-    "music"
-   ],
-   "title": "Artist Tour with Curtis Patterson + Melissa Messina",
-   "start": "2026-11-19T12:00",
-   "venue": "Hilliard Art Museum",
-   "map": "710 E St Mary Blvd Lafayette LA",
-   "desc": "Artist Curtis Patterson and Curator of Exhibition Melissa Messina will lead a tour of the exhibition. Experience Persistent Vision through the perspectives of artist Curtis Patterson and curator Melissa Messina.",
-   "source": "Hilliard Art Museum",
-   "url": "https://hilliardartmuseum.org/event/artist-tour-with-curtis-patterson-melissa-messina/",
-   "end": "2026-11-19T13:00"
-  },
   {
    "id": "fe04ba4800b",
    "cats": [
@@ -105,48 +76,6 @@
    "endDate": "2026-11-22",
    "start": "2026-11-19T17:00",
    "end": "2026-11-19T22:00"
-  },
-  {
-   "id": "fe32da476e6",
-   "cats": [
-    "music"
-   ],
-   "title": "Language Café",
-   "start": "2026-11-19T18:00",
-   "venue": "Lafayette",
-   "map": "Lafayette LA",
-   "desc": "Step into something global right here in Lafayette! Language Café is a dynamic monthly gathering where language, culture, and community come together in an energetic, welcoming atmosphere.",
-   "source": "Moncus Park",
-   "url": "https://moncuspark.org/calendar-events/language-cafe/",
-   "end": "2026-11-19T19:00",
-   "free": true
-  },
-  {
-   "id": "ff893187069",
-   "cats": [
-    "health"
-   ],
-   "title": "Thursday at the Dog",
-   "start": "2026-11-19T18:00",
-   "venue": "Adopted Dog Brewing, 329 Dulles Dr",
-   "map": "Adopted Dog Brewing Lafayette LA",
-   "desc": "A 3.1-mile group run, then $1 off every beer. Every Thursday.",
-   "source": "Cajun Road Runners",
-   "url": "https://cajunroadrunners.com/group-runs/"
-  },
-  {
-   "id": "f9f2813c929",
-   "cats": [
-    "music"
-   ],
-   "title": "Twenty Years of Valcour Records",
-   "venue": "Acadiana Center for the Arts",
-   "map": "Acadiana Center for the Arts Lafayette LA",
-   "desc": "For two decades, Valcour Records has stood at the heart of Louisiana’s roots renaissance — preserving the traditions of Cajun, Creole, zydeco, and...",
-   "source": "Lafayette Travel",
-   "url": "https://www.lafayettetravel.com/event/twenty-years-of-valcour-records/47291/",
-   "start": "2026-11-19T19:30",
-   "end": "2026-11-19T21:30"
   },
   {
    "id": "fda22d7f90a",
@@ -922,6 +851,21 @@
    "desc": "A monthly hands-on creative activity for kids ages 4 and up! \\n",
    "source": "Hilliard Art Museum",
    "url": "https://hilliardartmuseum.org/event/create-play-cafe-2-7/2026-12-12/"
+  },
+  {
+   "id": "f1660db263a",
+   "cats": [
+    "music"
+   ],
+   "title": "Artist Talk: Artists’ Alliance & Tattooed Walls",
+   "start": "2026-12-12T16:30",
+   "venue": "Acadiana Center for the Arts",
+   "map": "101 W Vermilion St, Lafayette, LA Lafayette LA",
+   "desc": "[et_pb_section fb_built=\"1\" admin_label=\"section\" _builder_version=\"4.16\" global_colors_info=\"{}\"][et_pb_row admin_label=\"row\" _builder_version=\"4.16\" background_size=\"initial\" background_position=\"top_left\" background_repeat=\"repeat\"…",
+   "source": "Acadiana Center for the Arts",
+   "url": "https://acadianacenterforthearts.org/events/artists-alliance-and-tattooed-walls/?occurrence=2026-12-12",
+   "end": "2026-12-12T18:30",
+   "free": true
   },
   {
    "id": "fc67220d8b2",
