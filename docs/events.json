@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-20T05:49-06:00",
- "today": "2026-11-20",
- "showThrough": "2026-12-18",
+ "updated": "2026-11-21T05:38-06:00",
+ "today": "2026-11-21",
+ "showThrough": "2026-12-19",
  "mode": "free",
  "sources": [
   {
    "name": "Moncus Park",
    "ok": true,
    "notes": [],
-   "events": 8
+   "events": 7
   },
   {
    "name": "Downtown Lafayette",
@@ -38,25 +38,21 @@
   },
   {
    "name": "Eventbrite",
-   "ok": false,
-   "notes": [
-    "https://www.eventbrite.com/d/la--lafayette/all-events/: HTTP 405",
-    "https://www.eventbrite.com/d/la--lafayette/food-and-drink--events/: HTTP 405",
-    "https://www.eventbrite.com/d/la--lafayette/music--events/: HTTP 405"
-   ],
-   "events": 14
+   "ok": true,
+   "notes": [],
+   "events": 20
   },
   {
    "name": "Cajun Road Runners",
    "ok": true,
    "notes": [],
-   "events": 24
+   "events": 25
   },
   {
    "name": "My Mind is Racing",
    "ok": true,
    "notes": [],
-   "events": 4
+   "events": 5
   }
  ],
  "events": [
@@ -78,51 +74,6 @@
    "end": "2026-11-19T22:00"
   },
   {
-   "id": "fda22d7f90a",
-   "cats": [
-    "music"
-   ],
-   "title": "State of LA Danse, Friday November 20th",
-   "start": "2026-11-20",
-   "venue": "Ducrest-Gilfry Auditorium in Angelle Hall",
-   "map": "601 East Saint Mary Boulevard Lafayette LA",
-   "desc": "Faculty and Guest Artist Dance Concert from the UL Lafayette Dance Program",
-   "source": "Eventbrite",
-   "url": "https://www.eventbrite.com/e/state-of-la-danse-friday-november-20th-tickets-2004032465050",
-   "allDay": true,
-   "seen": "2026-11-17"
-  },
-  {
-   "id": "f6b18b918ca",
-   "cats": [
-    "music"
-   ],
-   "title": "Weekly SINGO Music Bingo Nights at New Orleans Original Daiquiris Lafayette",
-   "start": "2026-11-20",
-   "venue": "New Orleans Original Daiquiris",
-   "map": "1812 West Pinhook Road Lafayette LA",
-   "desc": "Weekly SINGO Music Bingo Nights at New Orleans Original Daiquiris - Lafayette",
-   "source": "Eventbrite",
-   "url": "https://www.eventbrite.com/e/weekly-singo-music-bingo-nights-at-new-orleans-original-daiquiris-lafayette-tickets-1977411712663",
-   "allDay": true,
-   "seen": "2026-11-17"
-  },
-  {
-   "id": "f9184bc21ed",
-   "cats": [
-    "food"
-   ],
-   "title": "Food Truck Friday : Fall Edition",
-   "start": "2026-11-20T11:00",
-   "venue": "Lafayette",
-   "map": "Lafayette LA",
-   "desc": "Food Truck Friday: Fall Edition Food Truck Friday is back at Moncus Park for a limited run this October and November! Every Friday, grab lunch from your favorite local food trucks, then stay awhile.",
-   "source": "Moncus Park",
-   "url": "https://moncuspark.org/calendar-events/food-truck-friday-fall-edition/",
-   "end": "2026-11-20T14:00",
-   "free": true
-  },
-  {
    "id": "f7a60be659c",
    "cats": [
     "music"
@@ -135,7 +86,69 @@
    "source": "Eventbrite",
    "url": "https://www.eventbrite.com/e/chanda-rubins-book-launch-celebration-registration-2003802993695",
    "allDay": true,
-   "seen": "2026-11-17"
+   "seen": "2026-11-21"
+  },
+  {
+   "id": "f8e7429594a",
+   "cats": [
+    "food"
+   ],
+   "title": "Lafayette Locomotion Scavenger Hunt",
+   "start": "2026-11-21",
+   "venue": "Carpe Diem Cafe & Wine Bar",
+   "map": "812 Jefferson Street Lafayette LA",
+   "desc": "Lafayette Locomotion Scavenger Hunt",
+   "source": "Eventbrite",
+   "url": "https://www.eventbrite.com/e/lafayette-locomotion-scavenger-hunt-tickets-1994048315189",
+   "allDay": true,
+   "seen": "2026-11-21"
+  },
+  {
+   "id": "fc00c628b26",
+   "cats": [
+    "food",
+    "volunteer"
+   ],
+   "title": "Random Acts of Kindness Spree in Lafayette",
+   "start": "2026-11-21",
+   "venue": "Carpe Diem Cafe & Wine Bar",
+   "map": "812 Jefferson Street Lafayette LA",
+   "desc": "Give back, spread kindness, and discover hidden gems of Lafayette with a remote interactive host.",
+   "source": "Eventbrite",
+   "url": "https://www.eventbrite.com/e/random-acts-of-kindness-spree-in-lafayette-tickets-1991109008644",
+   "allDay": true,
+   "seen": "2026-11-21"
+  },
+  {
+   "id": "f5969d23897",
+   "cats": [
+    "music"
+   ],
+   "title": "State of LA Danse, Saturday November 21 2PM",
+   "start": "2026-11-21",
+   "venue": "Ducrest-Gilfry Auditorium in Angelle Hall",
+   "map": "601 East Saint Mary Boulevard Lafayette LA",
+   "desc": "Faculty and Guest Artist Dance Concert from the UL Lafayette Dance Program",
+   "source": "Eventbrite",
+   "url": "https://www.eventbrite.com/e/state-of-la-danse-saturday-november-21-2pm-tickets-2004032552311",
+   "allDay": true,
+   "seen": "2026-11-21"
+  },
+  {
+   "id": "f825bb919f7",
+   "cats": [
+    "music"
+   ],
+   "title": "The Fall Finale - Future of Zydeco Live w/ Mike Broussard & Dj Vos",
+   "start": "2026-11-21",
+   "venue": "Xclusive 36",
+   "map": "5620 Interstate 49 Frontage Road Opelousas LA",
+   "desc": "Zydeco’s Biggest Night of the Fall!",
+   "source": "Eventbrite",
+   "url": "https://www.eventbrite.com/e/the-fall-finale-future-of-zydeco-live-w-mike-broussard-dj-vos-tickets-2003977927928",
+   "allDay": true,
+   "verify": "The start time wasn't listed. Check the event page.",
+   "seen": "2026-11-21"
   },
   {
    "id": "f2cf13d9410",
@@ -166,37 +179,6 @@
    "source": "Eventbrite",
    "url": "https://www.eventbrite.com/e/seth-spell-cajun-strong-live-at-american-legion-post-77-tickets-1999298636040",
    "allDay": true,
-   "seen": "2026-11-17"
-  },
-  {
-   "id": "f5969d23897",
-   "cats": [
-    "music"
-   ],
-   "title": "State of LA Danse, Saturday November 21 2PM",
-   "start": "2026-11-21",
-   "venue": "Ducrest-Gilfry Auditorium in Angelle Hall",
-   "map": "601 East Saint Mary Boulevard Lafayette LA",
-   "desc": "Faculty and Guest Artist Dance Concert from the UL Lafayette Dance Program",
-   "source": "Eventbrite",
-   "url": "https://www.eventbrite.com/e/state-of-la-danse-saturday-november-21-2pm-tickets-2004032552311",
-   "allDay": true,
-   "seen": "2026-11-17"
-  },
-  {
-   "id": "f825bb919f7",
-   "cats": [
-    "music"
-   ],
-   "title": "The Fall Finale - Future of Zydeco Live w/ Mike Broussard & Dj Vos",
-   "start": "2026-11-21",
-   "venue": "Xclusive 36",
-   "map": "5620 Interstate 49 Frontage Road Opelousas LA",
-   "desc": "Zydeco’s Biggest Night of the Fall!",
-   "source": "Eventbrite",
-   "url": "https://www.eventbrite.com/e/the-fall-finale-future-of-zydeco-live-w-mike-broussard-dj-vos-tickets-2003977927928",
-   "allDay": true,
-   "verify": "The start time wasn't listed. Check the event page.",
    "seen": "2026-11-17"
   },
   {
@@ -283,7 +265,7 @@
    "source": "Eventbrite",
    "url": "https://www.eventbrite.com/e/foodies-new-friends-lafayette-dinner-meet-giving-back-edition-tickets-1989270632010",
    "allDay": true,
-   "seen": "2026-11-17"
+   "seen": "2026-11-21"
   },
   {
    "id": "f9021adb58d",
@@ -340,6 +322,36 @@
    "source": "Downtown Lafayette",
    "url": "https://www.downtownlafayette.org/events",
    "end": "2026-11-24T19:30"
+  },
+  {
+   "id": "f7e202486bc",
+   "cats": [
+    "music"
+   ],
+   "title": "Steep & Stitch",
+   "start": "2026-11-25",
+   "venue": "Prairie Acadian Cultural Center",
+   "map": "250 Park Avenue Eunice LA",
+   "desc": "Head on over to the Prairie Acadian Cultural Center for a free Steep & Stitch event!",
+   "source": "Eventbrite",
+   "url": "https://www.eventbrite.com/e/steep-stitch-tickets-2004033691719",
+   "allDay": true,
+   "seen": "2026-11-21"
+  },
+  {
+   "id": "fa78eeb3571",
+   "cats": [
+    "food"
+   ],
+   "title": "Weekly Live Trivia at Pierre's Seafood & Bar - Lafayette",
+   "start": "2026-11-25",
+   "venue": "Pierre's Seafood and Bar",
+   "map": "5801 Johnston Street Lafayette LA",
+   "desc": "Pierre's Seafood & Bar - Lafayette - Live Trivia - Wednesday - 7:00 PM",
+   "source": "Eventbrite",
+   "url": "https://www.eventbrite.com/e/weekly-live-trivia-at-pierres-seafood-bar-lafayette-tickets-2002136579405",
+   "allDay": true,
+   "seen": "2026-11-21"
   },
   {
    "id": "f997d486674",
@@ -413,7 +425,7 @@
    "url": "https://www.eventbrite.com/e/downsouth-thursdays-talk-turkey-to-me-w-lil-nate-dj-pugg-dj-vos-tickets-2003965680295",
    "allDay": true,
    "verify": "The start time wasn't listed. Check the event page.",
-   "seen": "2026-11-17"
+   "seen": "2026-11-21"
   },
   {
    "id": "fdae8fffa3c",
@@ -443,6 +455,21 @@
    "desc": "A 3.1-mile group run, then $1 off every beer. Every Thursday.",
    "source": "Cajun Road Runners",
    "url": "https://cajunroadrunners.com/group-runs/"
+  },
+  {
+   "id": "f8c72a2d3dd",
+   "cats": [
+    "music"
+   ],
+   "title": "Weekly SINGO Music Bingo Nights at New Orleans Original Daiquiris Lafayette",
+   "start": "2026-11-27",
+   "venue": "New Orleans Original Daiquiris",
+   "map": "1812 West Pinhook Road Lafayette LA",
+   "desc": "Weekly SINGO Music Bingo Nights at New Orleans Original Daiquiris - Lafayette",
+   "source": "Eventbrite",
+   "url": "https://www.eventbrite.com/e/weekly-singo-music-bingo-nights-at-new-orleans-original-daiquiris-lafayette-tickets-1977411713666",
+   "allDay": true,
+   "seen": "2026-11-21"
   },
   {
    "id": "v3",
@@ -555,7 +582,7 @@
    "source": "Eventbrite",
    "url": "https://www.eventbrite.com/e/its-a-wonderful-life-a-live-radio-play-tickets-2003932304467",
    "allDay": true,
-   "seen": "2026-11-17"
+   "seen": "2026-11-21"
   },
   {
    "id": "f129944abf3",
@@ -629,7 +656,7 @@
    "url": "https://www.eventbrite.com/e/whop-bezzy-live-in-concert-tickets-2003309672157",
    "allDay": true,
    "verify": "The start time wasn't listed. Check the event page.",
-   "seen": "2026-11-17"
+   "seen": "2026-11-21"
   },
   {
    "id": "f3f7e3df3f1",
@@ -948,6 +975,21 @@
    "url": "https://cajunroadrunners.com/group-runs/"
   },
   {
+   "id": "fb4125ecf73",
+   "cats": [
+    "food"
+   ],
+   "title": "Foodies + New Friends: Lafayette | Entrepreneur Edition",
+   "start": "2026-12-17",
+   "venue": "Restaurant of the Week",
+   "map": "Camellia Boulevard Lafayette LA",
+   "desc": "Life can get lonely, especially when you’re always working or focusing on your passions. Meet other entrepreneurs over dinner in your city!",
+   "source": "Eventbrite",
+   "url": "https://www.eventbrite.com/e/foodies-new-friends-lafayette-entrepreneur-edition-tickets-1968865292089",
+   "allDay": true,
+   "seen": "2026-11-21"
+  },
+  {
    "id": "fd8fef678c4",
    "cats": [
     "health"
@@ -959,6 +1001,33 @@
    "desc": "A 3.1-mile group run, then $1 off every beer. Every Thursday.",
    "source": "Cajun Road Runners",
    "url": "https://cajunroadrunners.com/group-runs/"
+  },
+  {
+   "id": "fd5dbc07300",
+   "cats": [
+    "health"
+   ],
+   "title": "Saturday Long Run",
+   "start": "2026-12-19T06:00",
+   "venue": "Red Lerille's back lot, by Moncus Park",
+   "map": "Red Lerille's Health and Racquet Club Lafayette LA",
+   "desc": "The Cajun Road Runners' weekly long run, starting at 6 AM sharp. Several distances, up to 10+ miles, with water stops along the way.",
+   "source": "Cajun Road Runners",
+   "url": "https://cajunroadrunners.com/group-runs/"
+  },
+  {
+   "id": "fc388ea69c5",
+   "cats": [
+    "health"
+   ],
+   "title": "Cajun Country Run (1/2 Marathon, 10k, 5k & Fun Run)",
+   "start": "2026-12-19T07:30",
+   "venue": "Lafayette",
+   "map": "Lafayette LA",
+   "desc": "**PLEASE REGISTER ON OUR WEBSITE @ www.CajunCountry.RUN ** with fees!! Don't worry we will transfer your information to RunSignUP after.",
+   "source": "My Mind is Racing",
+   "url": "http://www.cajuncountry.run",
+   "featured": true
   },
   {
    "id": "mo1",

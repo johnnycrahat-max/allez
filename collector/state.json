@@ -514,7 +514,7 @@
     "free": true
    }
   ],
-  "read_on": "2026-11-20"
+  "read_on": "2026-11-21"
  },
  "free:downtown": {
   "events": [
@@ -679,7 +679,7 @@
     "endDate": "2027-05-02"
    }
   ],
-  "read_on": "2026-11-20"
+  "read_on": "2026-11-21"
  },
  "free:aca": {
   "events": [
@@ -789,18 +789,18 @@
     "free": true
    },
    {
-    "id": "fa9a6e9f296",
+    "id": "f0f1a83463d",
     "cats": [
      "music"
     ],
     "title": "Kate Gordon: Tender Terrain",
-    "start": "2026-11-20T09:00",
+    "start": "2026-11-21T09:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
     "desc": "Listed by Acadiana Center for the Arts.",
     "source": "Acadiana Center for the Arts",
-    "url": "https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-20",
-    "end": "2026-11-20T17:00",
+    "url": "https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-21",
+    "end": "2026-11-21T17:00",
     "free": true
    },
    {
@@ -834,17 +834,17 @@
     "price": "$125"
    },
    {
-    "id": "f54924b5141",
+    "id": "f1eef75cd94",
     "cats": [
      "music"
     ],
     "title": "Philip Gould: A Selection of Works",
-    "start": "2026-11-20T09:00",
+    "start": "2026-11-21T09:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
     "desc": "Listed by Acadiana Center for the Arts.",
     "source": "Acadiana Center for the Arts",
-    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-20",
+    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-21",
     "endDate": "2026-11-28",
     "free": true
    },
@@ -881,7 +881,7 @@
     "price": "$40"
    }
   ],
-  "read_on": "2026-11-20"
+  "read_on": "2026-11-21"
  },
  "free:hilliard": {
   "events": [
@@ -954,7 +954,7 @@
     "allDay": true
    }
   ],
-  "read_on": "2026-11-20"
+  "read_on": "2026-11-21"
  },
  "free:lafayette_travel": {
   "events": [
@@ -1019,24 +1019,334 @@
     "verify": "The start time wasn't listed. Check the event page."
    }
   ],
-  "read_on": "2026-11-20"
+  "read_on": "2026-11-21"
  },
  "free:eventbrite": {
   "events": [
    {
-    "id": "f0a148a0c19",
+    "id": "f7a60be659c",
     "cats": [
      "music"
     ],
-    "title": "Body Talk Boys, November 17",
-    "start": "2026-11-17",
-    "venue": "126 Heymann Blvd",
-    "map": "126 Heymann Boulevard Lafayette LA",
-    "desc": "Body Talk Boys: Tuesday, November 17, 2026, 6PM-8PM",
+    "title": "Chanda Rubin's Book Launch Celebration",
+    "start": "2026-11-21",
+    "venue": "Red Lerille's Health & Racquet Club",
+    "map": "301 Doucet Road Lafayette LA",
+    "desc": "Come hang out with former tennis star Chanda Rubin-Hollier and illustrator Aileen Bennett and get a signed copy of her new children's book!",
     "source": "Eventbrite",
-    "url": "https://www.eventbrite.com/e/body-talk-boys-november-17-tickets-2003629767571",
+    "url": "https://www.eventbrite.com/e/chanda-rubins-book-launch-celebration-registration-2003802993695",
     "allDay": true,
-    "seen": "2026-11-17"
+    "seen": "2026-11-21"
+   },
+   {
+    "id": "f61d4441f97",
+    "cats": [
+     "music"
+    ],
+    "title": "DOWNSOUTH THURSDAYS- TALK TURKEY TO ME w/ LIL' NATE, DJ PUGG, & DJ VOS",
+    "start": "2026-11-26",
+    "venue": "Grant Street Dancehall",
+    "map": "113 West Grant Street Lafayette LA",
+    "desc": "Listed by Eventbrite.",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/downsouth-thursdays-talk-turkey-to-me-w-lil-nate-dj-pugg-dj-vos-tickets-2003965680295",
+    "allDay": true,
+    "verify": "The start time wasn't listed. Check the event page.",
+    "seen": "2026-11-21"
+   },
+   {
+    "id": "f61d4441f97",
+    "cats": [
+     "music"
+    ],
+    "title": "DOWNSOUTH THURSDAYS- TALK TURKEY TO ME w/ LIL' NATE, DJ PUGG, & DJ VOS",
+    "start": "2026-11-26",
+    "venue": "Grant Street Dancehall",
+    "map": "113 West Grant Street Lafayette LA",
+    "desc": "Listed by Eventbrite.",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/downsouth-thursdays-talk-turkey-to-me-w-lil-nate-dj-pugg-dj-vos-tickets-2003965680295",
+    "allDay": true,
+    "verify": "The start time wasn't listed. Check the event page.",
+    "seen": "2026-11-21"
+   },
+   {
+    "id": "f43a689375c",
+    "cats": [
+     "food",
+     "volunteer"
+    ],
+    "title": "Foodies + New Friends: Lafayette Dinner Meet | Giving Back Edition",
+    "start": "2026-11-23",
+    "venue": "Park Bistro",
+    "map": "407 Brook Avenue Lafayette LA",
+    "desc": "Join us for cozy dinners with locals to share experiences, make new connections, and support local businesses while giving back!",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/foodies-new-friends-lafayette-dinner-meet-giving-back-edition-tickets-1989270632010",
+    "allDay": true,
+    "seen": "2026-11-21"
+   },
+   {
+    "id": "f43a689375c",
+    "cats": [
+     "food",
+     "volunteer"
+    ],
+    "title": "Foodies + New Friends: Lafayette Dinner Meet | Giving Back Edition",
+    "start": "2026-11-23",
+    "venue": "Park Bistro",
+    "map": "407 Brook Avenue Lafayette LA",
+    "desc": "Join us for cozy dinners with locals to share experiences, make new connections, and support local businesses while giving back!",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/foodies-new-friends-lafayette-dinner-meet-giving-back-edition-tickets-1989270632010",
+    "allDay": true,
+    "seen": "2026-11-21"
+   },
+   {
+    "id": "fb4125ecf73",
+    "cats": [
+     "food"
+    ],
+    "title": "Foodies + New Friends: Lafayette | Entrepreneur Edition",
+    "start": "2026-12-17",
+    "venue": "Restaurant of the Week",
+    "map": "Camellia Boulevard Lafayette LA",
+    "desc": "Life can get lonely, especially when you’re always working or focusing on your passions. Meet other entrepreneurs over dinner in your city!",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/foodies-new-friends-lafayette-entrepreneur-edition-tickets-1968865292089",
+    "allDay": true,
+    "seen": "2026-11-21"
+   },
+   {
+    "id": "f940cd7e5c4",
+    "cats": [
+     "music"
+    ],
+    "title": "It's a Wonderful Life: A Live Radio Play",
+    "start": "2026-12-03",
+    "venue": "Cité des Arts",
+    "map": "109 Vine Street Lafayette LA",
+    "desc": "Ascension Episcopal School 8th-12th graders present It's a Wonderful Life: A Live Radio Play",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/its-a-wonderful-life-a-live-radio-play-tickets-2003932304467",
+    "allDay": true,
+    "seen": "2026-11-21"
+   },
+   {
+    "id": "f8e7429594a",
+    "cats": [
+     "food"
+    ],
+    "title": "Lafayette Locomotion Scavenger Hunt",
+    "start": "2026-11-21",
+    "venue": "Carpe Diem Cafe & Wine Bar",
+    "map": "812 Jefferson Street Lafayette LA",
+    "desc": "Lafayette Locomotion Scavenger Hunt",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/lafayette-locomotion-scavenger-hunt-tickets-1994048315189",
+    "allDay": true,
+    "seen": "2026-11-21"
+   },
+   {
+    "id": "fff7419d85b",
+    "cats": [
+     "music"
+    ],
+    "title": "Mosaic Art Classes Lafayette: Turkish Lamp Workshop",
+    "start": "2027-01-23",
+    "venue": "Holiday Inn & Suites Lafayette North by IHG",
+    "map": "2219 Northwest Evangeline Thruway Lafayette LA",
+    "desc": "Learn how to make a Turkish mosaic lamp in this Lafayette workshop! Book Now on Eventbrite!",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/mosaic-art-classes-lafayette-turkish-lamp-workshop-tickets-2004809508207",
+    "allDay": true,
+    "seen": "2026-11-21"
+   },
+   {
+    "id": "fc00c628b26",
+    "cats": [
+     "food",
+     "volunteer"
+    ],
+    "title": "Random Acts of Kindness Spree in Lafayette",
+    "start": "2026-11-21",
+    "venue": "Carpe Diem Cafe & Wine Bar",
+    "map": "812 Jefferson Street Lafayette LA",
+    "desc": "Give back, spread kindness, and discover hidden gems of Lafayette with a remote interactive host.",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/random-acts-of-kindness-spree-in-lafayette-tickets-1991109008644",
+    "allDay": true,
+    "seen": "2026-11-21"
+   },
+   {
+    "id": "f8c3360cceb",
+    "cats": [
+     "music",
+     "food"
+    ],
+    "title": "Roux Fest Gumbo Cookoff powered by Lagcoe",
+    "start": "2027-02-04",
+    "venue": "Blackham Coliseum",
+    "map": "2330 Johnston Street Lafayette LA",
+    "desc": "Bold, flavorful, and full of heart! Roux Fest is Lafayette’s tastiest showdown, blending gumbo, community, and the energy industry.",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/roux-fest-gumbo-cookoff-powered-by-lagcoe-tickets-2001232393962",
+    "allDay": true,
+    "seen": "2026-11-21"
+   },
+   {
+    "id": "f50e84e1fba",
+    "cats": [
+     "health"
+    ],
+    "title": "Safe Sitter, March 31",
+    "start": "2027-03-31",
+    "venue": "Foundation for Wellness Classroom",
+    "map": "126 Heymann Blvd Lafayette LA",
+    "desc": "Safe Sitter is a medically-accurate course to help young teens aged 11 and up feel more confident in their ability to care for younger child",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/safe-sitter-march-31-tickets-1996465814996",
+    "allDay": true,
+    "seen": "2026-11-21"
+   },
+   {
+    "id": "f5969d23897",
+    "cats": [
+     "music"
+    ],
+    "title": "State of LA Danse, Saturday November 21 2PM",
+    "start": "2026-11-21",
+    "venue": "Ducrest-Gilfry Auditorium in Angelle Hall",
+    "map": "601 East Saint Mary Boulevard Lafayette LA",
+    "desc": "Faculty and Guest Artist Dance Concert from the UL Lafayette Dance Program",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/state-of-la-danse-saturday-november-21-2pm-tickets-2004032552311",
+    "allDay": true,
+    "seen": "2026-11-21"
+   },
+   {
+    "id": "f681ba0b94d",
+    "cats": [
+     "music"
+    ],
+    "title": "State of LA Danse, Saturday November 21 7PM",
+    "start": "2026-11-21",
+    "venue": "Ducrest-Gilfry Auditorium in Angelle Hall",
+    "map": "601 East Saint Mary Boulevard Lafayette LA",
+    "desc": "Faculty and Guest Artist Dance Concert from the UL Lafayette Dance Program",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/state-of-la-danse-saturday-november-21-7pm-tickets-2004032570365",
+    "allDay": true,
+    "seen": "2026-11-21"
+   },
+   {
+    "id": "f7e202486bc",
+    "cats": [
+     "music"
+    ],
+    "title": "Steep & Stitch",
+    "start": "2026-11-25",
+    "venue": "Prairie Acadian Cultural Center",
+    "map": "250 Park Avenue Eunice LA",
+    "desc": "Head on over to the Prairie Acadian Cultural Center for a free Steep & Stitch event!",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/steep-stitch-tickets-2004033691719",
+    "allDay": true,
+    "seen": "2026-11-21"
+   },
+   {
+    "id": "f825bb919f7",
+    "cats": [
+     "music"
+    ],
+    "title": "The Fall Finale - Future of Zydeco Live w/ Mike Broussard & Dj Vos",
+    "start": "2026-11-21",
+    "venue": "Xclusive 36",
+    "map": "5620 Interstate 49 Frontage Road Opelousas LA",
+    "desc": "Zydeco’s Biggest Night of the Fall!",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/the-fall-finale-future-of-zydeco-live-w-mike-broussard-dj-vos-tickets-2003977927928",
+    "allDay": true,
+    "verify": "The start time wasn't listed. Check the event page.",
+    "seen": "2026-11-21"
+   },
+   {
+    "id": "f80ba0cd02f",
+    "cats": [
+     "music"
+    ],
+    "title": "WHOP BEZZY LIVE IN CONCERT!!!",
+    "start": "2026-12-05",
+    "venue": "GRANT ST DANCE HALL",
+    "map": "113 W GRANT ST LAFAYETTE LA",
+    "desc": "**One BIG AZZ SAGITTARIUS PARTY** WHOP BEZZY LIVE IN CONCERT!!",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/whop-bezzy-live-in-concert-tickets-2003309672157",
+    "allDay": true,
+    "verify": "The start time wasn't listed. Check the event page.",
+    "seen": "2026-11-21"
+   },
+   {
+    "id": "fa78eeb3571",
+    "cats": [
+     "food"
+    ],
+    "title": "Weekly Live Trivia at Pierre's Seafood & Bar - Lafayette",
+    "start": "2026-11-25",
+    "venue": "Pierre's Seafood and Bar",
+    "map": "5801 Johnston Street Lafayette LA",
+    "desc": "Pierre's Seafood & Bar - Lafayette - Live Trivia - Wednesday - 7:00 PM",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/weekly-live-trivia-at-pierres-seafood-bar-lafayette-tickets-2002136579405",
+    "allDay": true,
+    "seen": "2026-11-21"
+   },
+   {
+    "id": "f8c72a2d3dd",
+    "cats": [
+     "music"
+    ],
+    "title": "Weekly SINGO Music Bingo Nights at New Orleans Original Daiquiris Lafayette",
+    "start": "2026-11-27",
+    "venue": "New Orleans Original Daiquiris",
+    "map": "1812 West Pinhook Road Lafayette LA",
+    "desc": "Weekly SINGO Music Bingo Nights at New Orleans Original Daiquiris - Lafayette",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/weekly-singo-music-bingo-nights-at-new-orleans-original-daiquiris-lafayette-tickets-1977411713666",
+    "allDay": true,
+    "seen": "2026-11-21"
+   },
+   {
+    "id": "f2b9185346f",
+    "cats": [
+     "music"
+    ],
+    "title": "Z-ro live in concert Christmas Night at Grant Street",
+    "start": "2026-12-25",
+    "venue": "Grant Street Dance Hall",
+    "map": "113 w grant st. Lafayette LA",
+    "desc": "Z-ro live in concert Christmas Night at Grant Street",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/z-ro-live-in-concert-christmas-night-at-grant-street-tickets-2002982078315",
+    "allDay": true,
+    "verify": "The start time wasn't listed. Check the event page.",
+    "seen": "2026-11-21"
+   },
+   {
+    "id": "f2b9185346f",
+    "cats": [
+     "music"
+    ],
+    "title": "Z-ro live in concert Christmas Night at Grant Street",
+    "start": "2026-12-25",
+    "venue": "Grant Street Dance Hall",
+    "map": "113 w grant st. Lafayette LA",
+    "desc": "Z-ro live in concert Christmas Night at Grant Street",
+    "source": "Eventbrite",
+    "url": "https://www.eventbrite.com/e/z-ro-live-in-concert-christmas-night-at-grant-street-tickets-2002982078315",
+    "allDay": true,
+    "verify": "The start time wasn't listed. Check the event page.",
+    "seen": "2026-11-21"
    },
    {
     "id": "f1f1bf24124",
@@ -1054,37 +1364,6 @@
     "seen": "2026-11-17"
    },
    {
-    "id": "f7a60be659c",
-    "cats": [
-     "music"
-    ],
-    "title": "Chanda Rubin's Book Launch Celebration",
-    "start": "2026-11-21",
-    "venue": "Red Lerille's Health & Racquet Club",
-    "map": "301 Doucet Road Lafayette LA",
-    "desc": "Come hang out with former tennis star Chanda Rubin-Hollier and illustrator Aileen Bennett and get a signed copy of her new children's book!",
-    "source": "Eventbrite",
-    "url": "https://www.eventbrite.com/e/chanda-rubins-book-launch-celebration-registration-2003802993695",
-    "allDay": true,
-    "seen": "2026-11-17"
-   },
-   {
-    "id": "f61d4441f97",
-    "cats": [
-     "music"
-    ],
-    "title": "DOWNSOUTH THURSDAYS- TALK TURKEY TO ME w/ LIL' NATE, DJ PUGG, & DJ VOS",
-    "start": "2026-11-26",
-    "venue": "Grant Street Dancehall",
-    "map": "113 West Grant Street Lafayette LA",
-    "desc": "Listed by Eventbrite.",
-    "source": "Eventbrite",
-    "url": "https://www.eventbrite.com/e/downsouth-thursdays-talk-turkey-to-me-w-lil-nate-dj-pugg-dj-vos-tickets-2003965680295",
-    "allDay": true,
-    "verify": "The start time wasn't listed. Check the event page.",
-    "seen": "2026-11-17"
-   },
-   {
     "id": "f0d8e434288",
     "cats": [
      "music"
@@ -1096,68 +1375,6 @@
     "desc": "Get into the holiday spirit, hit the dance floor, and celebrate the season together in person!",
     "source": "Eventbrite",
     "url": "https://www.eventbrite.com/e/dance-this-holiday-tickets-2004102131424",
-    "allDay": true,
-    "seen": "2026-11-17"
-   },
-   {
-    "id": "f43a689375c",
-    "cats": [
-     "food",
-     "volunteer"
-    ],
-    "title": "Foodies + New Friends: Lafayette Dinner Meet | Giving Back Edition",
-    "start": "2026-11-23",
-    "venue": "Park Bistro",
-    "map": "407 Brook Avenue Lafayette LA",
-    "desc": "Join us for cozy dinners with locals to share experiences, make new connections, and support local businesses while giving back!",
-    "source": "Eventbrite",
-    "url": "https://www.eventbrite.com/e/foodies-new-friends-lafayette-dinner-meet-giving-back-edition-tickets-1989270632010",
-    "allDay": true,
-    "seen": "2026-11-17"
-   },
-   {
-    "id": "f940cd7e5c4",
-    "cats": [
-     "music"
-    ],
-    "title": "It's a Wonderful Life: A Live Radio Play",
-    "start": "2026-12-03",
-    "venue": "Cité des Arts",
-    "map": "109 Vine Street Lafayette LA",
-    "desc": "Ascension Episcopal School 8th-12th graders present It's a Wonderful Life: A Live Radio Play",
-    "source": "Eventbrite",
-    "url": "https://www.eventbrite.com/e/its-a-wonderful-life-a-live-radio-play-tickets-2003932304467",
-    "allDay": true,
-    "seen": "2026-11-17"
-   },
-   {
-    "id": "fff7419d85b",
-    "cats": [
-     "music"
-    ],
-    "title": "Mosaic Art Classes Lafayette: Turkish Lamp Workshop",
-    "start": "2027-01-23",
-    "venue": "Holiday Inn & Suites Lafayette North by IHG",
-    "map": "2219 Northwest Evangeline Thruway Lafayette LA",
-    "desc": "Learn how to make a Turkish mosaic lamp in this Lafayette workshop! Book Now on Eventbrite!",
-    "source": "Eventbrite",
-    "url": "https://www.eventbrite.com/e/mosaic-art-classes-lafayette-turkish-lamp-workshop-tickets-2004809508207",
-    "allDay": true,
-    "seen": "2026-11-17"
-   },
-   {
-    "id": "fbb58447401",
-    "cats": [
-     "food",
-     "volunteer"
-    ],
-    "title": "Random Acts of Kindness Spree in Lafayette",
-    "start": "2026-11-17",
-    "venue": "Carpe Diem Cafe & Wine Bar",
-    "map": "812 Jefferson Street Lafayette LA",
-    "desc": "Give back, spread kindness, and discover hidden gems of Lafayette with a remote interactive host.",
-    "source": "Eventbrite",
-    "url": "https://www.eventbrite.com/e/random-acts-of-kindness-spree-in-lafayette-tickets-1991109000620",
     "allDay": true,
     "seen": "2026-11-17"
    },
@@ -1178,22 +1395,6 @@
     "seen": "2026-11-17"
    },
    {
-    "id": "f8c3360cceb",
-    "cats": [
-     "music",
-     "food"
-    ],
-    "title": "Roux Fest Gumbo Cookoff powered by Lagcoe",
-    "start": "2027-02-04",
-    "venue": "Blackham Coliseum",
-    "map": "2330 Johnston Street Lafayette LA",
-    "desc": "Bold, flavorful, and full of heart! Roux Fest is Lafayette’s tastiest showdown, blending gumbo, community, and the energy industry.",
-    "source": "Eventbrite",
-    "url": "https://www.eventbrite.com/e/roux-fest-gumbo-cookoff-powered-by-lagcoe-tickets-2001232393962",
-    "allDay": true,
-    "seen": "2026-11-17"
-   },
-   {
     "id": "f3f9e13d08e",
     "cats": [
      "music"
@@ -1207,163 +1408,9 @@
     "url": "https://www.eventbrite.com/e/seth-spell-cajun-strong-live-at-american-legion-post-77-tickets-1999298636040",
     "allDay": true,
     "seen": "2026-11-17"
-   },
-   {
-    "id": "fda22d7f90a",
-    "cats": [
-     "music"
-    ],
-    "title": "State of LA Danse, Friday November 20th",
-    "start": "2026-11-20",
-    "venue": "Ducrest-Gilfry Auditorium in Angelle Hall",
-    "map": "601 East Saint Mary Boulevard Lafayette LA",
-    "desc": "Faculty and Guest Artist Dance Concert from the UL Lafayette Dance Program",
-    "source": "Eventbrite",
-    "url": "https://www.eventbrite.com/e/state-of-la-danse-friday-november-20th-tickets-2004032465050",
-    "allDay": true,
-    "seen": "2026-11-17"
-   },
-   {
-    "id": "f5969d23897",
-    "cats": [
-     "music"
-    ],
-    "title": "State of LA Danse, Saturday November 21 2PM",
-    "start": "2026-11-21",
-    "venue": "Ducrest-Gilfry Auditorium in Angelle Hall",
-    "map": "601 East Saint Mary Boulevard Lafayette LA",
-    "desc": "Faculty and Guest Artist Dance Concert from the UL Lafayette Dance Program",
-    "source": "Eventbrite",
-    "url": "https://www.eventbrite.com/e/state-of-la-danse-saturday-november-21-2pm-tickets-2004032552311",
-    "allDay": true,
-    "seen": "2026-11-17"
-   },
-   {
-    "id": "f681ba0b94d",
-    "cats": [
-     "music"
-    ],
-    "title": "State of LA Danse, Saturday November 21 7PM",
-    "start": "2026-11-21",
-    "venue": "Ducrest-Gilfry Auditorium in Angelle Hall",
-    "map": "601 East Saint Mary Boulevard Lafayette LA",
-    "desc": "Faculty and Guest Artist Dance Concert from the UL Lafayette Dance Program",
-    "source": "Eventbrite",
-    "url": "https://www.eventbrite.com/e/state-of-la-danse-saturday-november-21-7pm-tickets-2004032570365",
-    "allDay": true,
-    "seen": "2026-11-17"
-   },
-   {
-    "id": "f87de8ecede",
-    "cats": [
-     "music"
-    ],
-    "title": "State of LA Danse, Thursday November 19",
-    "start": "2026-11-19",
-    "venue": "Ducrest-Gilfry Auditorium in Angelle Hall",
-    "map": "601 East Saint Mary Boulevard Lafayette LA",
-    "desc": "Faculty and Guest Artist Dance Concert from the UL Lafayette Dance Program",
-    "source": "Eventbrite",
-    "url": "https://www.eventbrite.com/e/state-of-la-danse-thursday-november-19-tickets-2004029555347",
-    "allDay": true,
-    "seen": "2026-11-17"
-   },
-   {
-    "id": "f825bb919f7",
-    "cats": [
-     "music"
-    ],
-    "title": "The Fall Finale - Future of Zydeco Live w/ Mike Broussard & Dj Vos",
-    "start": "2026-11-21",
-    "venue": "Xclusive 36",
-    "map": "5620 Interstate 49 Frontage Road Opelousas LA",
-    "desc": "Zydeco’s Biggest Night of the Fall!",
-    "source": "Eventbrite",
-    "url": "https://www.eventbrite.com/e/the-fall-finale-future-of-zydeco-live-w-mike-broussard-dj-vos-tickets-2003977927928",
-    "allDay": true,
-    "verify": "The start time wasn't listed. Check the event page.",
-    "seen": "2026-11-17"
-   },
-   {
-    "id": "f80ba0cd02f",
-    "cats": [
-     "music"
-    ],
-    "title": "WHOP BEZZY LIVE IN CONCERT!!!",
-    "start": "2026-12-05",
-    "venue": "GRANT ST DANCE HALL",
-    "map": "113 W GRANT ST LAFAYETTE LA",
-    "desc": "**One BIG AZZ SAGITTARIUS PARTY** WHOP BEZZY LIVE IN CONCERT!!",
-    "source": "Eventbrite",
-    "url": "https://www.eventbrite.com/e/whop-bezzy-live-in-concert-tickets-2003309672157",
-    "allDay": true,
-    "verify": "The start time wasn't listed. Check the event page.",
-    "seen": "2026-11-17"
-   },
-   {
-    "id": "f5a3613db9b",
-    "cats": [
-     "food"
-    ],
-    "title": "Weekly Live Trivia at Pierre's Seafood & Bar - Lafayette",
-    "start": "2026-11-18",
-    "venue": "Pierre's Seafood and Bar",
-    "map": "5801 Johnston Street Lafayette LA",
-    "desc": "Pierre's Seafood & Bar - Lafayette - Live Trivia - Wednesday - 7:00 PM",
-    "source": "Eventbrite",
-    "url": "https://www.eventbrite.com/e/weekly-live-trivia-at-pierres-seafood-bar-lafayette-tickets-2002136578402",
-    "allDay": true,
-    "seen": "2026-11-17"
-   },
-   {
-    "id": "f6b18b918ca",
-    "cats": [
-     "music"
-    ],
-    "title": "Weekly SINGO Music Bingo Nights at New Orleans Original Daiquiris Lafayette",
-    "start": "2026-11-20",
-    "venue": "New Orleans Original Daiquiris",
-    "map": "1812 West Pinhook Road Lafayette LA",
-    "desc": "Weekly SINGO Music Bingo Nights at New Orleans Original Daiquiris - Lafayette",
-    "source": "Eventbrite",
-    "url": "https://www.eventbrite.com/e/weekly-singo-music-bingo-nights-at-new-orleans-original-daiquiris-lafayette-tickets-1977411712663",
-    "allDay": true,
-    "seen": "2026-11-17"
-   },
-   {
-    "id": "f2b9185346f",
-    "cats": [
-     "music"
-    ],
-    "title": "Z-ro live in concert Christmas Night at Grant Street",
-    "start": "2026-12-25",
-    "venue": "Grant Street Dance Hall",
-    "map": "113 w grant st. Lafayette LA",
-    "desc": "Z-ro live in concert Christmas Night at Grant Street",
-    "source": "Eventbrite",
-    "url": "https://www.eventbrite.com/e/z-ro-live-in-concert-christmas-night-at-grant-street-tickets-2002982078315",
-    "allDay": true,
-    "verify": "The start time wasn't listed. Check the event page.",
-    "seen": "2026-11-17"
-   },
-   {
-    "id": "f2b9185346f",
-    "cats": [
-     "music"
-    ],
-    "title": "Z-ro live in concert Christmas Night at Grant Street",
-    "start": "2026-12-25",
-    "venue": "Grant Street Dance Hall",
-    "map": "113 w grant st. Lafayette LA",
-    "desc": "Z-ro live in concert Christmas Night at Grant Street",
-    "source": "Eventbrite",
-    "url": "https://www.eventbrite.com/e/z-ro-live-in-concert-christmas-night-at-grant-street-tickets-2002982078315",
-    "allDay": true,
-    "verify": "The start time wasn't listed. Check the event page.",
-    "seen": "2026-11-17"
    }
   ],
-  "read_on": "2026-11-17"
+  "read_on": "2026-11-21"
  },
  "free:crrc": {
   "events": [
@@ -1632,6 +1679,19 @@
     "url": "https://cajunroadrunners.com/group-runs/"
    },
    {
+    "id": "fd5dbc07300",
+    "cats": [
+     "health"
+    ],
+    "title": "Saturday Long Run",
+    "start": "2026-12-19T06:00",
+    "venue": "Red Lerille's back lot, by Moncus Park",
+    "map": "Red Lerille's Health and Racquet Club Lafayette LA",
+    "desc": "The Cajun Road Runners' weekly long run, starting at 6 AM sharp. Several distances, up to 10+ miles, with water stops along the way.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
     "id": "fded30d4d39",
     "cats": [
      "health"
@@ -1684,7 +1744,7 @@
     "url": "https://cajunroadrunners.com/group-runs/"
    }
   ],
-  "read_on": "2026-11-20"
+  "read_on": "2026-11-21"
  },
  "free:races": {
   "events": [
@@ -1957,6 +2017,6 @@
     "url": "https://runsignup.com/Race/LA/Lafayette/TheHubLafayetteRunwell5KWalkRun"
    }
   ],
-  "read_on": "2026-11-20"
+  "read_on": "2026-11-21"
  }
 }
