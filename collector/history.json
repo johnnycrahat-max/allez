@@ -98,5 +98,25 @@
   "gone": 0,
   "moved": 0,
   "merged": 5
+ },
+ {
+  "date": "2026-11-22",
+  "mode": "free",
+  "total": 58,
+  "ongoing": 8,
+  "by_category": {
+   "music": 18,
+   "food": 7,
+   "volunteer": 3,
+   "health": 32
+  },
+  "sources_ok": 7,
+  "sources_total": 8,
+  "with_time_pct": 79,
+  "check_details": 4,
+  "added": 1,
+  "gone": 0,
+  "moved": 0,
+  "merged": 4
  }
 ]

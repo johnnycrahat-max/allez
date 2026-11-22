@@ -514,7 +514,7 @@
     "free": true
    }
   ],
-  "read_on": "2026-11-21"
+  "read_on": "2026-11-22"
  },
  "free:downtown": {
   "events": [
@@ -533,20 +533,6 @@
     "end": "2026-11-19T22:00",
     "featured": true,
     "endDate": "2026-11-22"
-   },
-   {
-    "id": "ffb9b4dae51",
-    "cats": [
-     "music"
-    ],
-    "title": "An Afternoon with Carrie Simon",
-    "start": "2026-11-21T15:00",
-    "venue": "Cavalier House Books - Lafayette",
-    "map": "Cavalier House Books - Lafayette Lafayette LA",
-    "desc": "Event in Downtown Lafayette.",
-    "source": "Downtown Lafayette",
-    "url": "https://www.downtownlafayette.org/events",
-    "end": "2026-11-21T17:00"
    },
    {
     "id": "f7159ceee00",
@@ -673,13 +659,13 @@
     "map": "Various Locations Lafayette LA",
     "desc": "Festival event in Downtown Lafayette.",
     "source": "Downtown Lafayette",
-    "url": "https://www.downtownlafayette.org/events?9568029a_page=2",
+    "url": "https://www.downtownlafayette.org/events",
     "end": "2027-04-28T20:00",
     "featured": true,
     "endDate": "2027-05-02"
    }
   ],
-  "read_on": "2026-11-21"
+  "read_on": "2026-11-22"
  },
  "free:aca": {
   "events": [
@@ -789,18 +775,18 @@
     "free": true
    },
    {
-    "id": "f0f1a83463d",
+    "id": "fa4246a696e",
     "cats": [
      "music"
     ],
     "title": "Kate Gordon: Tender Terrain",
-    "start": "2026-11-21T09:00",
+    "start": "2026-11-22T09:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
     "desc": "Listed by Acadiana Center for the Arts.",
     "source": "Acadiana Center for the Arts",
-    "url": "https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-21",
-    "end": "2026-11-21T17:00",
+    "url": "https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-22",
+    "end": "2026-11-22T17:00",
     "free": true
    },
    {
@@ -834,17 +820,17 @@
     "price": "$125"
    },
    {
-    "id": "f1eef75cd94",
+    "id": "fecc3d069f8",
     "cats": [
      "music"
     ],
     "title": "Philip Gould: A Selection of Works",
-    "start": "2026-11-21T09:00",
+    "start": "2026-11-22T09:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
     "desc": "Listed by Acadiana Center for the Arts.",
     "source": "Acadiana Center for the Arts",
-    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-21",
+    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-22",
     "endDate": "2026-11-28",
     "free": true
    },
@@ -881,7 +867,7 @@
     "price": "$40"
    }
   ],
-  "read_on": "2026-11-21"
+  "read_on": "2026-11-22"
  },
  "free:hilliard": {
   "events": [
@@ -954,7 +940,7 @@
     "allDay": true
    }
   ],
-  "read_on": "2026-11-21"
+  "read_on": "2026-11-22"
  },
  "free:lafayette_travel": {
   "events": [
@@ -1019,7 +1005,7 @@
     "verify": "The start time wasn't listed. Check the event page."
    }
   ],
-  "read_on": "2026-11-21"
+  "read_on": "2026-11-22"
  },
  "free:eventbrite": {
   "events": [
@@ -1627,19 +1613,6 @@
     "url": "https://cajunroadrunners.com/group-runs/"
    },
    {
-    "id": "f5dce71e1f9",
-    "cats": [
-     "health"
-    ],
-    "title": "Saturday Long Run",
-    "start": "2026-11-21T06:00",
-    "venue": "Red Lerille's back lot, by Moncus Park",
-    "map": "Red Lerille's Health and Racquet Club Lafayette LA",
-    "desc": "The Cajun Road Runners' weekly long run, starting at 6 AM sharp. Several distances, up to 10+ miles, with water stops along the way.",
-    "source": "Cajun Road Runners",
-    "url": "https://cajunroadrunners.com/group-runs/"
-   },
-   {
     "id": "f984cd7c931",
     "cats": [
      "health"
@@ -1742,9 +1715,22 @@
     "desc": "A social 3.5-mile run, and your first beer is free. Every Sunday (6 PM in summer).",
     "source": "Cajun Road Runners",
     "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "f8e8bd8fdb9",
+    "cats": [
+     "health"
+    ],
+    "title": "Sunday Run Day",
+    "start": "2026-12-20T17:00",
+    "venue": "Corner Bar, Johnston St",
+    "map": "Corner Bar Johnston Street Lafayette LA",
+    "desc": "A social 3.5-mile run, and your first beer is free. Every Sunday (6 PM in summer).",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
    }
   ],
-  "read_on": "2026-11-21"
+  "read_on": "2026-11-22"
  },
  "free:races": {
   "events": [
@@ -2017,6 +2003,6 @@
     "url": "https://runsignup.com/Race/LA/Lafayette/TheHubLafayetteRunwell5KWalkRun"
    }
   ],
-  "read_on": "2026-11-21"
+  "read_on": "2026-11-22"
  }
 }

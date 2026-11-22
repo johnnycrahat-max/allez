@@ -1,17 +1,17 @@
 {
- "date": "2026-11-21",
+ "date": "2026-11-22",
  "sources": [
   {
    "name": "Moncus Park",
    "ok": true,
    "notes": [],
-   "events": 7
+   "events": 6
   },
   {
    "name": "Downtown Lafayette",
    "ok": true,
    "notes": [],
-   "events": 7
+   "events": 5
   },
   {
    "name": "Acadiana Center for the Arts",
@@ -35,9 +35,13 @@
   },
   {
    "name": "Eventbrite",
-   "ok": true,
-   "notes": [],
-   "events": 20
+   "ok": false,
+   "notes": [
+    "https://www.eventbrite.com/d/la--lafayette/all-events/: HTTP 405",
+    "https://www.eventbrite.com/d/la--lafayette/food-and-drink--events/: HTTP 405",
+    "https://www.eventbrite.com/d/la--lafayette/music--events/: HTTP 405"
+   ],
+   "events": 12
   },
   {
    "name": "Cajun Road Runners",
@@ -53,126 +57,25 @@
   }
  ],
  "dropped": {
-  "no matching category": 34,
-  "long-running exhibition": 10,
-  "outside the Lafayette area": 2
+  "no matching category": 21,
+  "long-running exhibition": 10
  },
  "added": [
   {
-   "title": "Lafayette Locomotion Scavenger Hunt",
-   "start": "2026-11-21",
-   "venue": "Carpe Diem Cafe & Wine Bar",
-   "cats": [
-    "food"
-   ],
-   "url": "https://www.eventbrite.com/e/lafayette-locomotion-scavenger-hunt-tickets-1994048315189",
-   "verify": null,
-   "source": "Eventbrite"
-  },
-  {
-   "title": "Random Acts of Kindness Spree in Lafayette",
-   "start": "2026-11-21",
-   "venue": "Carpe Diem Cafe & Wine Bar",
-   "cats": [
-    "food",
-    "volunteer"
-   ],
-   "url": "https://www.eventbrite.com/e/random-acts-of-kindness-spree-in-lafayette-tickets-1991109008644",
-   "verify": null,
-   "source": "Eventbrite"
-  },
-  {
-   "title": "Steep & Stitch",
-   "start": "2026-11-25",
-   "venue": "Prairie Acadian Cultural Center",
-   "cats": [
-    "music"
-   ],
-   "url": "https://www.eventbrite.com/e/steep-stitch-tickets-2004033691719",
-   "verify": null,
-   "source": "Eventbrite"
-  },
-  {
-   "title": "Weekly Live Trivia at Pierre's Seafood & Bar - Lafayette",
-   "start": "2026-11-25",
-   "venue": "Pierre's Seafood and Bar",
-   "cats": [
-    "food"
-   ],
-   "url": "https://www.eventbrite.com/e/weekly-live-trivia-at-pierres-seafood-bar-lafayette-tickets-2002136579405",
-   "verify": null,
-   "source": "Eventbrite"
-  },
-  {
-   "title": "Weekly SINGO Music Bingo Nights at New Orleans Original Daiquiris Lafayette",
-   "start": "2026-11-27",
-   "venue": "New Orleans Original Daiquiris",
-   "cats": [
-    "music"
-   ],
-   "url": "https://www.eventbrite.com/e/weekly-singo-music-bingo-nights-at-new-orleans-original-daiquiris-lafayette-tickets-1977411713666",
-   "verify": null,
-   "source": "Eventbrite"
-  },
-  {
-   "title": "Foodies + New Friends: Lafayette | Entrepreneur Edition",
-   "start": "2026-12-17",
-   "venue": "Restaurant of the Week",
-   "cats": [
-    "food"
-   ],
-   "url": "https://www.eventbrite.com/e/foodies-new-friends-lafayette-entrepreneur-edition-tickets-1968865292089",
-   "verify": null,
-   "source": "Eventbrite"
-  },
-  {
-   "title": "Saturday Long Run",
-   "start": "2026-12-19T06:00",
-   "venue": "Red Lerille's back lot, by Moncus Park",
+   "title": "Sunday Run Day",
+   "start": "2026-12-20T17:00",
+   "venue": "Corner Bar, Johnston St",
    "cats": [
     "health"
    ],
    "url": "https://cajunroadrunners.com/group-runs/",
    "verify": null,
    "source": "Cajun Road Runners"
-  },
-  {
-   "title": "Cajun Country Run (1/2 Marathon, 10k, 5k & Fun Run)",
-   "start": "2026-12-19T07:30",
-   "venue": "Lafayette",
-   "cats": [
-    "health"
-   ],
-   "url": "http://www.cajuncountry.run",
-   "verify": null,
-   "source": "My Mind is Racing"
   }
  ],
  "gone": [],
  "moved": [],
  "needs_check": [
-  {
-   "title": "The Fall Finale - Future of Zydeco Live w/ Mike Broussard & Dj Vos",
-   "start": "2026-11-21",
-   "venue": "Xclusive 36",
-   "cats": [
-    "music"
-   ],
-   "url": "https://www.eventbrite.com/e/the-fall-finale-future-of-zydeco-live-w-mike-broussard-dj-vos-tickets-2003977927928",
-   "verify": "The start time wasn't listed. Check the event page.",
-   "source": "Eventbrite"
-  },
-  {
-   "title": "Miracle on Jefferson St",
-   "start": "2026-11-21T16:30",
-   "venue": "Pamplona Tapas Bar & Restaurant",
-   "cats": [
-    "food"
-   ],
-   "url": "https://www.downtownlafayette.org/events",
-   "verify": "The listing's end date is unclear. Check with the venue.",
-   "source": "Downtown Lafayette"
-  },
   {
    "title": "Thanksgiving Meal Service at St. Joseph Diner",
    "start": "2026-11-26",

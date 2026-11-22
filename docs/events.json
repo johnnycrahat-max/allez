@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-21T05:38-06:00",
- "today": "2026-11-21",
- "showThrough": "2026-12-19",
+ "updated": "2026-11-22T05:37-06:00",
+ "today": "2026-11-22",
+ "showThrough": "2026-12-20",
  "mode": "free",
  "sources": [
   {
    "name": "Moncus Park",
    "ok": true,
    "notes": [],
-   "events": 7
+   "events": 6
   },
   {
    "name": "Downtown Lafayette",
    "ok": true,
    "notes": [],
-   "events": 7
+   "events": 5
   },
   {
    "name": "Acadiana Center for the Arts",
@@ -38,9 +38,13 @@
   },
   {
    "name": "Eventbrite",
-   "ok": true,
-   "notes": [],
-   "events": 20
+   "ok": false,
+   "notes": [
+    "https://www.eventbrite.com/d/la--lafayette/all-events/: HTTP 405",
+    "https://www.eventbrite.com/d/la--lafayette/food-and-drink--events/: HTTP 405",
+    "https://www.eventbrite.com/d/la--lafayette/music--events/: HTTP 405"
+   ],
+   "events": 12
   },
   {
    "name": "Cajun Road Runners",
@@ -72,171 +76,6 @@
    "endDate": "2026-11-22",
    "start": "2026-11-19T17:00",
    "end": "2026-11-19T22:00"
-  },
-  {
-   "id": "f7a60be659c",
-   "cats": [
-    "music"
-   ],
-   "title": "Chanda Rubin's Book Launch Celebration",
-   "start": "2026-11-21",
-   "venue": "Red Lerille's Health & Racquet Club",
-   "map": "301 Doucet Road Lafayette LA",
-   "desc": "Come hang out with former tennis star Chanda Rubin-Hollier and illustrator Aileen Bennett and get a signed copy of her new children's book!",
-   "source": "Eventbrite",
-   "url": "https://www.eventbrite.com/e/chanda-rubins-book-launch-celebration-registration-2003802993695",
-   "allDay": true,
-   "seen": "2026-11-21"
-  },
-  {
-   "id": "f8e7429594a",
-   "cats": [
-    "food"
-   ],
-   "title": "Lafayette Locomotion Scavenger Hunt",
-   "start": "2026-11-21",
-   "venue": "Carpe Diem Cafe & Wine Bar",
-   "map": "812 Jefferson Street Lafayette LA",
-   "desc": "Lafayette Locomotion Scavenger Hunt",
-   "source": "Eventbrite",
-   "url": "https://www.eventbrite.com/e/lafayette-locomotion-scavenger-hunt-tickets-1994048315189",
-   "allDay": true,
-   "seen": "2026-11-21"
-  },
-  {
-   "id": "fc00c628b26",
-   "cats": [
-    "food",
-    "volunteer"
-   ],
-   "title": "Random Acts of Kindness Spree in Lafayette",
-   "start": "2026-11-21",
-   "venue": "Carpe Diem Cafe & Wine Bar",
-   "map": "812 Jefferson Street Lafayette LA",
-   "desc": "Give back, spread kindness, and discover hidden gems of Lafayette with a remote interactive host.",
-   "source": "Eventbrite",
-   "url": "https://www.eventbrite.com/e/random-acts-of-kindness-spree-in-lafayette-tickets-1991109008644",
-   "allDay": true,
-   "seen": "2026-11-21"
-  },
-  {
-   "id": "f5969d23897",
-   "cats": [
-    "music"
-   ],
-   "title": "State of LA Danse, Saturday November 21 2PM",
-   "start": "2026-11-21",
-   "venue": "Ducrest-Gilfry Auditorium in Angelle Hall",
-   "map": "601 East Saint Mary Boulevard Lafayette LA",
-   "desc": "Faculty and Guest Artist Dance Concert from the UL Lafayette Dance Program",
-   "source": "Eventbrite",
-   "url": "https://www.eventbrite.com/e/state-of-la-danse-saturday-november-21-2pm-tickets-2004032552311",
-   "allDay": true,
-   "seen": "2026-11-21"
-  },
-  {
-   "id": "f825bb919f7",
-   "cats": [
-    "music"
-   ],
-   "title": "The Fall Finale - Future of Zydeco Live w/ Mike Broussard & Dj Vos",
-   "start": "2026-11-21",
-   "venue": "Xclusive 36",
-   "map": "5620 Interstate 49 Frontage Road Opelousas LA",
-   "desc": "Zydeco’s Biggest Night of the Fall!",
-   "source": "Eventbrite",
-   "url": "https://www.eventbrite.com/e/the-fall-finale-future-of-zydeco-live-w-mike-broussard-dj-vos-tickets-2003977927928",
-   "allDay": true,
-   "verify": "The start time wasn't listed. Check the event page.",
-   "seen": "2026-11-21"
-  },
-  {
-   "id": "f2cf13d9410",
-   "cats": [
-    "music",
-    "food"
-   ],
-   "title": "Recipe Exchange",
-   "start": "2026-11-21",
-   "venue": "Prairie Acadian Cultural Center",
-   "map": "250 Park Avenue Eunice LA",
-   "desc": "Head on over to the Prairie Acadian Cultural Center for a free recipe exchange!",
-   "source": "Eventbrite",
-   "url": "https://www.eventbrite.com/e/recipe-exchange-tickets-2004032678689",
-   "allDay": true,
-   "seen": "2026-11-17"
-  },
-  {
-   "id": "f3f9e13d08e",
-   "cats": [
-    "music"
-   ],
-   "title": "Seth Spell & Cajun Strong Live at American Legion Post 77",
-   "start": "2026-11-21",
-   "venue": "American Legion Post 77",
-   "map": "213 American Legion Drive Rayne LA",
-   "desc": "Dance to Seth Spell & Cajun Strong live at American Legion Post 77 in Rayne for an evening of traditional Cajun music and dancing!",
-   "source": "Eventbrite",
-   "url": "https://www.eventbrite.com/e/seth-spell-cajun-strong-live-at-american-legion-post-77-tickets-1999298636040",
-   "allDay": true,
-   "seen": "2026-11-17"
-  },
-  {
-   "id": "f5dce71e1f9",
-   "cats": [
-    "health"
-   ],
-   "title": "Saturday Long Run",
-   "start": "2026-11-21T06:00",
-   "venue": "Red Lerille's back lot, by Moncus Park",
-   "map": "Red Lerille's Health and Racquet Club Lafayette LA",
-   "desc": "The Cajun Road Runners' weekly long run, starting at 6 AM sharp. Several distances, up to 10+ miles, with water stops along the way.",
-   "source": "Cajun Road Runners",
-   "url": "https://cajunroadrunners.com/group-runs/"
-  },
-  {
-   "id": "fd394af8fbe",
-   "cats": [
-    "food"
-   ],
-   "title": "Lafayette Farmers & Artisans Market",
-   "start": "2026-11-21T08:00",
-   "venue": "Moncus Park",
-   "map": "2913 Johnston Street, Lafayette, LA 70503 Lafayette LA",
-   "desc": "Lafayette Farmers & Artisans Market Every Saturday | 8:00 AM to 12:00 PM | Moncus Park | Rain or Shine There is no better way to start a Saturday in Acadiana.",
-   "source": "Moncus Park",
-   "url": "https://moncuspark.org/calendar-events/farmersmarket/",
-   "end": "2026-11-21T12:00",
-   "free": true
-  },
-  {
-   "id": "ffb9b4dae51",
-   "cats": [
-    "music"
-   ],
-   "title": "An Afternoon with Carrie Simon",
-   "start": "2026-11-21T15:00",
-   "venue": "Cavalier House Books - Lafayette",
-   "map": "Cavalier House Books - Lafayette Lafayette LA",
-   "desc": "Event in Downtown Lafayette.",
-   "source": "Downtown Lafayette",
-   "url": "https://www.downtownlafayette.org/events",
-   "end": "2026-11-21T17:00"
-  },
-  {
-   "id": "f7159ceee00",
-   "cats": [
-    "food"
-   ],
-   "title": "Miracle on Jefferson St",
-   "start": "2026-11-21T16:30",
-   "venue": "Pamplona Tapas Bar & Restaurant",
-   "map": "Pamplona Tapas Bar & Restaurant Lafayette LA",
-   "desc": "Event in Downtown Lafayette.",
-   "source": "Downtown Lafayette",
-   "url": "https://www.downtownlafayette.org/events",
-   "end": "2026-11-21T23:00",
-   "verify": "The listing's end date is unclear. Check with the venue."
   },
   {
    "id": "fded30d4d39",
@@ -1028,6 +867,19 @@
    "source": "My Mind is Racing",
    "url": "http://www.cajuncountry.run",
    "featured": true
+  },
+  {
+   "id": "f8e8bd8fdb9",
+   "cats": [
+    "health"
+   ],
+   "title": "Sunday Run Day",
+   "start": "2026-12-20T17:00",
+   "venue": "Corner Bar, Johnston St",
+   "map": "Corner Bar Johnston Street Lafayette LA",
+   "desc": "A social 3.5-mile run, and your first beer is free. Every Sunday (6 PM in summer).",
+   "source": "Cajun Road Runners",
+   "url": "https://cajunroadrunners.com/group-runs/"
   },
   {
    "id": "mo1",
