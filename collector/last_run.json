@@ -1,5 +1,5 @@
 {
- "date": "2026-11-22",
+ "date": "2026-11-23",
  "sources": [
   {
    "name": "Moncus Park",
@@ -11,13 +11,13 @@
    "name": "Downtown Lafayette",
    "ok": true,
    "notes": [],
-   "events": 5
+   "events": 4
   },
   {
    "name": "Acadiana Center for the Arts",
    "ok": true,
    "notes": [],
-   "events": 7
+   "events": 6
   },
   {
    "name": "Hilliard Art Museum",
@@ -62,9 +62,9 @@
  },
  "added": [
   {
-   "title": "Sunday Run Day",
-   "start": "2026-12-20T17:00",
-   "venue": "Corner Bar, Johnston St",
+   "title": "Smoothie Monday Run",
+   "start": "2026-12-21T18:30",
+   "venue": "Smoothie King, 3012 E Milton Ave",
    "cats": [
     "health"
    ],

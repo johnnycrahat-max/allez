@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-22T05:37-06:00",
- "today": "2026-11-22",
- "showThrough": "2026-12-20",
+ "updated": "2026-11-23T05:47-06:00",
+ "today": "2026-11-23",
+ "showThrough": "2026-12-21",
  "mode": "free",
  "sources": [
   {
@@ -14,13 +14,13 @@
    "name": "Downtown Lafayette",
    "ok": true,
    "notes": [],
-   "events": 5
+   "events": 4
   },
   {
    "name": "Acadiana Center for the Arts",
    "ok": true,
    "notes": [],
-   "events": 7
+   "events": 6
   },
   {
    "name": "Hilliard Art Museum",
@@ -60,36 +60,6 @@
   }
  ],
  "events": [
-  {
-   "id": "fe04ba4800b",
-   "cats": [
-    "music"
-   ],
-   "title": "Southern Screen Festival | 16th Annual",
-   "venue": "Acadiana Center for the Arts",
-   "map": "101 W Vermilion St, Lafayette, LA Lafayette LA",
-   "desc": "[et_pb_section fb_built=\"1\" admin_label=\"section\" _builder_version=\"4.16\" global_colors_info=\"{}\"][et_pb_row admin_label=\"row\" _builder_version=\"4.16\" background_size=\"initial\" background_position=\"top_left\" background_repeat=\"repeat\"…",
-   "source": "Acadiana Center for the Arts",
-   "url": "https://www.southernscreen.org/attend?occurrence=2026-11-19",
-   "free": true,
-   "featured": true,
-   "endDate": "2026-11-22",
-   "start": "2026-11-19T17:00",
-   "end": "2026-11-19T22:00"
-  },
-  {
-   "id": "fded30d4d39",
-   "cats": [
-    "health"
-   ],
-   "title": "Sunday Run Day",
-   "start": "2026-11-22T17:00",
-   "venue": "Corner Bar, Johnston St",
-   "map": "Corner Bar Johnston Street Lafayette LA",
-   "desc": "A social 3.5-mile run, and your first beer is free. Every Sunday (6 PM in summer).",
-   "source": "Cajun Road Runners",
-   "url": "https://cajunroadrunners.com/group-runs/"
-  },
   {
    "id": "f43a689375c",
    "cats": [
@@ -878,6 +848,19 @@
    "venue": "Corner Bar, Johnston St",
    "map": "Corner Bar Johnston Street Lafayette LA",
    "desc": "A social 3.5-mile run, and your first beer is free. Every Sunday (6 PM in summer).",
+   "source": "Cajun Road Runners",
+   "url": "https://cajunroadrunners.com/group-runs/"
+  },
+  {
+   "id": "f60d537a075",
+   "cats": [
+    "health"
+   ],
+   "title": "Smoothie Monday Run",
+   "start": "2026-12-21T18:30",
+   "venue": "Smoothie King, 3012 E Milton Ave",
+   "map": "Smoothie King 3012 E Milton Ave Youngsville LA",
+   "desc": "A 3.1-mile group run from Smoothie King in Youngsville. Every Monday.",
    "source": "Cajun Road Runners",
    "url": "https://cajunroadrunners.com/group-runs/"
   },

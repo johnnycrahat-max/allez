@@ -514,26 +514,10 @@
     "free": true
    }
   ],
-  "read_on": "2026-11-22"
+  "read_on": "2026-11-23"
  },
  "free:downtown": {
   "events": [
-   {
-    "id": "f359b51e152",
-    "cats": [
-     "music"
-    ],
-    "title": "Southern Screen Festival",
-    "start": "2026-11-19T17:00",
-    "venue": "Acadiana Center for the Arts",
-    "map": "Acadiana Center for the Arts Lafayette LA",
-    "desc": "Arts event in Downtown Lafayette.",
-    "source": "Downtown Lafayette",
-    "url": "https://www.downtownlafayette.org/events",
-    "end": "2026-11-19T22:00",
-    "featured": true,
-    "endDate": "2026-11-22"
-   },
    {
     "id": "f7159ceee00",
     "cats": [
@@ -665,7 +649,7 @@
     "endDate": "2027-05-02"
    }
   ],
-  "read_on": "2026-11-22"
+  "read_on": "2026-11-23"
  },
  "free:aca": {
   "events": [
@@ -775,18 +759,18 @@
     "free": true
    },
    {
-    "id": "fa4246a696e",
+    "id": "fc249627452",
     "cats": [
      "music"
     ],
     "title": "Kate Gordon: Tender Terrain",
-    "start": "2026-11-22T09:00",
+    "start": "2026-11-23T09:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
     "desc": "Listed by Acadiana Center for the Arts.",
     "source": "Acadiana Center for the Arts",
-    "url": "https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-22",
-    "end": "2026-11-22T17:00",
+    "url": "https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-23",
+    "end": "2026-11-23T17:00",
     "free": true
    },
    {
@@ -820,17 +804,17 @@
     "price": "$125"
    },
    {
-    "id": "fecc3d069f8",
+    "id": "ff29eca4a2b",
     "cats": [
      "music"
     ],
     "title": "Philip Gould: A Selection of Works",
-    "start": "2026-11-22T09:00",
+    "start": "2026-11-23T09:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
     "desc": "Listed by Acadiana Center for the Arts.",
     "source": "Acadiana Center for the Arts",
-    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-22",
+    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-23",
     "endDate": "2026-11-28",
     "free": true
    },
@@ -840,16 +824,16 @@
      "music"
     ],
     "title": "Southern Screen Festival | 16th Annual",
+    "start": "2026-11-19",
     "venue": "Acadiana Center for the Arts",
     "map": "101 W Vermilion St, Lafayette, LA Lafayette LA",
     "desc": "[et_pb_section fb_built=\"1\" admin_label=\"section\" _builder_version=\"4.16\" global_colors_info=\"{}\"][et_pb_row admin_label=\"row\" _builder_version=\"4.16\" background_size=\"initial\" background_position=\"top_left\" background_repeat=\"repeat\"…",
     "source": "Acadiana Center for the Arts",
     "url": "https://www.southernscreen.org/attend?occurrence=2026-11-19",
+    "allDay": true,
     "free": true,
     "featured": true,
-    "endDate": "2026-11-22",
-    "start": "2026-11-19T17:00",
-    "end": "2026-11-19T22:00"
+    "endDate": "2026-11-22"
    },
    {
     "id": "f5297db9463",
@@ -865,9 +849,24 @@
     "url": "https://acadianacenterforthearts.org/events/twenty-years-of-valcour-records/?occurrence=2026-11-19",
     "end": "2026-11-19T21:30",
     "price": "$40"
+   },
+   {
+    "id": "f4e6f5a4c17",
+    "cats": [
+     "music"
+    ],
+    "title": "We Will Rock You (Streva Productions)",
+    "start": "2027-01-14T19:00",
+    "venue": "Lafayette",
+    "map": "Lafayette LA",
+    "desc": "WE WILL ROCK YOU, produced by Streva Productions and directed by Jenny Ballard, the worldwide smash-hit musical by Queen and Ben Elton is coming to Acadiana Center for the Arts January 14-16 for four electrifying performances!",
+    "source": "Acadiana Center for the Arts",
+    "url": "https://acadianacenterforthearts.org/events/we-will-rock-you/?occurrence=2027-01-14",
+    "endDate": "2027-01-16",
+    "free": true
    }
   ],
-  "read_on": "2026-11-22"
+  "read_on": "2026-11-23"
  },
  "free:hilliard": {
   "events": [
@@ -940,7 +939,7 @@
     "allDay": true
    }
   ],
-  "read_on": "2026-11-22"
+  "read_on": "2026-11-23"
  },
  "free:lafayette_travel": {
   "events": [
@@ -1005,7 +1004,7 @@
     "verify": "The start time wasn't listed. Check the event page."
    }
   ],
-  "read_on": "2026-11-22"
+  "read_on": "2026-11-23"
  },
  "free:eventbrite": {
   "events": [
@@ -1453,6 +1452,19 @@
     "url": "https://cajunroadrunners.com/group-runs/"
    },
    {
+    "id": "f60d537a075",
+    "cats": [
+     "health"
+    ],
+    "title": "Smoothie Monday Run",
+    "start": "2026-12-21T18:30",
+    "venue": "Smoothie King, 3012 E Milton Ave",
+    "map": "Smoothie King 3012 E Milton Ave Youngsville LA",
+    "desc": "A 3.1-mile group run from Smoothie King in Youngsville. Every Monday.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
     "id": "f9512c561c1",
     "cats": [
      "health"
@@ -1665,19 +1677,6 @@
     "url": "https://cajunroadrunners.com/group-runs/"
    },
    {
-    "id": "fded30d4d39",
-    "cats": [
-     "health"
-    ],
-    "title": "Sunday Run Day",
-    "start": "2026-11-22T17:00",
-    "venue": "Corner Bar, Johnston St",
-    "map": "Corner Bar Johnston Street Lafayette LA",
-    "desc": "A social 3.5-mile run, and your first beer is free. Every Sunday (6 PM in summer).",
-    "source": "Cajun Road Runners",
-    "url": "https://cajunroadrunners.com/group-runs/"
-   },
-   {
     "id": "f66f74bcdd2",
     "cats": [
      "health"
@@ -1730,7 +1729,7 @@
     "url": "https://cajunroadrunners.com/group-runs/"
    }
   ],
-  "read_on": "2026-11-22"
+  "read_on": "2026-11-23"
  },
  "free:races": {
   "events": [
@@ -2003,6 +2002,6 @@
     "url": "https://runsignup.com/Race/LA/Lafayette/TheHubLafayetteRunwell5KWalkRun"
    }
   ],
-  "read_on": "2026-11-22"
+  "read_on": "2026-11-23"
  }
 }
