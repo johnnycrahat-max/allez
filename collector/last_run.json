@@ -1,5 +1,5 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "sources": [
   {
    "name": "Moncus Park",
@@ -23,7 +23,7 @@
    "name": "Hilliard Art Museum",
    "ok": true,
    "notes": [],
-   "events": 2
+   "events": 4
   },
   {
    "name": "Lafayette Travel",
@@ -41,7 +41,7 @@
     "https://www.eventbrite.com/d/la--lafayette/food-and-drink--events/: HTTP 405",
     "https://www.eventbrite.com/d/la--lafayette/music--events/: HTTP 405"
    ],
-   "events": 12
+   "events": 10
   },
   {
    "name": "Cajun Road Runners",
@@ -62,9 +62,20 @@
  },
  "added": [
   {
-   "title": "Smoothie Monday Run",
-   "start": "2026-12-21T18:30",
-   "venue": "Smoothie King, 3012 E Milton Ave",
+   "title": "Museum Makers: Portraits in Blue — An Introduction to Cyanotype Photography",
+   "start": "2026-12-02T17:00",
+   "venue": "Hilliard Art Museum",
+   "cats": [
+    "music"
+   ],
+   "url": "https://hilliardartmuseum.org/event/museum-makers-portraits-in-blue-an-introduction-to-cyanotype-photography/",
+   "verify": null,
+   "source": "Hilliard Art Museum"
+  },
+  {
+   "title": "Speedwork at the Track",
+   "start": "2026-12-22T17:00",
+   "venue": "UL Lafayette Track",
    "cats": [
     "health"
    ],

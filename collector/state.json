@@ -514,7 +514,7 @@
     "free": true
    }
   ],
-  "read_on": "2026-11-23"
+  "read_on": "2026-11-24"
  },
  "free:downtown": {
   "events": [
@@ -649,7 +649,7 @@
     "endDate": "2027-05-02"
    }
   ],
-  "read_on": "2026-11-23"
+  "read_on": "2026-11-24"
  },
  "free:aca": {
   "events": [
@@ -759,18 +759,18 @@
     "free": true
    },
    {
-    "id": "fc249627452",
+    "id": "faeb0b9f6b9",
     "cats": [
      "music"
     ],
     "title": "Kate Gordon: Tender Terrain",
-    "start": "2026-11-23T09:00",
+    "start": "2026-11-24T09:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
     "desc": "Listed by Acadiana Center for the Arts.",
     "source": "Acadiana Center for the Arts",
-    "url": "https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-23",
-    "end": "2026-11-23T17:00",
+    "url": "https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-24",
+    "end": "2026-11-24T17:00",
     "free": true
    },
    {
@@ -804,17 +804,17 @@
     "price": "$125"
    },
    {
-    "id": "ff29eca4a2b",
+    "id": "ffb6cc28fc2",
     "cats": [
      "music"
     ],
     "title": "Philip Gould: A Selection of Works",
-    "start": "2026-11-23T09:00",
+    "start": "2026-11-24T09:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
     "desc": "Listed by Acadiana Center for the Arts.",
     "source": "Acadiana Center for the Arts",
-    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-23",
+    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-24",
     "endDate": "2026-11-28",
     "free": true
    },
@@ -866,7 +866,7 @@
     "free": true
    }
   ],
-  "read_on": "2026-11-23"
+  "read_on": "2026-11-24"
  },
  "free:hilliard": {
   "events": [
@@ -933,13 +933,41 @@
     "start": "2026-12-10",
     "venue": "Hilliard Art Museum",
     "map": "710 E St Mary Blvd Lafayette LA",
-    "desc": "Become a Hilliard Society Member and receive an invitation to this exclusive annual holiday experience. Visit the Membership page to join and explore all membership benefits. \\n",
+    "desc": "Once a year, the Hilliard invites members of the Hilliard Society and Director’s Circle, the museum’s leading circle of support, to a festive evening in the galleries.",
     "source": "Hilliard Art Museum",
     "url": "https://hilliardartmuseum.org/event/hilliard-society-holiday-party-2/",
     "allDay": true
+   },
+   {
+    "id": "f1b514405b4",
+    "cats": [
+     "music"
+    ],
+    "title": "Museum Makers: Portraits in Blue — An Introduction to Cyanotype Photography",
+    "start": "2026-12-02T17:00",
+    "venue": "Hilliard Art Museum",
+    "map": "710 E St Mary Blvd Lafayette LA",
+    "desc": "Discover one of photography\\'s oldest printing processes, led by James Billeaudeau. In this hands-on workshop, participants will explore the art of cyanotype, a historic photographic technique known for its rich blue tones.",
+    "source": "Hilliard Art Museum",
+    "url": "https://hilliardartmuseum.org/event/museum-makers-portraits-in-blue-an-introduction-to-cyanotype-photography/",
+    "end": "2026-12-02T20:00"
+   },
+   {
+    "id": "f1b514405b4",
+    "cats": [
+     "music"
+    ],
+    "title": "Museum Makers: Portraits in Blue — An Introduction to Cyanotype Photography",
+    "start": "2026-12-02T17:00",
+    "venue": "Hilliard Art Museum",
+    "map": "710 E St Mary Blvd Lafayette LA",
+    "desc": "Discover one of photography\\'s oldest printing processes, led by James Billeaudeau. In this hands-on workshop, participants will explore the art of cyanotype, a historic photographic technique known for its rich blue tones.",
+    "source": "Hilliard Art Museum",
+    "url": "https://hilliardartmuseum.org/event/museum-makers-portraits-in-blue-an-introduction-to-cyanotype-photography/",
+    "end": "2026-12-02T20:00"
    }
   ],
-  "read_on": "2026-11-23"
+  "read_on": "2026-11-24"
  },
  "free:lafayette_travel": {
   "events": [
@@ -1004,7 +1032,7 @@
     "verify": "The start time wasn't listed. Check the event page."
    }
   ],
-  "read_on": "2026-11-23"
+  "read_on": "2026-11-24"
  },
  "free:eventbrite": {
   "events": [
@@ -1400,19 +1428,6 @@
  "free:crrc": {
   "events": [
    {
-    "id": "f9021adb58d",
-    "cats": [
-     "health"
-    ],
-    "title": "Smoothie Monday Run",
-    "start": "2026-11-23T18:30",
-    "venue": "Smoothie King, 3012 E Milton Ave",
-    "map": "Smoothie King 3012 E Milton Ave Youngsville LA",
-    "desc": "A 3.1-mile group run from Smoothie King in Youngsville. Every Monday.",
-    "source": "Cajun Road Runners",
-    "url": "https://cajunroadrunners.com/group-runs/"
-   },
-   {
     "id": "f3d54e646bd",
     "cats": [
      "health"
@@ -1513,6 +1528,20 @@
     ],
     "title": "Speedwork at the Track",
     "start": "2026-12-15T17:00",
+    "venue": "UL Lafayette Track",
+    "map": "University of Louisiana at Lafayette track",
+    "desc": "The Cajun Road Runners Club's weekly track workout. Run any distance. Join the club through its RunSignup page.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/",
+    "price": "Members only"
+   },
+   {
+    "id": "f72d8311a19",
+    "cats": [
+     "health"
+    ],
+    "title": "Speedwork at the Track",
+    "start": "2026-12-22T17:00",
     "venue": "UL Lafayette Track",
     "map": "University of Louisiana at Lafayette track",
     "desc": "The Cajun Road Runners Club's weekly track workout. Run any distance. Join the club through its RunSignup page.",
@@ -1729,7 +1758,7 @@
     "url": "https://cajunroadrunners.com/group-runs/"
    }
   ],
-  "read_on": "2026-11-23"
+  "read_on": "2026-11-24"
  },
  "free:races": {
   "events": [
@@ -2002,6 +2031,6 @@
     "url": "https://runsignup.com/Race/LA/Lafayette/TheHubLafayetteRunwell5KWalkRun"
    }
   ],
-  "read_on": "2026-11-23"
+  "read_on": "2026-11-24"
  }
 }

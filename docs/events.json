@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-23T05:47-06:00",
- "today": "2026-11-23",
- "showThrough": "2026-12-21",
+ "updated": "2026-11-24T05:49-06:00",
+ "today": "2026-11-24",
+ "showThrough": "2026-12-22",
  "mode": "free",
  "sources": [
   {
@@ -26,7 +26,7 @@
    "name": "Hilliard Art Museum",
    "ok": true,
    "notes": [],
-   "events": 2
+   "events": 4
   },
   {
    "name": "Lafayette Travel",
@@ -44,7 +44,7 @@
     "https://www.eventbrite.com/d/la--lafayette/food-and-drink--events/: HTTP 405",
     "https://www.eventbrite.com/d/la--lafayette/music--events/: HTTP 405"
    ],
-   "events": 12
+   "events": 10
   },
   {
    "name": "Cajun Road Runners",
@@ -60,35 +60,6 @@
   }
  ],
  "events": [
-  {
-   "id": "f43a689375c",
-   "cats": [
-    "food",
-    "volunteer"
-   ],
-   "title": "Foodies + New Friends: Lafayette Dinner Meet | Giving Back Edition",
-   "start": "2026-11-23",
-   "venue": "Park Bistro",
-   "map": "407 Brook Avenue Lafayette LA",
-   "desc": "Join us for cozy dinners with locals to share experiences, make new connections, and support local businesses while giving back!",
-   "source": "Eventbrite",
-   "url": "https://www.eventbrite.com/e/foodies-new-friends-lafayette-dinner-meet-giving-back-edition-tickets-1989270632010",
-   "allDay": true,
-   "seen": "2026-11-21"
-  },
-  {
-   "id": "f9021adb58d",
-   "cats": [
-    "health"
-   ],
-   "title": "Smoothie Monday Run",
-   "start": "2026-11-23T18:30",
-   "venue": "Smoothie King, 3012 E Milton Ave",
-   "map": "Smoothie King 3012 E Milton Ave Youngsville LA",
-   "desc": "A 3.1-mile group run from Smoothie King in Youngsville. Every Monday.",
-   "source": "Cajun Road Runners",
-   "url": "https://cajunroadrunners.com/group-runs/"
-  },
   {
    "id": "f9512c561c1",
    "cats": [
@@ -366,6 +337,20 @@
    "price": "Members only"
   },
   {
+   "id": "f1b514405b4",
+   "cats": [
+    "music"
+   ],
+   "title": "Museum Makers: Portraits in Blue — An Introduction to Cyanotype Photography",
+   "start": "2026-12-02T17:00",
+   "venue": "Hilliard Art Museum",
+   "map": "710 E St Mary Blvd Lafayette LA",
+   "desc": "Discover one of photography\\'s oldest printing processes, led by James Billeaudeau. In this hands-on workshop, participants will explore the art of cyanotype, a historic photographic technique known for its rich blue tones.",
+   "source": "Hilliard Art Museum",
+   "url": "https://hilliardartmuseum.org/event/museum-makers-portraits-in-blue-an-introduction-to-cyanotype-photography/",
+   "end": "2026-12-02T20:00"
+  },
+  {
    "id": "fbb6055eeb7",
    "cats": [
     "health"
@@ -601,7 +586,7 @@
    "start": "2026-12-10",
    "venue": "Hilliard Art Museum",
    "map": "710 E St Mary Blvd Lafayette LA",
-   "desc": "Become a Hilliard Society Member and receive an invitation to this exclusive annual holiday experience. Visit the Membership page to join and explore all membership benefits. \\n",
+   "desc": "Once a year, the Hilliard invites members of the Hilliard Society and Director’s Circle, the museum’s leading circle of support, to a festive evening in the galleries.",
    "source": "Hilliard Art Museum",
    "url": "https://hilliardartmuseum.org/event/hilliard-society-holiday-party-2/",
    "allDay": true
@@ -863,6 +848,20 @@
    "desc": "A 3.1-mile group run from Smoothie King in Youngsville. Every Monday.",
    "source": "Cajun Road Runners",
    "url": "https://cajunroadrunners.com/group-runs/"
+  },
+  {
+   "id": "f72d8311a19",
+   "cats": [
+    "health"
+   ],
+   "title": "Speedwork at the Track",
+   "start": "2026-12-22T17:00",
+   "venue": "UL Lafayette Track",
+   "map": "University of Louisiana at Lafayette track",
+   "desc": "The Cajun Road Runners Club's weekly track workout. Run any distance. Join the club through its RunSignup page.",
+   "source": "Cajun Road Runners",
+   "url": "https://cajunroadrunners.com/group-runs/",
+   "price": "Members only"
   },
   {
    "id": "mo1",
