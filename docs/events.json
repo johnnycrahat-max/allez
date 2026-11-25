@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-24T05:49-06:00",
- "today": "2026-11-24",
- "showThrough": "2026-12-22",
+ "updated": "2026-11-25T05:52-06:00",
+ "today": "2026-11-25",
+ "showThrough": "2026-12-23",
  "mode": "free",
  "sources": [
   {
    "name": "Moncus Park",
    "ok": true,
    "notes": [],
-   "events": 6
+   "events": 5
   },
   {
    "name": "Downtown Lafayette",
    "ok": true,
    "notes": [],
-   "events": 4
+   "events": 3
   },
   {
    "name": "Acadiana Center for the Arts",
@@ -60,49 +60,6 @@
   }
  ],
  "events": [
-  {
-   "id": "f9512c561c1",
-   "cats": [
-    "health"
-   ],
-   "title": "Speedwork at the Track",
-   "start": "2026-11-24T17:00",
-   "venue": "UL Lafayette Track",
-   "map": "University of Louisiana at Lafayette track",
-   "desc": "The Cajun Road Runners Club's weekly track workout. Run any distance. Join the club through its RunSignup page.",
-   "source": "Cajun Road Runners",
-   "url": "https://cajunroadrunners.com/group-runs/",
-   "price": "Members only"
-  },
-  {
-   "id": "faca0718c48",
-   "cats": [
-    "health"
-   ],
-   "title": "Night Hike",
-   "start": "2026-11-24T17:30",
-   "venue": "Moncus Park",
-   "map": "2913 Johnston Street, Lafayette, LA 70503 Lafayette LA",
-   "desc": "Night Hike is a guided evening walk through Moncus Park after dark, led by our Conservation Team. As the Park transforms after sunset, guides point out the nocturnal wildlife and sounds that come alive once the sun goes down.",
-   "source": "Moncus Park",
-   "url": "https://moncuspark.org/calendar-events/night-hike-fall-2026/",
-   "end": "2026-11-24T18:30",
-   "free": true
-  },
-  {
-   "id": "f804a23a1b4",
-   "cats": [
-    "music"
-   ],
-   "title": "November Book du Mois",
-   "start": "2026-11-24T18:15",
-   "venue": "Cavalier House Books - Lafayette",
-   "map": "Cavalier House Books - Lafayette Lafayette LA",
-   "desc": "Event in Downtown Lafayette.",
-   "source": "Downtown Lafayette",
-   "url": "https://www.downtownlafayette.org/events",
-   "end": "2026-11-24T19:30"
-  },
   {
    "id": "f7e202486bc",
    "cats": [
@@ -862,6 +819,19 @@
    "source": "Cajun Road Runners",
    "url": "https://cajunroadrunners.com/group-runs/",
    "price": "Members only"
+  },
+  {
+   "id": "f30dbb600d0",
+   "cats": [
+    "health"
+   ],
+   "title": "Tap Room Wednesday Run",
+   "start": "2026-12-23T18:00",
+   "venue": "The Tap Room, River Ranch",
+   "map": "The Tap Room River Ranch Lafayette LA",
+   "desc": "A social 3.3-mile group run from The Tap Room. Every Wednesday.",
+   "source": "Cajun Road Runners",
+   "url": "https://cajunroadrunners.com/group-runs/"
   },
   {
    "id": "mo1",

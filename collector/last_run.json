@@ -1,17 +1,17 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "sources": [
   {
    "name": "Moncus Park",
    "ok": true,
    "notes": [],
-   "events": 6
+   "events": 5
   },
   {
    "name": "Downtown Lafayette",
    "ok": true,
    "notes": [],
-   "events": 4
+   "events": 3
   },
   {
    "name": "Acadiana Center for the Arts",
@@ -57,25 +57,14 @@
   }
  ],
  "dropped": {
-  "no matching category": 21,
+  "no matching category": 19,
   "long-running exhibition": 10
  },
  "added": [
   {
-   "title": "Museum Makers: Portraits in Blue — An Introduction to Cyanotype Photography",
-   "start": "2026-12-02T17:00",
-   "venue": "Hilliard Art Museum",
-   "cats": [
-    "music"
-   ],
-   "url": "https://hilliardartmuseum.org/event/museum-makers-portraits-in-blue-an-introduction-to-cyanotype-photography/",
-   "verify": null,
-   "source": "Hilliard Art Museum"
-  },
-  {
-   "title": "Speedwork at the Track",
-   "start": "2026-12-22T17:00",
-   "venue": "UL Lafayette Track",
+   "title": "Tap Room Wednesday Run",
+   "start": "2026-12-23T18:00",
+   "venue": "The Tap Room, River Ranch",
    "cats": [
     "health"
    ],

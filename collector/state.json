@@ -514,7 +514,7 @@
     "free": true
    }
   ],
-  "read_on": "2026-11-24"
+  "read_on": "2026-11-25"
  },
  "free:downtown": {
   "events": [
@@ -532,20 +532,6 @@
     "url": "https://www.downtownlafayette.org/events",
     "end": "2026-11-21T23:00",
     "verify": "The listing's end date is unclear. Check with the venue."
-   },
-   {
-    "id": "f804a23a1b4",
-    "cats": [
-     "music"
-    ],
-    "title": "November Book du Mois",
-    "start": "2026-11-24T18:15",
-    "venue": "Cavalier House Books - Lafayette",
-    "map": "Cavalier House Books - Lafayette Lafayette LA",
-    "desc": "Event in Downtown Lafayette.",
-    "source": "Downtown Lafayette",
-    "url": "https://www.downtownlafayette.org/events",
-    "end": "2026-11-24T19:30"
    },
    {
     "id": "f0226df0aef",
@@ -649,7 +635,7 @@
     "endDate": "2027-05-02"
    }
   ],
-  "read_on": "2026-11-24"
+  "read_on": "2026-11-25"
  },
  "free:aca": {
   "events": [
@@ -759,18 +745,18 @@
     "free": true
    },
    {
-    "id": "faeb0b9f6b9",
+    "id": "fdc4d8883d2",
     "cats": [
      "music"
     ],
     "title": "Kate Gordon: Tender Terrain",
-    "start": "2026-11-24T09:00",
+    "start": "2026-11-25T09:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
     "desc": "Listed by Acadiana Center for the Arts.",
     "source": "Acadiana Center for the Arts",
-    "url": "https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-24",
-    "end": "2026-11-24T17:00",
+    "url": "https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-25",
+    "end": "2026-11-25T17:00",
     "free": true
    },
    {
@@ -804,17 +790,17 @@
     "price": "$125"
    },
    {
-    "id": "ffb6cc28fc2",
+    "id": "f31eab6401f",
     "cats": [
      "music"
     ],
     "title": "Philip Gould: A Selection of Works",
-    "start": "2026-11-24T09:00",
+    "start": "2026-11-25T09:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
     "desc": "Listed by Acadiana Center for the Arts.",
     "source": "Acadiana Center for the Arts",
-    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-24",
+    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-25",
     "endDate": "2026-11-28",
     "free": true
    },
@@ -866,7 +852,7 @@
     "free": true
    }
   ],
-  "read_on": "2026-11-24"
+  "read_on": "2026-11-25"
  },
  "free:hilliard": {
   "events": [
@@ -967,7 +953,7 @@
     "end": "2026-12-02T20:00"
    }
   ],
-  "read_on": "2026-11-24"
+  "read_on": "2026-11-25"
  },
  "free:lafayette_travel": {
   "events": [
@@ -1032,7 +1018,7 @@
     "verify": "The start time wasn't listed. Check the event page."
    }
   ],
-  "read_on": "2026-11-24"
+  "read_on": "2026-11-25"
  },
  "free:eventbrite": {
   "events": [
@@ -1480,20 +1466,6 @@
     "url": "https://cajunroadrunners.com/group-runs/"
    },
    {
-    "id": "f9512c561c1",
-    "cats": [
-     "health"
-    ],
-    "title": "Speedwork at the Track",
-    "start": "2026-11-24T17:00",
-    "venue": "UL Lafayette Track",
-    "map": "University of Louisiana at Lafayette track",
-    "desc": "The Cajun Road Runners Club's weekly track workout. Run any distance. Join the club through its RunSignup page.",
-    "source": "Cajun Road Runners",
-    "url": "https://cajunroadrunners.com/group-runs/",
-    "price": "Members only"
-   },
-   {
     "id": "f34bb6456cb",
     "cats": [
      "health"
@@ -1595,6 +1567,19 @@
     ],
     "title": "Tap Room Wednesday Run",
     "start": "2026-12-16T18:00",
+    "venue": "The Tap Room, River Ranch",
+    "map": "The Tap Room River Ranch Lafayette LA",
+    "desc": "A social 3.3-mile group run from The Tap Room. Every Wednesday.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "f30dbb600d0",
+    "cats": [
+     "health"
+    ],
+    "title": "Tap Room Wednesday Run",
+    "start": "2026-12-23T18:00",
     "venue": "The Tap Room, River Ranch",
     "map": "The Tap Room River Ranch Lafayette LA",
     "desc": "A social 3.3-mile group run from The Tap Room. Every Wednesday.",
@@ -1758,7 +1743,7 @@
     "url": "https://cajunroadrunners.com/group-runs/"
    }
   ],
-  "read_on": "2026-11-24"
+  "read_on": "2026-11-25"
  },
  "free:races": {
   "events": [
@@ -2031,6 +2016,6 @@
     "url": "https://runsignup.com/Race/LA/Lafayette/TheHubLafayetteRunwell5KWalkRun"
    }
   ],
-  "read_on": "2026-11-24"
+  "read_on": "2026-11-25"
  }
 }
