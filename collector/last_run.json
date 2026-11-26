@@ -1,11 +1,11 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "sources": [
   {
    "name": "Moncus Park",
    "ok": true,
    "notes": [],
-   "events": 5
+   "events": 4
   },
   {
    "name": "Downtown Lafayette",
@@ -41,7 +41,7 @@
     "https://www.eventbrite.com/d/la--lafayette/food-and-drink--events/: HTTP 405",
     "https://www.eventbrite.com/d/la--lafayette/music--events/: HTTP 405"
    ],
-   "events": 10
+   "events": 8
   },
   {
    "name": "Cajun Road Runners",
@@ -53,18 +53,29 @@
    "name": "My Mind is Racing",
    "ok": true,
    "notes": [],
-   "events": 5
+   "events": 4
   }
  ],
  "dropped": {
-  "no matching category": 19,
+  "no matching category": 18,
   "long-running exhibition": 10
  },
  "added": [
   {
-   "title": "Tap Room Wednesday Run",
-   "start": "2026-12-23T18:00",
-   "venue": "The Tap Room, River Ranch",
+   "title": "Museum Makers: Exploring Cyanotype Through Nature",
+   "start": "2026-12-02T17:00",
+   "venue": "Hilliard Art Museum",
+   "cats": [
+    "music"
+   ],
+   "url": "https://hilliardartmuseum.org/event/museum-makers-exploring-cyanotype-through-nature/",
+   "verify": null,
+   "source": "Hilliard Art Museum"
+  },
+  {
+   "title": "Thursday at the Dog",
+   "start": "2026-12-24T18:00",
+   "venue": "Adopted Dog Brewing, 329 Dulles Dr",
    "cats": [
     "health"
    ],
@@ -73,7 +84,19 @@
    "source": "Cajun Road Runners"
   }
  ],
- "gone": [],
+ "gone": [
+  {
+   "title": "Museum Makers: Portraits in Blue — An Introduction to Cyanotype Photography",
+   "start": "2026-12-02T17:00",
+   "venue": "Hilliard Art Museum",
+   "cats": [
+    "music"
+   ],
+   "url": "https://hilliardartmuseum.org/event/museum-makers-portraits-in-blue-an-introduction-to-cyanotype-photography/",
+   "verify": null,
+   "source": "Hilliard Art Museum"
+  }
+ ],
  "moved": [],
  "needs_check": [
   {

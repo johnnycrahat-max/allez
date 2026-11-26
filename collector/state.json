@@ -514,7 +514,7 @@
     "free": true
    }
   ],
-  "read_on": "2026-11-25"
+  "read_on": "2026-11-26"
  },
  "free:downtown": {
   "events": [
@@ -635,7 +635,7 @@
     "endDate": "2027-05-02"
    }
   ],
-  "read_on": "2026-11-25"
+  "read_on": "2026-11-26"
  },
  "free:aca": {
   "events": [
@@ -745,18 +745,18 @@
     "free": true
    },
    {
-    "id": "fdc4d8883d2",
+    "id": "f776dd55ef5",
     "cats": [
      "music"
     ],
     "title": "Kate Gordon: Tender Terrain",
-    "start": "2026-11-25T09:00",
+    "start": "2026-11-26T09:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
     "desc": "Listed by Acadiana Center for the Arts.",
     "source": "Acadiana Center for the Arts",
-    "url": "https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-25",
-    "end": "2026-11-25T17:00",
+    "url": "https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-26",
+    "end": "2026-11-26T17:00",
     "free": true
    },
    {
@@ -790,17 +790,17 @@
     "price": "$125"
    },
    {
-    "id": "f31eab6401f",
+    "id": "f47bc5a7e0a",
     "cats": [
      "music"
     ],
     "title": "Philip Gould: A Selection of Works",
-    "start": "2026-11-25T09:00",
+    "start": "2026-11-26T09:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
     "desc": "Listed by Acadiana Center for the Arts.",
     "source": "Acadiana Center for the Arts",
-    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-25",
+    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-26",
     "endDate": "2026-11-28",
     "free": true
    },
@@ -852,7 +852,7 @@
     "free": true
    }
   ],
-  "read_on": "2026-11-25"
+  "read_on": "2026-11-26"
  },
  "free:hilliard": {
   "events": [
@@ -925,35 +925,35 @@
     "allDay": true
    },
    {
-    "id": "f1b514405b4",
+    "id": "fcbf17158a5",
     "cats": [
      "music"
     ],
-    "title": "Museum Makers: Portraits in Blue — An Introduction to Cyanotype Photography",
+    "title": "Museum Makers: Exploring Cyanotype Through Nature",
     "start": "2026-12-02T17:00",
     "venue": "Hilliard Art Museum",
     "map": "710 E St Mary Blvd Lafayette LA",
-    "desc": "Discover one of photography\\'s oldest printing processes, led by James Billeaudeau. In this hands-on workshop, participants will explore the art of cyanotype, a historic photographic technique known for its rich blue tones.",
+    "desc": "Explore cyanotype, a historic photographic process distinguished by its rich blue tones, in a hands-on workshop with artist Jeni Battaglia Guidry.",
     "source": "Hilliard Art Museum",
-    "url": "https://hilliardartmuseum.org/event/museum-makers-portraits-in-blue-an-introduction-to-cyanotype-photography/",
+    "url": "https://hilliardartmuseum.org/event/museum-makers-exploring-cyanotype-through-nature/",
     "end": "2026-12-02T20:00"
    },
    {
-    "id": "f1b514405b4",
+    "id": "fcbf17158a5",
     "cats": [
      "music"
     ],
-    "title": "Museum Makers: Portraits in Blue — An Introduction to Cyanotype Photography",
+    "title": "Museum Makers: Exploring Cyanotype Through Nature",
     "start": "2026-12-02T17:00",
     "venue": "Hilliard Art Museum",
     "map": "710 E St Mary Blvd Lafayette LA",
-    "desc": "Discover one of photography\\'s oldest printing processes, led by James Billeaudeau. In this hands-on workshop, participants will explore the art of cyanotype, a historic photographic technique known for its rich blue tones.",
+    "desc": "Explore cyanotype, a historic photographic process distinguished by its rich blue tones, in a hands-on workshop with artist Jeni Battaglia Guidry.",
     "source": "Hilliard Art Museum",
-    "url": "https://hilliardartmuseum.org/event/museum-makers-portraits-in-blue-an-introduction-to-cyanotype-photography/",
+    "url": "https://hilliardartmuseum.org/event/museum-makers-exploring-cyanotype-through-nature/",
     "end": "2026-12-02T20:00"
    }
   ],
-  "read_on": "2026-11-25"
+  "read_on": "2026-11-26"
  },
  "free:lafayette_travel": {
   "events": [
@@ -1018,7 +1018,7 @@
     "verify": "The start time wasn't listed. Check the event page."
    }
   ],
-  "read_on": "2026-11-25"
+  "read_on": "2026-11-26"
  },
  "free:eventbrite": {
   "events": [
@@ -1522,19 +1522,6 @@
     "price": "Members only"
    },
    {
-    "id": "f5288bb327c",
-    "cats": [
-     "health"
-    ],
-    "title": "Tap Room Wednesday Run",
-    "start": "2026-11-25T18:00",
-    "venue": "The Tap Room, River Ranch",
-    "map": "The Tap Room River Ranch Lafayette LA",
-    "desc": "A social 3.3-mile group run from The Tap Room. Every Wednesday.",
-    "source": "Cajun Road Runners",
-    "url": "https://cajunroadrunners.com/group-runs/"
-   },
-   {
     "id": "fbb6055eeb7",
     "cats": [
      "health"
@@ -1632,6 +1619,19 @@
     ],
     "title": "Thursday at the Dog",
     "start": "2026-12-17T18:00",
+    "venue": "Adopted Dog Brewing, 329 Dulles Dr",
+    "map": "Adopted Dog Brewing Lafayette LA",
+    "desc": "A 3.1-mile group run, then $1 off every beer. Every Thursday.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
+    "id": "f5a9a93b861",
+    "cats": [
+     "health"
+    ],
+    "title": "Thursday at the Dog",
+    "start": "2026-12-24T18:00",
     "venue": "Adopted Dog Brewing, 329 Dulles Dr",
     "map": "Adopted Dog Brewing Lafayette LA",
     "desc": "A 3.1-mile group run, then $1 off every beer. Every Thursday.",
@@ -1743,7 +1743,7 @@
     "url": "https://cajunroadrunners.com/group-runs/"
    }
   ],
-  "read_on": "2026-11-25"
+  "read_on": "2026-11-26"
  },
  "free:races": {
   "events": [
@@ -2016,6 +2016,6 @@
     "url": "https://runsignup.com/Race/LA/Lafayette/TheHubLafayetteRunwell5KWalkRun"
    }
   ],
-  "read_on": "2026-11-25"
+  "read_on": "2026-11-26"
  }
 }
