@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-26T05:51-06:00",
- "today": "2026-11-26",
- "showThrough": "2026-12-24",
+ "updated": "2026-11-27T05:49-06:00",
+ "today": "2026-11-27",
+ "showThrough": "2026-12-25",
  "mode": "free",
  "sources": [
   {
    "name": "Moncus Park",
    "ok": true,
    "notes": [],
-   "events": 4
+   "events": 3
   },
   {
    "name": "Downtown Lafayette",
@@ -50,78 +50,16 @@
    "name": "Cajun Road Runners",
    "ok": true,
    "notes": [],
-   "events": 25
+   "events": 24
   },
   {
    "name": "My Mind is Racing",
    "ok": true,
    "notes": [],
-   "events": 4
+   "events": 3
   }
  ],
  "events": [
-  {
-   "id": "v1",
-   "cats": [
-    "volunteer",
-    "food"
-   ],
-   "title": "Thanksgiving Meal Service at St. Joseph Diner",
-   "start": "2026-11-26",
-   "allDay": true,
-   "venue": "St. Joseph Diner, 613 W. Simcoe St",
-   "map": "613 W Simcoe St Lafayette LA",
-   "free": true,
-   "desc": "Help serve a hot Thanksgiving meal to neighbors experiencing homelessness and hunger. Volunteers must be 7 or older, and anyone under 18 needs an adult. Sign up on the Catholic Charities of Acadiana volunteer calendar.",
-   "source": "KATC",
-   "url": "https://www.katc.com/lafayette-parish/a-great-place-to-feel-welcomed-volunteers-serve-on-thanksgiving-at-st-joseph-diner",
-   "verify": "Holiday shifts have filled early in past years. Sign up soon."
-  },
-  {
-   "id": "f61d4441f97",
-   "cats": [
-    "music"
-   ],
-   "title": "DOWNSOUTH THURSDAYS- TALK TURKEY TO ME w/ LIL' NATE, DJ PUGG, & DJ VOS",
-   "start": "2026-11-26",
-   "venue": "Grant Street Dancehall",
-   "map": "113 West Grant Street Lafayette LA",
-   "desc": "Listed by Eventbrite.",
-   "source": "Eventbrite",
-   "url": "https://www.eventbrite.com/e/downsouth-thursdays-talk-turkey-to-me-w-lil-nate-dj-pugg-dj-vos-tickets-2003965680295",
-   "allDay": true,
-   "verify": "The start time wasn't listed. Check the event page.",
-   "seen": "2026-11-21"
-  },
-  {
-   "id": "fdae8fffa3c",
-   "cats": [
-    "health"
-   ],
-   "title": "JPJ Memorial Turkey Trot",
-   "start": "2026-11-26T09:00",
-   "venue": "Moncus Park",
-   "map": "2913 Johnston Street, Lafayette, LA 70503 Lafayette LA",
-   "desc": "*This is an externally hosted event produced by JPJ Memorial.* Join us for the 5th Annual JPJ Memorial 1-mile Turkey Trot! The event will be held at 9am on Thanksgiving morning at Moncus Park in memory of Jean Paul Judice.",
-   "source": "Moncus Park",
-   "url": "https://moncuspark.org/calendar-events/jpj-memorial-turkey-trot-2026/",
-   "end": "2026-11-26T11:00",
-   "free": true,
-   "featured": true
-  },
-  {
-   "id": "f51802daf53",
-   "cats": [
-    "health"
-   ],
-   "title": "Thursday at the Dog",
-   "start": "2026-11-26T18:00",
-   "venue": "Adopted Dog Brewing, 329 Dulles Dr",
-   "map": "Adopted Dog Brewing Lafayette LA",
-   "desc": "A 3.1-mile group run, then $1 off every beer. Every Thursday.",
-   "source": "Cajun Road Runners",
-   "url": "https://cajunroadrunners.com/group-runs/"
-  },
   {
    "id": "f8c72a2d3dd",
    "cats": [
@@ -774,6 +712,22 @@
    "desc": "A 3.1-mile group run, then $1 off every beer. Every Thursday.",
    "source": "Cajun Road Runners",
    "url": "https://cajunroadrunners.com/group-runs/"
+  },
+  {
+   "id": "f2b9185346f",
+   "cats": [
+    "music"
+   ],
+   "title": "Z-ro live in concert Christmas Night at Grant Street",
+   "start": "2026-12-25",
+   "venue": "Grant Street Dance Hall",
+   "map": "113 w grant st. Lafayette LA",
+   "desc": "Z-ro live in concert Christmas Night at Grant Street",
+   "source": "Eventbrite",
+   "url": "https://www.eventbrite.com/e/z-ro-live-in-concert-christmas-night-at-grant-street-tickets-2002982078315",
+   "allDay": true,
+   "verify": "The start time wasn't listed. Check the event page.",
+   "seen": "2026-11-21"
   },
   {
    "id": "mo1",

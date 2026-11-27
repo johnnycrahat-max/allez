@@ -1,11 +1,11 @@
 {
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "sources": [
   {
    "name": "Moncus Park",
    "ok": true,
    "notes": [],
-   "events": 4
+   "events": 3
   },
   {
    "name": "Downtown Lafayette",
@@ -47,13 +47,13 @@
    "name": "Cajun Road Runners",
    "ok": true,
    "notes": [],
-   "events": 25
+   "events": 24
   },
   {
    "name": "My Mind is Racing",
    "ok": true,
    "notes": [],
-   "events": 4
+   "events": 3
   }
  ],
  "dropped": {
@@ -62,66 +62,20 @@
  },
  "added": [
   {
-   "title": "Museum Makers: Exploring Cyanotype Through Nature",
-   "start": "2026-12-02T17:00",
-   "venue": "Hilliard Art Museum",
+   "title": "Z-ro live in concert Christmas Night at Grant Street",
+   "start": "2026-12-25",
+   "venue": "Grant Street Dance Hall",
    "cats": [
     "music"
    ],
-   "url": "https://hilliardartmuseum.org/event/museum-makers-exploring-cyanotype-through-nature/",
-   "verify": null,
-   "source": "Hilliard Art Museum"
-  },
-  {
-   "title": "Thursday at the Dog",
-   "start": "2026-12-24T18:00",
-   "venue": "Adopted Dog Brewing, 329 Dulles Dr",
-   "cats": [
-    "health"
-   ],
-   "url": "https://cajunroadrunners.com/group-runs/",
-   "verify": null,
-   "source": "Cajun Road Runners"
-  }
- ],
- "gone": [
-  {
-   "title": "Museum Makers: Portraits in Blue — An Introduction to Cyanotype Photography",
-   "start": "2026-12-02T17:00",
-   "venue": "Hilliard Art Museum",
-   "cats": [
-    "music"
-   ],
-   "url": "https://hilliardartmuseum.org/event/museum-makers-portraits-in-blue-an-introduction-to-cyanotype-photography/",
-   "verify": null,
-   "source": "Hilliard Art Museum"
-  }
- ],
- "moved": [],
- "needs_check": [
-  {
-   "title": "Thanksgiving Meal Service at St. Joseph Diner",
-   "start": "2026-11-26",
-   "venue": "St. Joseph Diner, 613 W. Simcoe St",
-   "cats": [
-    "volunteer",
-    "food"
-   ],
-   "url": "https://www.katc.com/lafayette-parish/a-great-place-to-feel-welcomed-volunteers-serve-on-thanksgiving-at-st-joseph-diner",
-   "verify": "Holiday shifts have filled early in past years. Sign up soon.",
-   "source": "KATC"
-  },
-  {
-   "title": "DOWNSOUTH THURSDAYS- TALK TURKEY TO ME w/ LIL' NATE, DJ PUGG, & DJ VOS",
-   "start": "2026-11-26",
-   "venue": "Grant Street Dancehall",
-   "cats": [
-    "music"
-   ],
-   "url": "https://www.eventbrite.com/e/downsouth-thursdays-talk-turkey-to-me-w-lil-nate-dj-pugg-dj-vos-tickets-2003965680295",
+   "url": "https://www.eventbrite.com/e/z-ro-live-in-concert-christmas-night-at-grant-street-tickets-2002982078315",
    "verify": "The start time wasn't listed. Check the event page.",
    "source": "Eventbrite"
-  },
+  }
+ ],
+ "gone": [],
+ "moved": [],
+ "needs_check": [
   {
    "title": "Red Kettle Bell Ringing",
    "start": "2026-11-27T10:00",
@@ -141,6 +95,17 @@
     "music"
    ],
    "url": "https://www.eventbrite.com/e/whop-bezzy-live-in-concert-tickets-2003309672157",
+   "verify": "The start time wasn't listed. Check the event page.",
+   "source": "Eventbrite"
+  },
+  {
+   "title": "Z-ro live in concert Christmas Night at Grant Street",
+   "start": "2026-12-25",
+   "venue": "Grant Street Dance Hall",
+   "cats": [
+    "music"
+   ],
+   "url": "https://www.eventbrite.com/e/z-ro-live-in-concert-christmas-night-at-grant-street-tickets-2002982078315",
    "verify": "The start time wasn't listed. Check the event page.",
    "source": "Eventbrite"
   }

@@ -514,7 +514,7 @@
     "free": true
    }
   ],
-  "read_on": "2026-11-26"
+  "read_on": "2026-11-27"
  },
  "free:downtown": {
   "events": [
@@ -635,7 +635,7 @@
     "endDate": "2027-05-02"
    }
   ],
-  "read_on": "2026-11-26"
+  "read_on": "2026-11-27"
  },
  "free:aca": {
   "events": [
@@ -745,18 +745,18 @@
     "free": true
    },
    {
-    "id": "f776dd55ef5",
+    "id": "f1f4f078b11",
     "cats": [
      "music"
     ],
     "title": "Kate Gordon: Tender Terrain",
-    "start": "2026-11-26T09:00",
+    "start": "2026-11-27T09:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
     "desc": "Listed by Acadiana Center for the Arts.",
     "source": "Acadiana Center for the Arts",
-    "url": "https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-26",
-    "end": "2026-11-26T17:00",
+    "url": "https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-27",
+    "end": "2026-11-27T17:00",
     "free": true
    },
    {
@@ -790,17 +790,17 @@
     "price": "$125"
    },
    {
-    "id": "f47bc5a7e0a",
+    "id": "fd01ae08d57",
     "cats": [
      "music"
     ],
     "title": "Philip Gould: A Selection of Works",
-    "start": "2026-11-26T09:00",
+    "start": "2026-11-27T09:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
     "desc": "Listed by Acadiana Center for the Arts.",
     "source": "Acadiana Center for the Arts",
-    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-26",
+    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-27",
     "endDate": "2026-11-28",
     "free": true
    },
@@ -852,7 +852,7 @@
     "free": true
    }
   ],
-  "read_on": "2026-11-26"
+  "read_on": "2026-11-27"
  },
  "free:hilliard": {
   "events": [
@@ -953,7 +953,7 @@
     "end": "2026-12-02T20:00"
    }
   ],
-  "read_on": "2026-11-26"
+  "read_on": "2026-11-27"
  },
  "free:lafayette_travel": {
   "events": [
@@ -1018,7 +1018,7 @@
     "verify": "The start time wasn't listed. Check the event page."
    }
   ],
-  "read_on": "2026-11-26"
+  "read_on": "2026-11-27"
  },
  "free:eventbrite": {
   "events": [
@@ -1574,19 +1574,6 @@
     "url": "https://cajunroadrunners.com/group-runs/"
    },
    {
-    "id": "f51802daf53",
-    "cats": [
-     "health"
-    ],
-    "title": "Thursday at the Dog",
-    "start": "2026-11-26T18:00",
-    "venue": "Adopted Dog Brewing, 329 Dulles Dr",
-    "map": "Adopted Dog Brewing Lafayette LA",
-    "desc": "A 3.1-mile group run, then $1 off every beer. Every Thursday.",
-    "source": "Cajun Road Runners",
-    "url": "https://cajunroadrunners.com/group-runs/"
-   },
-   {
     "id": "ff67deff474",
     "cats": [
      "health"
@@ -1743,7 +1730,7 @@
     "url": "https://cajunroadrunners.com/group-runs/"
    }
   ],
-  "read_on": "2026-11-26"
+  "read_on": "2026-11-27"
  },
  "free:races": {
   "events": [
@@ -2016,6 +2003,6 @@
     "url": "https://runsignup.com/Race/LA/Lafayette/TheHubLafayetteRunwell5KWalkRun"
    }
   ],
-  "read_on": "2026-11-26"
+  "read_on": "2026-11-27"
  }
 }
