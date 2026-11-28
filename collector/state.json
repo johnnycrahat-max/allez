@@ -514,7 +514,7 @@
     "free": true
    }
   ],
-  "read_on": "2026-11-27"
+  "read_on": "2026-11-28"
  },
  "free:downtown": {
   "events": [
@@ -635,7 +635,7 @@
     "endDate": "2027-05-02"
    }
   ],
-  "read_on": "2026-11-27"
+  "read_on": "2026-11-28"
  },
  "free:aca": {
   "events": [
@@ -730,6 +730,21 @@
     "free": true
    },
    {
+    "id": "f71cd4eb484",
+    "cats": [
+     "music"
+    ],
+    "title": "Contretemps",
+    "start": "2027-03-05T19:30",
+    "venue": "Acadiana Center for the Arts",
+    "map": "101 W Vermilion St, Lafayette, LA Lafayette LA",
+    "desc": "[et_pb_section fb_built=\"1\" admin_label=\"Description\" _builder_version=\"4.27.9\" global_colors_info=\"{}\"][et_pb_row _builder_version=\"4.27.9\" _module_preset=\"default\" global_colors_info=\"{}\"][et_pb_column type=\"4_4\" _builder_version=\"4.27.9\"…",
+    "source": "Acadiana Center for the Arts",
+    "url": "https://acadianacenterforthearts.org/events/contretemps/?occurrence=2027-03-05&#038;time=1804275000",
+    "end": "2027-03-05T21:30",
+    "price": "$35"
+   },
+   {
     "id": "f586d011e44",
     "cats": [
      "music"
@@ -745,19 +760,34 @@
     "free": true
    },
    {
-    "id": "f1f4f078b11",
+    "id": "f9e4ffcf9d8",
     "cats": [
      "music"
     ],
     "title": "Kate Gordon: Tender Terrain",
-    "start": "2026-11-27T09:00",
+    "start": "2026-11-28T09:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
     "desc": "Listed by Acadiana Center for the Arts.",
     "source": "Acadiana Center for the Arts",
-    "url": "https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-27",
-    "end": "2026-11-27T17:00",
+    "url": "https://acadianacenterforthearts.org/kate-gordon/?occurrence=2026-11-28",
+    "end": "2026-11-28T17:00",
     "free": true
+   },
+   {
+    "id": "f47622e65c8",
+    "cats": [
+     "music"
+    ],
+    "title": "Lisa LeBlanc",
+    "start": "2027-03-18T19:30",
+    "venue": "Acadiana Center for the Arts",
+    "map": "101 W Vermilion St, Lafayette, LA Lafayette LA",
+    "desc": "[et_pb_section fb_built=\"1\" admin_label=\"Description\" _builder_version=\"4.27.9\" global_colors_info=\"{}\"][et_pb_row _builder_version=\"4.27.9\" _module_preset=\"default\" global_colors_info=\"{}\"][et_pb_column type=\"4_4\" _builder_version=\"4.27.9\"…",
+    "source": "Acadiana Center for the Arts",
+    "url": "https://acadianacenterforthearts.org/events/lisa-leblanc/?occurrence=2027-03-18",
+    "end": "2027-03-18T21:30",
+    "price": "$45"
    },
    {
     "id": "fde2b10fb24",
@@ -790,19 +820,49 @@
     "price": "$125"
    },
    {
-    "id": "fd01ae08d57",
+    "id": "fa63f2eca94",
     "cats": [
      "music"
     ],
     "title": "Philip Gould: A Selection of Works",
-    "start": "2026-11-27T09:00",
+    "start": "2026-11-28T09:00",
     "venue": "Lafayette",
     "map": "Lafayette LA",
     "desc": "Listed by Acadiana Center for the Arts.",
     "source": "Acadiana Center for the Arts",
-    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-27",
-    "endDate": "2026-11-28",
+    "url": "https://acadianacenterforthearts.org/philip-gould-2026?occurrence=2026-11-28",
+    "end": "2026-11-28T17:00",
     "free": true
+   },
+   {
+    "id": "f7e441a745e",
+    "cats": [
+     "music"
+    ],
+    "title": "Piano Plus: The Richard Goula Chamber Music Competition",
+    "start": "2027-02-28T15:00",
+    "venue": "Acadiana Center for the Arts",
+    "map": "101 W Vermilion St, Lafayette, LA Lafayette LA",
+    "desc": "[et_pb_section fb_built=\"1\" admin_label=\"Description\" _builder_version=\"4.27.9\" global_colors_info=\"{}\"][et_pb_row _builder_version=\"4.27.9\" _module_preset=\"default\" global_colors_info=\"{}\"][et_pb_column type=\"4_4\" _builder_version=\"4.27.9\"…",
+    "source": "Acadiana Center for the Arts",
+    "url": "https://acadianacenterforthearts.org/events/piano-plus-competition/?occurrence=2027-02-28",
+    "end": "2027-02-28T17:00",
+    "price": "$30"
+   },
+   {
+    "id": "f8200748bae",
+    "cats": [
+     "music"
+    ],
+    "title": "South for Winter",
+    "start": "2027-01-07T19:30",
+    "venue": "Acadiana Center for the Arts",
+    "map": "101 W Vermilion St, Lafayette, LA Lafayette LA",
+    "desc": "[et_pb_section fb_built=\"1\" admin_label=\"Description\" _builder_version=\"4.27.9\" global_colors_info=\"{}\"][et_pb_row _builder_version=\"4.27.9\" _module_preset=\"default\" global_colors_info=\"{}\"][et_pb_column type=\"4_4\" _builder_version=\"4.27.9\"…",
+    "source": "Acadiana Center for the Arts",
+    "url": "https://acadianacenterforthearts.org/events/south-for-winter/?occurrence=2027-01-07",
+    "end": "2027-01-07T21:30",
+    "price": "$45"
    },
    {
     "id": "fe04ba4800b",
@@ -822,6 +882,36 @@
     "endDate": "2026-11-22"
    },
    {
+    "id": "f83726d3e76",
+    "cats": [
+     "music"
+    ],
+    "title": "The Cinematic Sounds of Ennio Morricone",
+    "start": "2027-03-11T19:30",
+    "venue": "Acadiana Center for the Arts",
+    "map": "101 W Vermilion St, Lafayette, LA Lafayette LA",
+    "desc": "[et_pb_section fb_built=\"1\" admin_label=\"Description\" _builder_version=\"4.27.9\" global_colors_info=\"{}\"][et_pb_row _builder_version=\"4.27.9\" _module_preset=\"default\" global_colors_info=\"{}\"][et_pb_column type=\"4_4\" _builder_version=\"4.27.9\"…",
+    "source": "Acadiana Center for the Arts",
+    "url": "https://acadianacenterforthearts.org/events/ennio-morricone/?occurrence=2027-03-11",
+    "end": "2027-03-11T21:30",
+    "price": "$35"
+   },
+   {
+    "id": "fd17a139383",
+    "cats": [
+     "music"
+    ],
+    "title": "The Cox Family",
+    "start": "2027-04-08T19:30",
+    "venue": "Acadiana Center for the Arts",
+    "map": "101 W Vermilion St, Lafayette, LA Lafayette LA",
+    "desc": "[et_pb_section fb_built=\"1\" admin_label=\"Description\" _builder_version=\"4.27.9\" global_colors_info=\"{}\"][et_pb_row _builder_version=\"4.27.9\" _module_preset=\"default\" global_colors_info=\"{}\"][et_pb_column type=\"4_4\" _builder_version=\"4.27.9\"…",
+    "source": "Acadiana Center for the Arts",
+    "url": "https://acadianacenterforthearts.org/events/the-cox-family/?occurrence=2027-04-08",
+    "end": "2027-04-08T21:30",
+    "price": "$45"
+   },
+   {
     "id": "f5297db9463",
     "cats": [
      "music"
@@ -835,24 +925,9 @@
     "url": "https://acadianacenterforthearts.org/events/twenty-years-of-valcour-records/?occurrence=2026-11-19",
     "end": "2026-11-19T21:30",
     "price": "$40"
-   },
-   {
-    "id": "f4e6f5a4c17",
-    "cats": [
-     "music"
-    ],
-    "title": "We Will Rock You (Streva Productions)",
-    "start": "2027-01-14T19:00",
-    "venue": "Lafayette",
-    "map": "Lafayette LA",
-    "desc": "WE WILL ROCK YOU, produced by Streva Productions and directed by Jenny Ballard, the worldwide smash-hit musical by Queen and Ben Elton is coming to Acadiana Center for the Arts January 14-16 for four electrifying performances!",
-    "source": "Acadiana Center for the Arts",
-    "url": "https://acadianacenterforthearts.org/events/we-will-rock-you/?occurrence=2027-01-14",
-    "endDate": "2027-01-16",
-    "free": true
    }
   ],
-  "read_on": "2026-11-27"
+  "read_on": "2026-11-28"
  },
  "free:hilliard": {
   "events": [
@@ -953,7 +1028,7 @@
     "end": "2026-12-02T20:00"
    }
   ],
-  "read_on": "2026-11-27"
+  "read_on": "2026-11-28"
  },
  "free:lafayette_travel": {
   "events": [
@@ -1018,7 +1093,7 @@
     "verify": "The start time wasn't listed. Check the event page."
    }
   ],
-  "read_on": "2026-11-27"
+  "read_on": "2026-11-28"
  },
  "free:eventbrite": {
   "events": [
@@ -1678,6 +1753,19 @@
     "url": "https://cajunroadrunners.com/group-runs/"
    },
    {
+    "id": "fab1c0ae0bd",
+    "cats": [
+     "health"
+    ],
+    "title": "Saturday Long Run",
+    "start": "2026-12-26T06:00",
+    "venue": "Red Lerille's back lot, by Moncus Park",
+    "map": "Red Lerille's Health and Racquet Club Lafayette LA",
+    "desc": "The Cajun Road Runners' weekly long run, starting at 6 AM sharp. Several distances, up to 10+ miles, with water stops along the way.",
+    "source": "Cajun Road Runners",
+    "url": "https://cajunroadrunners.com/group-runs/"
+   },
+   {
     "id": "f66f74bcdd2",
     "cats": [
      "health"
@@ -1730,7 +1818,7 @@
     "url": "https://cajunroadrunners.com/group-runs/"
    }
   ],
-  "read_on": "2026-11-27"
+  "read_on": "2026-11-28"
  },
  "free:races": {
   "events": [
@@ -2003,6 +2091,6 @@
     "url": "https://runsignup.com/Race/LA/Lafayette/TheHubLafayetteRunwell5KWalkRun"
    }
   ],
-  "read_on": "2026-11-27"
+  "read_on": "2026-11-28"
  }
 }

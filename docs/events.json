@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-27T05:49-06:00",
- "today": "2026-11-27",
- "showThrough": "2026-12-25",
+ "updated": "2026-11-28T05:41-06:00",
+ "today": "2026-11-28",
+ "showThrough": "2026-12-26",
  "mode": "free",
  "sources": [
   {
@@ -44,13 +44,13 @@
     "https://www.eventbrite.com/d/la--lafayette/food-and-drink--events/: HTTP 405",
     "https://www.eventbrite.com/d/la--lafayette/music--events/: HTTP 405"
    ],
-   "events": 8
+   "events": 7
   },
   {
    "name": "Cajun Road Runners",
    "ok": true,
    "notes": [],
-   "events": 24
+   "events": 25
   },
   {
    "name": "My Mind is Racing",
@@ -60,38 +60,6 @@
   }
  ],
  "events": [
-  {
-   "id": "f8c72a2d3dd",
-   "cats": [
-    "music"
-   ],
-   "title": "Weekly SINGO Music Bingo Nights at New Orleans Original Daiquiris Lafayette",
-   "start": "2026-11-27",
-   "venue": "New Orleans Original Daiquiris",
-   "map": "1812 West Pinhook Road Lafayette LA",
-   "desc": "Weekly SINGO Music Bingo Nights at New Orleans Original Daiquiris - Lafayette",
-   "source": "Eventbrite",
-   "url": "https://www.eventbrite.com/e/weekly-singo-music-bingo-nights-at-new-orleans-original-daiquiris-lafayette-tickets-1977411713666",
-   "allDay": true,
-   "seen": "2026-11-21"
-  },
-  {
-   "id": "v3",
-   "cats": [
-    "volunteer"
-   ],
-   "featured": true,
-   "title": "Red Kettle Bell Ringing",
-   "start": "2026-11-27T10:00",
-   "end": "2026-11-27T12:00",
-   "venue": "Acadiana Mall, Rouses #45 & Little Veron's",
-   "map": "Acadiana Mall Lafayette LA",
-   "free": true,
-   "desc": "Two-hour shifts ringing the bell for the Salvation Army's Red Kettle campaign. Funds go to food assistance, Angel Tree and local outreach.",
-   "source": "Idealist",
-   "url": "https://www.idealist.org/en/volunteer-in-lafayette-la",
-   "verify": "Listed on a volunteer aggregator. Confirm with the Salvation Army Lafayette Corps."
-  },
   {
    "id": "f984cd7c931",
    "cats": [
@@ -728,6 +696,19 @@
    "allDay": true,
    "verify": "The start time wasn't listed. Check the event page.",
    "seen": "2026-11-21"
+  },
+  {
+   "id": "fab1c0ae0bd",
+   "cats": [
+    "health"
+   ],
+   "title": "Saturday Long Run",
+   "start": "2026-12-26T06:00",
+   "venue": "Red Lerille's back lot, by Moncus Park",
+   "map": "Red Lerille's Health and Racquet Club Lafayette LA",
+   "desc": "The Cajun Road Runners' weekly long run, starting at 6 AM sharp. Several distances, up to 10+ miles, with water stops along the way.",
+   "source": "Cajun Road Runners",
+   "url": "https://cajunroadrunners.com/group-runs/"
   },
   {
    "id": "mo1",

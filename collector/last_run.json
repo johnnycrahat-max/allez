@@ -1,5 +1,5 @@
 {
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "sources": [
   {
    "name": "Moncus Park",
@@ -41,13 +41,13 @@
     "https://www.eventbrite.com/d/la--lafayette/food-and-drink--events/: HTTP 405",
     "https://www.eventbrite.com/d/la--lafayette/music--events/: HTTP 405"
    ],
-   "events": 8
+   "events": 7
   },
   {
    "name": "Cajun Road Runners",
    "ok": true,
    "notes": [],
-   "events": 24
+   "events": 25
   },
   {
    "name": "My Mind is Racing",
@@ -62,31 +62,20 @@
  },
  "added": [
   {
-   "title": "Z-ro live in concert Christmas Night at Grant Street",
-   "start": "2026-12-25",
-   "venue": "Grant Street Dance Hall",
+   "title": "Saturday Long Run",
+   "start": "2026-12-26T06:00",
+   "venue": "Red Lerille's back lot, by Moncus Park",
    "cats": [
-    "music"
+    "health"
    ],
-   "url": "https://www.eventbrite.com/e/z-ro-live-in-concert-christmas-night-at-grant-street-tickets-2002982078315",
-   "verify": "The start time wasn't listed. Check the event page.",
-   "source": "Eventbrite"
+   "url": "https://cajunroadrunners.com/group-runs/",
+   "verify": null,
+   "source": "Cajun Road Runners"
   }
  ],
  "gone": [],
  "moved": [],
  "needs_check": [
-  {
-   "title": "Red Kettle Bell Ringing",
-   "start": "2026-11-27T10:00",
-   "venue": "Acadiana Mall, Rouses #45 & Little Veron's",
-   "cats": [
-    "volunteer"
-   ],
-   "url": "https://www.idealist.org/en/volunteer-in-lafayette-la",
-   "verify": "Listed on a volunteer aggregator. Confirm with the Salvation Army Lafayette Corps.",
-   "source": "Idealist"
-  },
   {
    "title": "WHOP BEZZY LIVE IN CONCERT!!!",
    "start": "2026-12-05",
